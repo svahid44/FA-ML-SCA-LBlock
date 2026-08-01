@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage09_20260718_184149_756498_seed20260718",
+  "canonical_source_stage": "stage_09",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "C",
+  "private_truth_included": false,
+  "public_artifact_count": 10,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_09_ml_dataset_and_leakage_audit.py",
+  "source_script_sha256": "bde147dcd1f704ece8469d6e4567eef3ad41b6e9ee8dacc2855e52711b2cb7d1",
+  "stage": 9
+}

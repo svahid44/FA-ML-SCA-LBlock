@@ -1,0 +1,13 @@
+attack_type,baseline_bootstrap_stability,baseline_mean_true_rank,baseline_normalized_aurc,baseline_pipeline,baseline_rank1_nibbles,comparison,equal_total_fault_attempt_budget,mean_true_rank_reduction,model_bootstrap_stability,model_mean_true_rank,model_normalized_aurc,model_pipeline,model_rank1_nibbles,model_stage,normalized_aurc_reduction,rank1_nibble_gain
+SIFA,0.0875,3.5,9.3203125,sifa_random_raw,0,stage11_guidance,8000,2.5,1.0,1.0,1.2734375,sifa_guided_raw,4,Stage 11,8.046875,4
+SIFA,0.0875,3.5,9.3203125,sifa_random_raw,0,stage10_threshold,8000,2.0,0.4191666666666667,1.5,5.7734375,sifa_random_threshold,2,Stage 10,3.546875,2
+SIFA,0.0875,3.5,9.3203125,sifa_random_raw,0,stage10_budget,8000,2.0,0.455,1.5,5.0625,sifa_random_budget,3,Stage 10,4.2578125,3
+SIFA,0.0875,3.5,9.3203125,sifa_random_raw,0,combined_models,8000,2.5,1.0,1.0,1.73828125,sifa_guided_budget,4,Stage 11 + Stage 10,7.58203125,4
+SEFA,0.0983333333333333,4.25,5.08984375,sefa_random_raw,1,stage11_guidance,8000,3.25,1.0,1.0,1.265625,sefa_guided_raw,4,Stage 11,3.82421875,3
+SEFA,0.0983333333333333,4.25,5.08984375,sefa_random_raw,1,stage10_threshold,8000,1.5,0.1758333333333333,2.75,7.98046875,sefa_random_threshold,1,Stage 10,-2.890625,0
+SEFA,0.0983333333333333,4.25,5.08984375,sefa_random_raw,1,stage10_budget,8000,1.75,0.185,2.5,4.91015625,sefa_random_budget,2,Stage 10,0.1796875,1
+SEFA,0.0983333333333333,4.25,5.08984375,sefa_random_raw,1,combined_models,8000,3.25,1.0,1.0,1.34765625,sefa_guided_budget,4,Stage 11 + Stage 10,3.7421875,3
+SHFA,0.11083333333333334,3.0,7.4453125,shfa_random_raw,0,stage11_guidance,8000,2.0,1.0,1.0,1.25390625,shfa_guided_raw,4,Stage 11,6.19140625,4
+SHFA,0.11083333333333334,3.0,7.4453125,shfa_random_raw,0,stage10_threshold,8000,1.5,0.42916666666666664,1.5,6.046875,shfa_random_threshold,2,Stage 10,1.3984375,2
+SHFA,0.11083333333333334,3.0,7.4453125,shfa_random_raw,0,stage10_budget,8000,1.75,0.5108333333333334,1.25,5.15234375,shfa_random_budget,3,Stage 10,2.29296875,3
+SHFA,0.11083333333333334,3.0,7.4453125,shfa_random_raw,0,combined_models,8000,2.0,1.0,1.0,1.421875,shfa_guided_budget,4,Stage 11 + Stage 10,6.0234375,4

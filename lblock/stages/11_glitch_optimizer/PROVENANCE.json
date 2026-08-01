@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage11_20260718_191029_290452_seed20260718",
+  "canonical_source_stage": "stage_11",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "C",
+  "private_truth_included": false,
+  "public_artifact_count": 16,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_11_pre_injection_glitch_optimizer.py",
+  "source_script_sha256": "859d59f93738d6cca877a57a4ddf81ed601d5c42f9a3cdcd449575ad2ffc0907",
+  "stage": 11
+}

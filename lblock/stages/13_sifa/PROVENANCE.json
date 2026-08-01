@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage13R_v2_20260718_210424_794132_seed20260722",
+  "canonical_source_stage": "stage_13R_paper_sifa_v2",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "D",
+  "private_truth_included": false,
+  "public_artifact_count": 30,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_13R_v2_paper_faithful_sifa_cells.py",
+  "source_script_sha256": "ccf5614ebe58025076439172dc84fe5438d203213c1308405711a92b011c38bd",
+  "stage": 13
+}

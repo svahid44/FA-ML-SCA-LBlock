@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage07_20260718_180834_112047_seed20260718",
+  "canonical_source_stage": "stage_07",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "B",
+  "private_truth_included": false,
+  "public_artifact_count": 12,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_07_fault_bias_and_capacity_analysis.py",
+  "source_script_sha256": "354763e6563b3174b575da2c2b297d0951c9de7966c5dd7650a3c40c522d2705",
+  "stage": 7
+}

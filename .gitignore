@@ -1,0 +1,54 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Private research data
+runs/
+private_results/
+private_data/
+**/private_ground_truth/
+**/private_labels/
+**/locked_attack_labels/
+**/locked_attack_truth/
+**/locked_truth/
+**/private_after_freeze/
+**/Keys.txt
+.env
+.env.*
+
+# Large generated artifacts
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Build/output directories
+build/
+dist/
+outputs/
+artifacts/
+_repo_inventory/
+_source_bundle/

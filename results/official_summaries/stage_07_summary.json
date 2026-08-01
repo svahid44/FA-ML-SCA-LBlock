@@ -1,0 +1,108 @@
+{
+  "_publication_snapshot": {
+    "absolute_paths_sanitized": true,
+    "private_files_excluded": true,
+    "source_file": "stage_07_summary.json",
+    "source_sha256": "6cb1e8c4c53ad158a698f32ed93a9e8490fca02fafd886122744bad7943dca71"
+  },
+  "all_checks_passed": true,
+  "all_theoretical_checks_passed": true,
+  "bootstrap_repetitions": 300,
+  "elapsed_seconds": 23.680673700000625,
+  "empirical_primary_results": {
+    "S0": {
+      "clean_effective_count": 592,
+      "clean_ineffective_count": 269,
+      "clean_target_count": 861,
+      "empirical_sefa_kl_capacity_bits": 0.14788714977440442,
+      "empirical_shfa_joint_kl_capacity_bits": 0.46479666185190704,
+      "empirical_sifa_kl_capacity_bits": 0.3169095120775029,
+      "observed_ineffective_rate_given_clean": 0.3124274099883856,
+      "p_i_theory_empirical_correlation": 0.9696548932740525,
+      "q_e_total_variation_to_theory": 0.06464285714285713,
+      "q_i_total_variation_to_theory": 0.09230289254356643
+    },
+    "S5": {
+      "clean_effective_count": 508,
+      "clean_ineffective_count": 228,
+      "clean_target_count": 736,
+      "empirical_sefa_kl_capacity_bits": 0.1491441082530488,
+      "empirical_shfa_joint_kl_capacity_bits": 0.4962329387236054,
+      "empirical_sifa_kl_capacity_bits": 0.34708883047055666,
+      "observed_ineffective_rate_given_clean": 0.30978260869565216,
+      "p_i_theory_empirical_correlation": 0.96066456796498,
+      "q_e_total_variation_to_theory": 0.0605703211517165,
+      "q_i_total_variation_to_theory": 0.1324806444862942
+    }
+  },
+  "empirical_validation_available": true,
+  "empirical_validation_passed": true,
+  "generated_plots": {
+    "public_theory": [
+      "theoretical_ineffective_probability.png",
+      "theoretical_fault_model_capacity.png",
+      "random_and_4_conditional_distributions.png"
+    ],
+    "validation_only": [
+      "random_and_4_theory_vs_empirical_S0.png",
+      "random_and_4_theory_vs_empirical_S5.png",
+      "empirical_shfa_capacity_comparison.png",
+      "oracle_parameter_cells_S0.png",
+      "oracle_parameter_cells_S5.png"
+    ]
+  },
+  "input_stage_06_run_directory": "<PROJECT_ROOT>\\runs\\stage_06\\stage06_20260718_175343_608585_seed20260718",
+  "number_of_stage_06_experiments": 12000,
+  "parameter_cell_count": 79,
+  "primary_fault_model": "random_and_4",
+  "public_theory_directory": "<PROJECT_ROOT>\\runs\\stage_07\\stage07_20260718_180834_112047_seed20260718\\public_theory",
+  "public_theory_files": [
+    "fault_bias_definitions.json",
+    "random_and_4_conditional_distributions.png",
+    "stage_07_config.json",
+    "theoretical_attack_prior.json",
+    "theoretical_fault_bias_arrays.npz",
+    "theoretical_fault_bias_by_input.csv",
+    "theoretical_fault_model_capacity.png",
+    "theoretical_ineffective_probability.png",
+    "theoretical_model_capacity.csv",
+    "theoretical_validation_checks.json"
+  ],
+  "run_directory": "<PROJECT_ROOT>\\runs\\stage_07\\stage07_20260718_180834_112047_seed20260718",
+  "run_id": "stage07_20260718_180834_112047_seed20260718",
+  "selected_last_round_key_nibbles": [
+    "K32[0]",
+    "K32[5]"
+  ],
+  "selected_sboxes": [
+    "S0",
+    "S5"
+  ],
+  "stage": 7,
+  "theoretical_primary_channel_capacity_bits": 0.8312980430657888,
+  "theoretical_primary_mean_ineffective_probability": 0.31640625,
+  "theoretical_primary_sefa_kl_capacity_bits": 0.12554622886068184,
+  "theoretical_primary_shfa_joint_kl_capacity_bits": 0.4523628926427241,
+  "theoretical_primary_sifa_kl_capacity_bits": 0.3268166637820419,
+  "theoretical_primary_uniform_input_mutual_information_bits": 0.18922945241001846,
+  "theory_freeze_sha256": "186a9e4517b090e348f41ff18023185bc73f8c6534586f17ffc606324d3b2e3c",
+  "total_target_bits": 8,
+  "validation_only_directory": "<PROJECT_ROOT>\\runs\\stage_07\\stage07_20260718_180834_112047_seed20260718\\validation_only",
+  "validation_only_files": [
+    "empirical_capacity_bootstrap.csv",
+    "empirical_capacity_bootstrap_summary.json",
+    "empirical_capacity_by_target_model.csv",
+    "empirical_fault_bias_by_input.csv",
+    "empirical_shfa_capacity_comparison.png",
+    "empirical_validation_checks.json",
+    "oracle_campaign_recommendations.json",
+    "oracle_parameter_cells.csv",
+    "oracle_parameter_cells_S0.png",
+    "oracle_parameter_cells_S5.png",
+    "parameter_sensitivity_1d.csv",
+    "private_data_use_manifest.json",
+    "random_and_4_theory_vs_empirical_S0.png",
+    "random_and_4_theory_vs_empirical_S5.png",
+    "theoretical_empirical_comparison.json"
+  ]
+}

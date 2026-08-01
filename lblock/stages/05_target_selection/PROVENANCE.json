@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage05_20260718_173302_092919_seed20260718",
+  "canonical_source_stage": "stage_05",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "B",
+  "private_truth_included": false,
+  "public_artifact_count": 19,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_05_timing_robustness_and_target_selection.py",
+  "source_script_sha256": "c71df7c6991343d88a7471c0e72f46228511e4144d698e58a1a422375e3afcc5",
+  "stage": 5
+}

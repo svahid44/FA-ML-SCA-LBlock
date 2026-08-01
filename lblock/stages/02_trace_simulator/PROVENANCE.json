@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage02_20260718_165358_459976_seed20260718",
+  "canonical_source_stage": "stage_02",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "A",
+  "private_truth_included": false,
+  "public_artifact_count": 7,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_02_full_trace_simulator_v3.py",
+  "source_script_sha256": "b6a03a859a1d70465bdfc23bb48b8da18de0d45d282d696227ec112608cbfdcb",
+  "stage": 2
+}

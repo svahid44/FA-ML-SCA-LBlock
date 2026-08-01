@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage08_20260718_182609_471595_seed20260718",
+  "canonical_source_stage": "stage_08",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "B",
+  "private_truth_included": false,
+  "public_artifact_count": 10,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_08_large_attack_oriented_fault_campaign.py",
+  "source_script_sha256": "5e5aa06ab8eaa8a993cab5e8d2a3f23db28cf303969aeb0d3b2c25c82ce0024d",
+  "stage": 8
+}

@@ -1,0 +1,124 @@
+{
+  "integrity_checks": {
+    "candidate_space_is_16_per_nibble": true,
+    "fault_target_is_x31_before_final_feedforward": true,
+    "fresh_campaign_row_count_correct": true,
+    "guided_uses_stage11_rank1_sifa_parameters": true,
+    "joint_candidate_space_is_256_per_key": true,
+    "paired_keys_identical_across_arms": true,
+    "paired_plaintexts_identical_across_arms": true,
+    "paired_targets_identical_across_arms": true,
+    "paper_ineffective_rule_is_c_equal_cprime": true,
+    "primary_key_statistic_is_exact_sei": true,
+    "private_categories_used_only_after_public_freeze": true,
+    "public_attack_frozen_before_truth_evaluation": true,
+    "random_uses_same_stage11_support_domain": true,
+    "sei_scores_are_key_identifiable": true,
+    "stage09_freeze_verified": true,
+    "stage10_freeze_verified": true,
+    "stage10_probabilities_not_used_as_sei_weights": true,
+    "stage11_freeze_verified": true,
+    "target_mapping_s0_to_x31_0": true,
+    "target_mapping_s5_to_x31_2": true,
+    "truth_file_created_after_public_freeze": true
+  },
+  "method": "Paper-faithful SIFA with exact SEI on X31; guided-vs-random paired comparison",
+  "number_of_fresh_injections": 24000,
+  "number_of_keys": 2,
+  "number_of_sessions": 4,
+  "obsolete_x32_xor_key_adaptation_rejected": true,
+  "paired_yield_comparison": {
+    "actual_clean_target_ineffective_yield": {
+      "ci95_high": 0.22366666666666668,
+      "ci95_low": 0.20808333333333334,
+      "guided_minus_random": 0.21666666666666667
+    },
+    "paper_ineffective_yield": {
+      "ci95_high": 0.22230208333333332,
+      "ci95_low": 0.20128958333333336,
+      "guided_minus_random": 0.2125
+    }
+  },
+  "paper_faithful_sei_primary": true,
+  "pipeline_summary": [
+    {
+      "actual_clean_precision": 0.5317157050057317,
+      "actual_clean_recall": 1.0,
+      "mean_bootstrap_true_winner_fraction": 1.0,
+      "mean_final_score_margin": 0.005386124223162649,
+      "mean_final_true_rank": 1.0,
+      "median_first_injection_checkpoint_rank1": 250.0,
+      "median_first_selected_checkpoint_rank1": 160.0,
+      "pipeline": "guided_ml",
+      "rank1_success_rate": 1.0,
+      "selected_ciphertext_count": 5234,
+      "task_count": 4,
+      "unique_rank1_task_count": 4
+    },
+    {
+      "actual_clean_precision": 0.5317157050057317,
+      "actual_clean_recall": 1.0,
+      "mean_bootstrap_true_winner_fraction": 0.9991666666666666,
+      "mean_final_score_margin": 0.005386124223162649,
+      "mean_final_true_rank": 1.0,
+      "median_first_injection_checkpoint_rank1": 250.0,
+      "median_first_selected_checkpoint_rank1": 160.0,
+      "pipeline": "guided_raw",
+      "rank1_success_rate": 1.0,
+      "selected_ciphertext_count": 5234,
+      "task_count": 4,
+      "unique_rank1_task_count": 4
+    },
+    {
+      "actual_clean_precision": 0.5214723926380368,
+      "actual_clean_recall": 0.4644808743169399,
+      "mean_bootstrap_true_winner_fraction": 0.09416666666666666,
+      "mean_final_score_margin": 0.005468286066893193,
+      "mean_final_true_rank": 5.5,
+      "median_first_injection_checkpoint_rank1": null,
+      "median_first_selected_checkpoint_rank1": null,
+      "pipeline": "random_ml",
+      "rank1_success_rate": 0.0,
+      "selected_ciphertext_count": 163,
+      "task_count": 4,
+      "unique_rank1_task_count": 0
+    },
+    {
+      "actual_clean_precision": 0.06818181818181818,
+      "actual_clean_recall": 1.0,
+      "mean_bootstrap_true_winner_fraction": 0.04416666666666667,
+      "mean_final_score_margin": 0.0006323641680722029,
+      "mean_final_true_rank": 9.0,
+      "median_first_injection_checkpoint_rank1": null,
+      "median_first_selected_checkpoint_rank1": null,
+      "pipeline": "random_raw",
+      "rank1_success_rate": 0.0,
+      "selected_ciphertext_count": 2684,
+      "task_count": 4,
+      "unique_rank1_task_count": 0
+    }
+  ],
+  "primary_comparison": {
+    "ai_helped_by_pre_registered_rule": true,
+    "ai_pipeline": "guided_ml",
+    "baseline": "random_raw",
+    "guided_better_task_count": 4,
+    "guided_ml_all_8bit_pairs_unique_rank1": true,
+    "guided_ml_all_nibbles_unique_rank1": true,
+    "random_better_task_count": 0,
+    "random_raw_all_8bit_pairs_unique_rank1": false,
+    "random_raw_all_nibbles_unique_rank1": false,
+    "tie_task_count": 0
+  },
+  "public_attack_freeze_sha256": "eb9aa0133448955b644ca501bf3dcf778876ebbed5fc2ef80c11ccd290bbcebc",
+  "source_sha256": "eb2b06903d3b1b015213a52da15951a634c6be9f7d64e5c29e3ec15d836f5e88",
+  "stage": 13,
+  "target_key_nibbles": [
+    "K32[0]",
+    "K32[5]"
+  ],
+  "target_sboxes": [
+    "S0",
+    "S5"
+  ]
+}

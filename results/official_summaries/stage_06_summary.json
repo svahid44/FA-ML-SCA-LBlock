@@ -1,0 +1,133 @@
+{
+  "_publication_snapshot": {
+    "absolute_paths_sanitized": true,
+    "private_files_excluded": true,
+    "source_file": "stage_06_summary.json",
+    "source_sha256": "19b409402beff303dc4563a44f2c2a0b82b12a2cb8192ef171100e17466e664c"
+  },
+  "all_checks_passed": true,
+  "category_counts": {
+    "clean_target_effective": 1737,
+    "clean_target_ineffective": 734,
+    "invalid_reset": 1384,
+    "missed": 3860,
+    "multi_hit": 1339,
+    "off_target": 2946
+  },
+  "category_rates": {
+    "clean_target_effective": 0.14475,
+    "clean_target_ineffective": 0.06116666666666667,
+    "invalid_reset": 0.11533333333333333,
+    "missed": 0.32166666666666666,
+    "multi_hit": 0.11158333333333334,
+    "off_target": 0.2455
+  },
+  "deterministic_generation_passed": true,
+  "elapsed_seconds": 46.39435629994841,
+  "fault_categories": [
+    "missed",
+    "clean_target_ineffective",
+    "clean_target_effective",
+    "off_target",
+    "multi_hit",
+    "invalid_reset"
+  ],
+  "fault_model_counts": {
+    "random_and_2": 1207,
+    "random_and_4": 7840,
+    "random_nibble": 867,
+    "single_bit_flip": 1214,
+    "stuck_at_bit": 872
+  },
+  "fault_model_rates": {
+    "random_and_2": 0.10058333333333333,
+    "random_and_4": 0.6533333333333333,
+    "random_nibble": 0.07225,
+    "single_bit_flip": 0.10116666666666667,
+    "stuck_at_bit": 0.07266666666666667
+  },
+  "fault_models": [
+    "random_and_4",
+    "random_and_2",
+    "single_bit_flip",
+    "stuck_at_bit",
+    "random_nibble"
+  ],
+  "generated_plots": {
+    "public": [
+      "random_and_4_ineffective_bias.png",
+      "glitch_parameter_coverage.png"
+    ],
+    "validation_only": [
+      "fault_event_distribution.png",
+      "timing_offset_vs_event_class.png",
+      "representative_fault_response_traces.png"
+    ]
+  },
+  "input_stage_03_run_directory": "<PROJECT_ROOT>\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718",
+  "input_stage_04_run_directory": "<PROJECT_ROOT>\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718",
+  "input_stage_05_run_directory": "<PROJECT_ROOT>\\runs\\stage_05\\stage05_20260718_173302_092919_seed20260718",
+  "maximum_impacted_sbox_count": 6,
+  "mean_impacted_sbox_count": 0.7091666666666666,
+  "number_of_experiments": 12000,
+  "number_of_keys": 8,
+  "number_of_response_trace_samples": 148,
+  "number_of_sessions": 4,
+  "primary_fault_model": "random_and_4",
+  "primary_random_and_clean_target_count": 1597,
+  "primary_random_and_clean_target_ineffective_rate": 0.3112085159674389,
+  "private_files": [
+    "fault_ground_truth.csv",
+    "fault_ground_truth_arrays.npz",
+    "key_manifest.json"
+  ],
+  "private_ground_truth_directory": "<PROJECT_ROOT>\\runs\\stage_06\\stage06_20260718_175343_608585_seed20260718\\private_ground_truth",
+  "public_directory": "<PROJECT_ROOT>\\runs\\stage_06\\stage06_20260718_175343_608585_seed20260718\\public",
+  "public_files": [
+    "fault_campaign_public.csv",
+    "fault_model_semantics.json",
+    "fault_response_traces.npz",
+    "glitch_parameter_coverage.png",
+    "random_and_4_analytical_validation.json",
+    "random_and_4_bias_summary.csv",
+    "random_and_4_ineffective_bias.png",
+    "random_and_4_transition_matrix.csv",
+    "stage_06_config.json",
+    "trace_feature_definitions.json"
+  ],
+  "public_freeze_sha256": "c045b19e160b92b826319657a4108b370964c542cd70f5372f31d98b496dd57b",
+  "public_metadata_leakage_audit_passed": true,
+  "random_and_4_analytical_validation_passed": true,
+  "reference_core_passed": true,
+  "run_directory": "<PROJECT_ROOT>\\runs\\stage_06\\stage06_20260718_175343_608585_seed20260718",
+  "run_id": "stage06_20260718_175343_608585_seed20260718",
+  "selected_last_round_key_bit_indices": [
+    0,
+    1,
+    2,
+    3,
+    20,
+    21,
+    22,
+    23
+  ],
+  "selected_last_round_key_nibbles": [
+    "K32[0]",
+    "K32[5]"
+  ],
+  "selected_sboxes": [
+    "S0",
+    "S5"
+  ],
+  "stage": 6,
+  "total_target_bits": 8,
+  "validation_files": [
+    "campaign_ground_truth_aggregate_statistics.json",
+    "fault_event_distribution.png",
+    "reference_core_validation.json",
+    "representative_fault_response_traces.png",
+    "stage_06_engine_validation.json",
+    "timing_offset_vs_event_class.png"
+  ],
+  "validation_only_directory": "<PROJECT_ROOT>\\runs\\stage_06\\stage06_20260718_175343_608585_seed20260718\\validation_only"
+}

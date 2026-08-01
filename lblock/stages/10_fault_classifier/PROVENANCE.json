@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage10_20260718_185539_664419_seed20260718",
+  "canonical_source_stage": "stage_10",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "C",
+  "private_truth_included": false,
+  "public_artifact_count": 6,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_10_fault_quality_classifier.py",
+  "source_script_sha256": "2b01f7076267cff46da77f54e9ac24c815b3bc72641606360da1175e05686231",
+  "stage": 10
+}

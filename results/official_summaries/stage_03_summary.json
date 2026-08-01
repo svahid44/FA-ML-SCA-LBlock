@@ -1,0 +1,59 @@
+{
+  "_publication_snapshot": {
+    "absolute_paths_sanitized": true,
+    "private_files_excluded": true,
+    "source_file": "stage_03_summary.json",
+    "source_sha256": "e4e63cbe6e618f75cc0688f3d40e299dbcca41ffa90d870d9eab5d61af704a46"
+  },
+  "all_checks_passed": true,
+  "all_public_checks_passed": true,
+  "elapsed_seconds": 50.143716599966865,
+  "estimated_round_32_start_sample": 4059,
+  "estimated_round_period_samples": 128,
+  "estimation_freeze_sha256": "56138cfac19d5d8947dca392939b71c195599fe9301cdd4ef58f8504b76755ca",
+  "final_round_roi_end_sample": 4197,
+  "final_round_roi_start_sample": 4049,
+  "final_round_roi_width_samples": 148,
+  "generated_plots": [
+    "alignment_before_after.png",
+    "final_round_roi_locator.png",
+    "round_period_autocorrelation.png"
+  ],
+  "global_trigger_sample": 96,
+  "input_stage_02_run_directory": "<PROJECT_ROOT>\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718",
+  "median_absolute_local_shift_after": 1.0,
+  "median_absolute_local_shift_before": 1.0,
+  "median_reference_correlation_after": 0.21670408533095437,
+  "median_reference_correlation_before": 0.12181615644175668,
+  "number_of_samples_per_trace": 4288,
+  "number_of_traces": 1024,
+  "private_all_sbox_center_coverage_rate": 1.0,
+  "private_round_period_absolute_error_samples": 0.0,
+  "private_validation_available": true,
+  "private_validation_passed": true,
+  "public_directory": "<PROJECT_ROOT>\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718\\public",
+  "public_files": [
+    "aligned_healthy_traces.npz",
+    "aligned_trace_metadata.csv",
+    "alignment_before_after.png",
+    "alignment_diagnostics.json",
+    "alignment_reference_and_activity.npz",
+    "data_access_manifest.json",
+    "final_round_locator_diagnostics.json",
+    "final_round_roi.json",
+    "final_round_roi_locator.png",
+    "final_round_roi_traces.npz",
+    "preprocessing_statistics.json",
+    "round_period_autocorrelation.png",
+    "stage_03_config.json"
+  ],
+  "run_directory": "<PROJECT_ROOT>\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718",
+  "run_id": "stage03_20260718_170153_519460_seed20260718",
+  "sampling_rate_hz": 100000000.0,
+  "stage": 3,
+  "validation_only_directory": "<PROJECT_ROOT>\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718\\validation_only",
+  "validation_only_files": [
+    "private_final_center_validation.png",
+    "private_timing_evaluation.json"
+  ]
+}

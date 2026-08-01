@@ -1,0 +1,17 @@
+{
+  "_publication_snapshot": {
+    "absolute_paths_sanitized": true,
+    "private_files_excluded": true,
+    "source_file": "stage_01_summary.json",
+    "source_sha256": "5c4c600b288277bf731f1ab06c1336619796a44e4968022f942d7e2d76542ea8"
+  },
+  "all_tests_passed": true,
+  "example_ciphertext_hex": "c218185308e75bcd",
+  "official_vectors_passed": true,
+  "random_roundtrip_passed": true,
+  "random_roundtrip_tests": 2000,
+  "run_directory": "<PROJECT_ROOT>\\runs\\stage_01\\stage01_20260718_160320_087778_seed20260718",
+  "run_id": "stage01_20260718_160320_087778_seed20260718",
+  "stage": 1,
+  "trace_consistency_passed": true
+}

@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage01_20260718_160320_087778_seed20260718",
+  "canonical_source_stage": "stage_01",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "A",
+  "private_truth_included": false,
+  "public_artifact_count": 1,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_01_lblock_reference.py",
+  "source_script_sha256": "f9689228317e16b097d46c1672e1cb71806200f9ed3fcb83e7dec668b5e8c2a1",
+  "stage": 1
+}

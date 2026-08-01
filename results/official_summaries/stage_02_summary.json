@@ -1,0 +1,44 @@
+{
+  "_publication_snapshot": {
+    "absolute_paths_sanitized": true,
+    "private_files_excluded": true,
+    "source_file": "stage_02_summary.json",
+    "source_sha256": "b12f4a1981d228ba6267fe1f0b52db4f7c989cc29cb59d1f66354f0443b9495d"
+  },
+  "all_checks_passed": true,
+  "ciphertext_validation_passed": true,
+  "deterministic_generation_passed": true,
+  "elapsed_seconds": 15.987941100029275,
+  "event_bounds_passed": true,
+  "event_order_passed": true,
+  "final_round_sbox_signal_check_passed": true,
+  "global_trigger_sample": 96,
+  "minimum_final_round_oracle_correlation": 0.5573889696363226,
+  "number_of_keys": 4,
+  "number_of_samples_per_trace": 4288,
+  "number_of_sessions": 4,
+  "number_of_traces": 1024,
+  "private_files": [
+    "final_round_hidden_timing_validation.png",
+    "hidden_nominal_timing_map.json",
+    "hidden_timing_and_crypto_ground_truth.npz",
+    "hidden_timing_statistics.json",
+    "private_key_manifest.json",
+    "session_profiles.json"
+  ],
+  "private_ground_truth_directory": "<PROJECT_ROOT>\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718\\private_ground_truth",
+  "public_directory": "<PROJECT_ROOT>\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718\\public",
+  "public_files": [
+    "example_healthy_trace.png",
+    "healthy_trace_metadata.csv",
+    "healthy_traces.npz",
+    "mean_healthy_trace.png",
+    "trace_simulation_config.json",
+    "trace_statistics.json"
+  ],
+  "public_metadata_leakage_audit_passed": true,
+  "run_directory": "<PROJECT_ROOT>\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718",
+  "run_id": "stage02_20260718_165358_459976_seed20260718",
+  "sampling_rate_hz": 100000000.0,
+  "stage": 2
+}

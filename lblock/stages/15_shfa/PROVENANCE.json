@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage15R_20260718_223918_979912_seed20260725",
+  "canonical_source_stage": "stage_15R_paper_shfa",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "D",
+  "private_truth_included": false,
+  "public_artifact_count": 10,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_15R_paper_faithful_shfa_cells.py",
+  "source_script_sha256": "29cb71b757fa3c1844bb06e0dad21ac151b43b57ddbf54da66fbcc801dee3c8a",
+  "stage": 15
+}

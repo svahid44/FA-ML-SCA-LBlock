@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage03_20260718_170153_519460_seed20260718",
+  "canonical_source_stage": "stage_03",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "A",
+  "private_truth_included": false,
+  "public_artifact_count": 13,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_03_trace_alignment_and_final_round_locator.py",
+  "source_script_sha256": "0579f7c2e737d1fd2ffcb4d6ab0a6f2c1a30972d390ebad08758cfe395abfddf",
+  "stage": 3
+}

@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage04_20260718_171931_573552_seed20260718",
+  "canonical_source_stage": "stage_04",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "B",
+  "private_truth_included": false,
+  "public_artifact_count": 19,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_04_sbox_timing_mapper.py",
+  "source_script_sha256": "d8a2504d69ada10859dc48b851fba2ac176f32b7dcf1803f12739488f1c5ef87",
+  "stage": 4
+}

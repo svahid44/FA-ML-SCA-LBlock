@@ -1,0 +1,298 @@
+{
+  "_publication_snapshot": {
+    "absolute_paths_sanitized": true,
+    "private_files_excluded": true,
+    "source_file": "stage_09_summary.json",
+    "source_sha256": "33e88b5a9ea0019511e14eecaf3383d80503b625e6b4ff11266e1c2e8b1ee036"
+  },
+  "all_checks_passed": true,
+  "attack_label_sha256": "443670d57a12bc305e08fcb33e41569ded0fcf4a2a3921f0fa8d0ed4da5be94e",
+  "cross_partition_processed_trace_duplicates": {
+    "cross_partition_duplicate_hash_count": 0,
+    "row_fraction": 0.0,
+    "rows_in_cross_partition_duplicate_groups": 0
+  },
+  "development_label_row_count": 48000,
+  "elapsed_seconds": 19.872797299991362,
+  "generated_plots": {
+    "public": [
+      "public_partition_and_strict_subset_sizes.png",
+      "public_timing_offset_coverage.png"
+    ],
+    "validation_only": [
+      "private_partition_class_distribution.png",
+      "train_feature_label_association.png"
+    ]
+  },
+  "input_stage_08_run_directory": "<PROJECT_ROOT>\\runs\\stage_08\\stage08_20260718_182609_471595_seed20260718",
+  "label_counts_by_partition": {
+    "attack": {
+      "clean_target_effective": 4480,
+      "clean_target_ineffective": 1977,
+      "invalid_reset": 875,
+      "missed": 4184,
+      "multi_hit": 1880,
+      "off_target": 2604
+    },
+    "test": {
+      "clean_target_effective": 2191,
+      "clean_target_ineffective": 1060,
+      "invalid_reset": 413,
+      "missed": 2003,
+      "multi_hit": 949,
+      "off_target": 1384
+    },
+    "train": {
+      "clean_target_effective": 8901,
+      "clean_target_ineffective": 4057,
+      "invalid_reset": 1693,
+      "missed": 8372,
+      "multi_hit": 3816,
+      "off_target": 5161
+    },
+    "validation": {
+      "clean_target_effective": 2229,
+      "clean_target_ineffective": 1028,
+      "invalid_reset": 412,
+      "missed": 2043,
+      "multi_hit": 941,
+      "off_target": 1347
+    }
+  },
+  "locked_attack_files": [
+    "DO_NOT_OPEN_BEFORE_FINAL_ATTACK.json",
+    "attack_quality_labels_LOCKED.csv"
+  ],
+  "locked_attack_label_directory": "<PROJECT_ROOT>\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\locked_attack_labels",
+  "locked_attack_label_row_count": 16000,
+  "number_of_primary_tabular_features": 26,
+  "number_of_rows": 64000,
+  "partition_counts": {
+    "attack": 16000,
+    "test": 8000,
+    "train": 32000,
+    "validation": 8000
+  },
+  "partition_key_ids": {
+    "attack": [
+      22,
+      23
+    ],
+    "test": [
+      20,
+      21
+    ],
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "validation": [
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "primary_tabular_features": [
+    "target_is_s5",
+    "timing_offset_samples",
+    "absolute_timing_offset_samples",
+    "width_samples",
+    "strength",
+    "repeat",
+    "repeat_spacing_samples",
+    "pulse_span_samples",
+    "glitch_energy_proxy",
+    "response_received_numeric",
+    "ciphertext_equal_observed",
+    "ciphertext_equal_missing",
+    "ciphertext_hamming_distance_observed",
+    "ciphertext_hamming_distance_missing",
+    "trace_mean",
+    "trace_std",
+    "trace_peak_to_peak",
+    "trace_max_absolute",
+    "trace_high_frequency_energy",
+    "target_window_energy",
+    "pulse_window_energy",
+    "saturation_fraction",
+    "pulse_to_target_energy_ratio",
+    "high_frequency_to_variance_ratio",
+    "target_window_valid_fraction",
+    "pulse_window_valid_fraction"
+  ],
+  "private_label_directory": "<PROJECT_ROOT>\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\private_labels",
+  "private_label_files": [
+    "ml_quality_labels_train_validation_test.csv",
+    "ml_quality_labels_train_validation_test.npz"
+  ],
+  "public_leakage_audit_passed": true,
+  "public_ml_directory": "<PROJECT_ROOT>\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\public_ml",
+  "public_ml_files": [
+    "dataset_card.json",
+    "final_attack_payload_public.csv",
+    "ml_feature_contract.json",
+    "ml_split_contract.json",
+    "ml_tabular_features_public.csv",
+    "ml_trace_views_public.npz",
+    "public_leakage_audit.json",
+    "public_partition_and_strict_subset_sizes.png",
+    "public_timing_offset_coverage.png",
+    "strict_source_disjoint_audit.json",
+    "strict_source_disjoint_experiment_ids.npz",
+    "strict_source_disjoint_membership.csv"
+  ],
+  "public_ml_freeze_sha256": "9002a13c1337be58c620074620bcfd012bec2076273e42628ad2d026d1d7db1f",
+  "public_private_label_join_passed": true,
+  "public_source_trace_overlap_counts": {
+    "test__attack": 1023,
+    "train__attack": 1024,
+    "train__test": 1023,
+    "train__validation": 1023,
+    "validation__attack": 1023,
+    "validation__test": 1022
+  },
+  "run_directory": "<PROJECT_ROOT>\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718",
+  "run_id": "stage09_20260718_184149_756498_seed20260718",
+  "stage": 9,
+  "stage_08_public_freeze_verified": true,
+  "strict_source_disjoint_subset": {
+    "cross_partition_source_overlap_counts": {
+      "test__attack": 0,
+      "train__attack": 0,
+      "train__test": 0,
+      "train__validation": 0,
+      "validation__attack": 0,
+      "validation__test": 0
+    },
+    "included_fraction": 0.34446875,
+    "included_row_count": 22046,
+    "included_rows_by_partition": {
+      "attack": 4023,
+      "test": 982,
+      "train": 16000,
+      "validation": 1041
+    },
+    "minimum_rows_by_partition": {
+      "attack": 250,
+      "test": 100,
+      "train": 1000,
+      "validation": 100
+    },
+    "passed": true,
+    "statement": "This robustness subset is simultaneously key-disjoint and healthy-source-trace-disjoint. It is intended for secondary evaluation, not for replacing the primary Stage 08 partitions.",
+    "unique_source_trace_count": 1024
+  },
+  "top_train_feature_label_associations": [
+    {
+      "discretized_value_count": 16,
+      "feature": "ciphertext_hamming_distance_observed",
+      "interpretation": "moderate_association",
+      "mutual_information_bits": 1.1347090692353523,
+      "normalized_mutual_information": 0.4704274731728862,
+      "single_feature_majority_purity": 0.62453125,
+      "train_unique_value_count": 16
+    },
+    {
+      "discretized_value_count": 2,
+      "feature": "ciphertext_equal_observed",
+      "interpretation": "moderate_association",
+      "mutual_information_bits": 0.7934488917417943,
+      "normalized_mutual_information": 0.3289478927717115,
+      "single_feature_majority_purity": 0.53978125,
+      "train_unique_value_count": 2
+    },
+    {
+      "discretized_value_count": 16,
+      "feature": "timing_offset_samples",
+      "interpretation": "moderate_association",
+      "mutual_information_bits": 0.40663779194873373,
+      "normalized_mutual_information": 0.16858381954411614,
+      "single_feature_majority_purity": 0.43515625,
+      "train_unique_value_count": 32000
+    },
+    {
+      "discretized_value_count": 16,
+      "feature": "absolute_timing_offset_samples",
+      "interpretation": "moderate_association",
+      "mutual_information_bits": 0.40180228080918856,
+      "normalized_mutual_information": 0.16657911424251096,
+      "single_feature_majority_purity": 0.4359375,
+      "train_unique_value_count": 32000
+    },
+    {
+      "discretized_value_count": 16,
+      "feature": "glitch_energy_proxy",
+      "interpretation": "moderate_association",
+      "mutual_information_bits": 0.38454174254097667,
+      "normalized_mutual_information": 0.15942324352351642,
+      "single_feature_majority_purity": 0.39365625,
+      "train_unique_value_count": 32000
+    },
+    {
+      "discretized_value_count": 16,
+      "feature": "pulse_span_samples",
+      "interpretation": "limited_association",
+      "mutual_information_bits": 0.3512403150754032,
+      "normalized_mutual_information": 0.145617143968644,
+      "single_feature_majority_purity": 0.3785625,
+      "train_unique_value_count": 32000
+    },
+    {
+      "discretized_value_count": 2,
+      "feature": "ciphertext_equal_missing",
+      "interpretation": "limited_association",
+      "mutual_information_bits": 0.2986165169443801,
+      "normalized_mutual_information": 0.12380037960611062,
+      "single_feature_majority_purity": 0.3310625,
+      "train_unique_value_count": 2
+    },
+    {
+      "discretized_value_count": 2,
+      "feature": "response_received_numeric",
+      "interpretation": "limited_association",
+      "mutual_information_bits": 0.2986165169443801,
+      "normalized_mutual_information": 0.12380037960611062,
+      "single_feature_majority_purity": 0.3310625,
+      "train_unique_value_count": 2
+    }
+  ],
+  "trace_view_shapes": {
+    "full_trace_highpass": [
+      64000,
+      148
+    ],
+    "pulse_aligned_zscore": [
+      64000,
+      49
+    ],
+    "target_aligned_zscore": [
+      64000,
+      49
+    ]
+  },
+  "validation_files": [
+    "partition_class_distribution.csv",
+    "partition_target_model_class_distribution.csv",
+    "private_data_use_manifest.json",
+    "private_partition_class_distribution.png",
+    "stage_09_dataset_validation.json",
+    "train_feature_label_association.csv",
+    "train_feature_label_association.png"
+  ],
+  "validation_only_directory": "<PROJECT_ROOT>\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\validation_only"
+}

@@ -1,0 +1,7 @@
+actual_clean_count,actual_clean_precision,actual_clean_recall,attack_type,mean_bootstrap_true_winner_fraction,mean_joint_true_rank,mean_loso_consensus,mean_observable_events_per_task,mean_score_margin,mean_selected_ciphertexts_per_task,mean_true_rank,median_first_injection_checkpoint_rank1,median_selected_ciphertexts_at_first_rank1,median_true_rank,pipeline,rank1_joint_8bit_count,rank1_nibble_count,rank1_nibble_success_rate,task_count
+11193,0.9163977518498977,0.6822289451675991,SEFA,1.0,1.0,1.0,4701.0,0.0032880793375210304,3055.75,1.0,750.0,279.5,1.0,sefa_guided_budget,2,4,1.0,4
+16404,0.8733580753855161,1.0,SEFA,1.0,1.0,1.0,4701.0,0.0032228814427224953,4701.0,1.0,375.0,221.5,1.0,sefa_guided_raw,2,4,1.0,4
+16404,0.8734447589878734,1.0,SEFA,1.0,1.0,1.0,4701.0,0.0032212298603036915,4700.5,1.0,375.0,221.5,1.0,sefa_guided_threshold,2,4,1.0,4
+1062,0.12183633219171633,0.9512985217244994,SEFA,0.185,5.5,0.375,3444.25,7.641864802891376e-05,2239.0,2.5,5500.0,1494.5,1.5,sefa_random_budget,0,2,0.5,4
+1099,0.08176057587337458,1.0,SEFA,0.09833333333333333,40.5,0.375,3444.25,5.330247007593564e-05,3444.25,4.25,4000.0,1823.0,5.0,sefa_random_raw,0,1,0.25,4
+573,0.4930887199440285,0.5661584135396984,SEFA,0.17583333333333334,14.0,0.6875,3444.25,0.001243695047498365,289.25,2.75,6000.0,203.0,2.5,sefa_random_threshold,0,1,0.25,4

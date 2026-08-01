@@ -1,0 +1,158 @@
+{
+  "_publication_snapshot": {
+    "absolute_paths_sanitized": true,
+    "private_files_excluded": true,
+    "source_file": "stage_10_summary.json",
+    "source_sha256": "a4841163a643722633ec1a52cbf3cddbf6f1c29b131c639b19215ce9f6051803"
+  },
+  "all_checks_passed": true,
+  "attack_labels_accessed": false,
+  "attack_mean_class_probabilities": {
+    "clean_target_effective": 0.23461808913758606,
+    "clean_target_ineffective": 0.16806393213745457,
+    "invalid_reset": 0.054756603052679716,
+    "missed": 0.20520499899356526,
+    "multi_hit": 0.1622703267989097,
+    "off_target": 0.17508604987980467
+  },
+  "attack_prediction_class_counts": {
+    "clean_target_effective": 4491,
+    "clean_target_ineffective": 3276,
+    "invalid_reset": 875,
+    "missed": 3400,
+    "multi_hit": 1918,
+    "off_target": 2040
+  },
+  "attack_prediction_row_count": 16000,
+  "branch_thresholds": {
+    "clean_target_effective": 0.22999999999999998,
+    "clean_target_ineffective": 0.39499999999999996
+  },
+  "candidate_families": [
+    "logistic",
+    "extra_trees"
+  ],
+  "candidate_views": [
+    "parameter_only",
+    "trace_only",
+    "parameter_trace",
+    "observable_full"
+  ],
+  "development_prediction_row_count": 40000,
+  "elapsed_seconds": 92.36625640001148,
+  "input_stage_09_run_directory": "<PROJECT_ROOT>\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718",
+  "locked_attack_label_expected_sha256": "443670d57a12bc305e08fcb33e41569ded0fcf4a2a3921f0fa8d0ed4da5be94e",
+  "model_files": [
+    "attack_label_access_manifest.json",
+    "branch_threshold_contract.json",
+    "fault_quality_deployment_model.joblib",
+    "feature_view_contract.json",
+    "selected_model_card.json",
+    "selected_test_evaluation_model.joblib"
+  ],
+  "model_freeze_sha256": "f5b26f90c8b25ea066e9710aa3c4d2c362cf590ed3d95f68125194793b91eb5a",
+  "model_reload_check_passed": true,
+  "number_of_candidates": 8,
+  "partition_counts": {
+    "attack": 16000,
+    "test": 8000,
+    "train": 32000,
+    "validation": 8000
+  },
+  "prediction_files": [
+    "attack_quality_probabilities_public.csv",
+    "development_quality_probabilities_public.csv"
+  ],
+  "public_feature_leakage_audit_passed": true,
+  "run_directory": "<PROJECT_ROOT>\\runs\\stage_10\\stage10_20260718_185539_664419_seed20260718",
+  "run_id": "stage10_20260718_185539_664419_seed20260718",
+  "selected_family": "logistic",
+  "selected_feature_count": 272,
+  "selected_view": "observable_full",
+  "stage": 10,
+  "stage_09_public_freeze_verified": true,
+  "stage_09_public_ml_freeze_sha256": "9002a13c1337be58c620074620bcfd012bec2076273e42628ad2d026d1d7db1f",
+  "strict_source_disjoint_test_metrics": {
+    "accuracy": 0.6639511201629328,
+    "balanced_accuracy": 0.6991866655213846,
+    "expected_calibration_error": 0.05858399228352423,
+    "log_loss": 0.7713026215772132,
+    "macro_f1": 0.6887356032570766,
+    "multiclass_brier_score": 0.4486612959583457,
+    "number_of_rows": 982,
+    "weighted_f1": 0.6643679016849287
+  },
+  "temperature": 1.0226107203295787,
+  "test_branch_metrics": {
+    "clean_target_effective": {
+      "average_precision": 0.9068519095571199,
+      "f1": 0.8793610760823876,
+      "positive_class": "clean_target_effective",
+      "precision": 0.8149590962212699,
+      "prevalence": 0.273875,
+      "recall": 0.9548151528982199,
+      "roc_auc": 0.9746946753723172,
+      "support": 2191,
+      "threshold": 0.22999999999999998
+    },
+    "clean_target_ineffective": {
+      "average_precision": 0.555887501116247,
+      "f1": 0.6204756980351603,
+      "positive_class": "clean_target_ineffective",
+      "precision": 0.4888647474198805,
+      "prevalence": 0.1325,
+      "recall": 0.8490566037735849,
+      "roc_auc": 0.9264428252949813,
+      "support": 1060,
+      "threshold": 0.39499999999999996
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.71125,
+    "balanced_accuracy": 0.7408412111248713,
+    "expected_calibration_error": 0.022369268513170146,
+    "log_loss": 0.6603220046297942,
+    "macro_f1": 0.7288639720797173,
+    "multiclass_brier_score": 0.38680440688095863,
+    "number_of_rows": 8000,
+    "weighted_f1": 0.712913271937222
+  },
+  "validation_files": [
+    "candidate_validation_macro_f1.png",
+    "candidate_validation_results.csv",
+    "selected_test_branch_metrics.json",
+    "selected_test_confusion_matrix.png",
+    "selected_test_metrics.json",
+    "selected_test_per_class_metrics.csv",
+    "selected_test_per_class_metrics.png",
+    "selected_test_predictions_with_labels.csv",
+    "selected_test_reliability.csv",
+    "selected_test_reliability.png",
+    "selected_validation_predictions_with_labels.csv",
+    "stage_10_validation_checks.json",
+    "strict_source_disjoint_confusion_matrix.png",
+    "strict_source_disjoint_metrics.json",
+    "strict_source_disjoint_per_class_metrics.csv",
+    "strict_source_disjoint_reliability.csv"
+  ],
+  "validation_metrics": {
+    "accuracy": 0.70825,
+    "balanced_accuracy": 0.7364201708004691,
+    "calibration": {
+      "improvement": 0.00011654196294885732,
+      "optimization_success": true,
+      "temperature": 1.0226107203295787,
+      "validation_log_loss_after": 0.6744972177167166,
+      "validation_log_loss_before": 0.6746137596796654
+    },
+    "clean_effective_average_precision": 0.903313407950902,
+    "clean_ineffective_average_precision": 0.5250384716912939,
+    "expected_calibration_error": 0.019802382352015837,
+    "log_loss": 0.6744972177167166,
+    "macro_f1": 0.7236211144629138,
+    "mean_attack_branch_average_precision": 0.714175939821098,
+    "multiclass_brier_score": 0.3947120887689836,
+    "number_of_rows": 8000,
+    "weighted_f1": 0.7097864998394899
+  }
+}

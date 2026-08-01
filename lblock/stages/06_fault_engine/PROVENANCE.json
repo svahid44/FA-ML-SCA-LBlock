@@ -1,0 +1,12 @@
+{
+  "canonical_source_run_id": "stage06_20260718_175343_608585_seed20260718",
+  "canonical_source_stage": "stage_06",
+  "large_data_location": "data/DATA_ARCHIVE_MANIFEST.csv",
+  "phase": "B",
+  "private_truth_included": false,
+  "public_artifact_count": 10,
+  "publication_snapshot_note": "Machine-specific paths were sanitized. Algorithms and official scientific result values were not retuned.",
+  "source_script": "stage_06_parametric_glitch_fault_engine.py",
+  "source_script_sha256": "a4233c11cae2fd503d6449c8d51906681ee3170dc9d14a2c4c27068921f21114",
+  "stage": 6
+}

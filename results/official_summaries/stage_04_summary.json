@@ -1,0 +1,80 @@
+{
+  "_publication_snapshot": {
+    "absolute_paths_sanitized": true,
+    "private_files_excluded": true,
+    "source_file": "stage_04_summary.json",
+    "source_sha256": "f08b9eadb7c945a5c11b1e9f88356eb37147d54be0dfb6314cb36fe474deee34"
+  },
+  "all_checks_passed": true,
+  "all_public_checks_passed": true,
+  "bootstrap_exact_full_map_match_rate": 0.984375,
+  "comb_relative_score_gap": 0.1645081156246882,
+  "elapsed_seconds": 28.591242900001816,
+  "estimated_sbox_centers": {
+    "S0": 4083,
+    "S1": 4092,
+    "S2": 4101,
+    "S3": 4110,
+    "S4": 4119,
+    "S5": 4128,
+    "S6": 4137,
+    "S7": 4146
+  },
+  "estimated_sbox_offsets_from_round_32_start": {
+    "S0": 24,
+    "S1": 33,
+    "S2": 42,
+    "S3": 51,
+    "S4": 60,
+    "S5": 69,
+    "S6": 78,
+    "S7": 87
+  },
+  "estimated_sbox_spacing_samples": 9,
+  "estimation_freeze_sha256": "7036f5f9278600914be15ada186260813e5160ec1c05135de37b1405435e4073",
+  "generated_plots": [
+    "sbox_dependency_heatmap.png",
+    "sbox_dependency_profiles.png",
+    "sbox_timing_map_windows.png",
+    "bootstrap_sbox_center_stability.png",
+    "session_timing_map_consistency.png"
+  ],
+  "input_stage_02_run_directory_for_validation_only": "<PROJECT_ROOT>\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718",
+  "input_stage_03_run_directory": "<PROJECT_ROOT>\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718",
+  "number_of_traces": 1024,
+  "private_center_maximum_absolute_error_samples": 0.33357767519646586,
+  "private_center_mean_absolute_error_samples": 0.2919802854547129,
+  "private_exploration_window_coverage": 0.9439697265625,
+  "private_validation_available": true,
+  "private_validation_passed": true,
+  "public_directory": "<PROJECT_ROOT>\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718\\public",
+  "public_files": [
+    "bootstrap_sbox_center_stability.png",
+    "bootstrap_timing_stability.csv",
+    "data_access_manifest.json",
+    "dependency_profile_diagnostics.json",
+    "key_timing_maps.csv",
+    "lblock_final_round_timing_map.json",
+    "observable_label_audit.json",
+    "sbox_dependency_heatmap.png",
+    "sbox_dependency_profiles.npz",
+    "sbox_dependency_profiles.png",
+    "sbox_timing_map.json",
+    "sbox_timing_map_windows.png",
+    "sbox_timing_profiles.csv",
+    "session_timing_map_consistency.png",
+    "session_timing_maps.csv",
+    "stage_04_config.json",
+    "top_comb_candidates.csv"
+  ],
+  "roi_width_samples": 148,
+  "round_32_start_sample": 4059,
+  "run_directory": "<PROJECT_ROOT>\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718",
+  "run_id": "stage04_20260718_171931_573552_seed20260718",
+  "stage": 4,
+  "validation_only_directory": "<PROJECT_ROOT>\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718\\validation_only",
+  "validation_only_files": [
+    "private_sbox_center_validation.png",
+    "private_sbox_timing_evaluation.json"
+  ]
+}
