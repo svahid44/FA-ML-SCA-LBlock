@@ -1,0 +1,37 @@
+{
+  "feature_names": [
+    "target_is_s5",
+    "timing_offset_samples",
+    "absolute_timing_offset_samples",
+    "width_samples",
+    "strength",
+    "repeat",
+    "repeat_spacing_samples",
+    "pulse_span_samples",
+    "glitch_energy_proxy"
+  ],
+  "forbidden_inputs": [
+    "response traces",
+    "ciphertext equality or Hamming distance",
+    "response_received",
+    "fault_model",
+    "key_id or session_id",
+    "private labels or internal states",
+    "Test or Attack rows"
+  ],
+  "primitive_parameter_columns": [
+    "timing_offset_samples",
+    "width_samples",
+    "strength",
+    "repeat",
+    "repeat_spacing_samples"
+  ],
+  "role": "pre-injection glitch-parameter optimizer",
+  "selected_family": "extra_trees",
+  "stage": 11,
+  "target_sboxes": [
+    "S0",
+    "S5"
+  ],
+  "teacher_distillation_statement": "Stage-10 post-injection public probabilities are training targets only; they are never optimizer input features."
+}

@@ -1,0 +1,71 @@
+{
+  "input_stage4_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718",
+  "output_root": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_05",
+  "random_seed": 20260718,
+  "number_of_sboxes": 8,
+  "number_of_classes": 16,
+  "minimum_class_count": 2,
+  "smoothing_radius_samples": 2,
+  "specificity_weight": 0.35,
+  "local_first_center_radius_samples": 7,
+  "local_spacing_radius_samples": 3,
+  "subset_sizes": [
+    128,
+    256,
+    512,
+    768
+  ],
+  "subset_repetitions": 20,
+  "stress_repetitions": 8,
+  "stress_scenarios": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.25
+    ],
+    [
+      0.0,
+      0.5
+    ],
+    [
+      1.0,
+      0.25
+    ],
+    [
+      1.5,
+      0.5
+    ]
+  ],
+  "safe_response_fraction": 0.6,
+  "minimum_isolation_margin": 0.0,
+  "weight_signal": 0.15,
+  "weight_prominence": 0.15,
+  "weight_isolation": 0.18,
+  "weight_safe_width": 0.1,
+  "weight_subset": 0.16,
+  "weight_stress": 0.14,
+  "weight_group": 0.07,
+  "weight_bootstrap": 0.03,
+  "weight_peak": 0.02,
+  "pair_weight_mean": 0.6,
+  "pair_weight_worst": 0.2,
+  "pair_weight_separation": 0.15,
+  "pair_weight_nonoverlap": 0.05,
+  "save_plots": true,
+  "enable_private_evaluation": true
+}

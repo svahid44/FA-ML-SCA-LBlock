@@ -1,0 +1,22 @@
+{
+  "attack_labels_accessed": false,
+  "attack_rows_accessed": false,
+  "development_private_labels_accessed": false,
+  "files_explicitly_not_read": [
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\private_labels",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\locked_attack_labels",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_10\\stage10_20260718_185539_664419_seed20260718\\predictions\\attack_quality_probabilities_public.csv",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_10\\stage10_20260718_185539_664419_seed20260718\\validation_only"
+  ],
+  "stage_09_files_read": [
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\stage_09_summary.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\public_ml_freeze_manifest.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\public_ml\\ml_tabular_features_public.csv"
+  ],
+  "stage_10_files_read": [
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_10\\stage10_20260718_185539_664419_seed20260718\\stage_10_summary.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_10\\stage10_20260718_185539_664419_seed20260718\\model_freeze_manifest.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_10\\stage10_20260718_185539_664419_seed20260718\\predictions\\development_quality_probabilities_public.csv"
+  ],
+  "test_rows_accessed": false
+}

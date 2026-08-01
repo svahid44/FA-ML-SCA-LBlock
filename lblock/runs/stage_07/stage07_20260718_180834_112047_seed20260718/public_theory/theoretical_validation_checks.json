@@ -1,0 +1,33 @@
+{
+  "all_theoretical_checks_passed": true,
+  "checks": {
+    "transition_rows_sum_to_one": {
+      "passed": true,
+      "maximum_error": 4.440892098500626e-16
+    },
+    "random_and_4_formula": {
+      "passed": true,
+      "maximum_error": 0.0
+    },
+    "random_and_4_mean_probability": {
+      "passed": true,
+      "observed": 0.31640625,
+      "expected": 0.31640625
+    },
+    "primary_nonzero_attack_capacities": {
+      "passed": true,
+      "sifa_kl_bits": 0.3268166637820419,
+      "sefa_kl_bits": 0.12554622886068184,
+      "shfa_kl_bits": 0.4523628926427241,
+      "mutual_information_bits": 0.18922945241001846
+    },
+    "constant_ineffective_probability_models_have_zero_information": {
+      "passed": true,
+      "maximum_information_bits": 0.0
+    },
+    "single_bit_flip_is_always_effective": {
+      "passed": true,
+      "mean_ineffective_probability": 0.0
+    }
+  }
+}

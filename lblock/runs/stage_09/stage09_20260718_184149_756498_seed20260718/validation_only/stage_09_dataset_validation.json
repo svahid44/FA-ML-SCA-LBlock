@@ -1,0 +1,319 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "configuration_validation": {
+      "passed": true,
+      "strict_source_partition_fractions": {
+        "train": 0.5,
+        "validation": 0.125,
+        "test": 0.125,
+        "attack": 0.25
+      }
+    },
+    "stage_08_all_checks_passed": {
+      "passed": true
+    },
+    "stage_08_public_freeze_verified": {
+      "passed": true,
+      "manifest_path": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_08\\stage08_20260718_182609_471595_seed20260718\\public_freeze_manifest.json",
+      "stored_freeze_sha256": "3d6126be7d56e817a323cc98758a7789763cf31f3b2fae174c17a5207fee1272",
+      "recomputed_freeze_sha256": "3d6126be7d56e817a323cc98758a7789763cf31f3b2fae174c17a5207fee1272",
+      "summary_freeze_sha256": "3d6126be7d56e817a323cc98758a7789763cf31f3b2fae174c17a5207fee1272",
+      "files": {
+        "campaign_design_policy.json": {
+          "exists": true,
+          "expected_sha256": "d48d4018c02b4a938e34996a405ea414da546a62648b39e66053a6c5733f356a",
+          "observed_sha256": "d48d4018c02b4a938e34996a405ea414da546a62648b39e66053a6c5733f356a",
+          "passed": true
+        },
+        "campaign_partition_manifest.json": {
+          "exists": true,
+          "expected_sha256": "8b5caf2571e82ff3cbe84f930d109a8a4bdd6c2c3841c0c58be3e90ce76597a0",
+          "observed_sha256": "8b5caf2571e82ff3cbe84f930d109a8a4bdd6c2c3841c0c58be3e90ce76597a0",
+          "passed": true
+        },
+        "campaign_partition_sizes.png": {
+          "exists": true,
+          "expected_sha256": "579f96fbb98871a8c1c5b40c0aecb527c607e4dc7ea5d058270aafc80e6fc320",
+          "observed_sha256": "579f96fbb98871a8c1c5b40c0aecb527c607e4dc7ea5d058270aafc80e6fc320",
+          "passed": true
+        },
+        "fault_model_allocation.png": {
+          "exists": true,
+          "expected_sha256": "7f3d0b0fe60af5fd4230c76e05956fda086f70965a595a3f9eee2f460c05544a",
+          "observed_sha256": "7f3d0b0fe60af5fd4230c76e05956fda086f70965a595a3f9eee2f460c05544a",
+          "passed": true
+        },
+        "large_campaign_parameter_coverage.png": {
+          "exists": true,
+          "expected_sha256": "e654f7568076fc8deedc67906d91bba9ecc889cb486d62a4a8e8eb8e03a53dd7",
+          "observed_sha256": "e654f7568076fc8deedc67906d91bba9ecc889cb486d62a4a8e8eb8e03a53dd7",
+          "passed": true
+        },
+        "large_fault_campaign_public.csv": {
+          "exists": true,
+          "expected_sha256": "3e6e176bb57a8fb8f143e4855c5e75c5ae3784375cfe62a4b6d2d8cad9abdcd6",
+          "observed_sha256": "3e6e176bb57a8fb8f143e4855c5e75c5ae3784375cfe62a4b6d2d8cad9abdcd6",
+          "passed": true
+        },
+        "large_fault_response_traces.npz": {
+          "exists": true,
+          "expected_sha256": "b7b6ab0a949a69b11579f67af83006630ba626a1c813874026c473207bfc0d2b",
+          "observed_sha256": "b7b6ab0a949a69b11579f67af83006630ba626a1c813874026c473207bfc0d2b",
+          "passed": true
+        },
+        "public_data_access_manifest.json": {
+          "exists": true,
+          "expected_sha256": "09768fea2056da769ce736b724c3091763d1016599a98fd6a7dd854d7810f596",
+          "observed_sha256": "09768fea2056da769ce736b724c3091763d1016599a98fd6a7dd854d7810f596",
+          "passed": true
+        },
+        "stage_08_config.json": {
+          "exists": true,
+          "expected_sha256": "9a7ec854709706913ab52ee34467a526b5ad4a1fe1a67bc3df74cbec8fb8eaf1",
+          "observed_sha256": "9a7ec854709706913ab52ee34467a526b5ad4a1fe1a67bc3df74cbec8fb8eaf1",
+          "passed": true
+        },
+        "trace_feature_definitions.json": {
+          "exists": true,
+          "expected_sha256": "eaef9fb2f9617c3c4643a19cd97672d3a6ed13c10cf174facc3540f3f16b4cee",
+          "observed_sha256": "eaef9fb2f9617c3c4643a19cd97672d3a6ed13c10cf174facc3540f3f16b4cee",
+          "passed": true
+        }
+      }
+    },
+    "public_row_trace_alignment": {
+      "passed": true,
+      "checks": {
+        "required_public_columns": {
+          "passed": true,
+          "missing": []
+        },
+        "row_count_matches_summary": {
+          "passed": true,
+          "observed": 64000,
+          "expected": 64000
+        },
+        "trace_shape_matches_rows": {
+          "passed": true,
+          "trace_shape": [
+            64000,
+            148
+          ],
+          "absolute_sample_count": 148
+        },
+        "experiment_ids_unique": {
+          "passed": true
+        },
+        "trace_ids_unique": {
+          "passed": true
+        },
+        "trace_row_order_matches_csv": {
+          "passed": true
+        },
+        "expected_partitions_present": {
+          "passed": true,
+          "observed": [
+            "attack",
+            "test",
+            "train",
+            "validation"
+          ],
+          "expected": [
+            "train",
+            "validation",
+            "test",
+            "attack"
+          ]
+        },
+        "finite_input_traces": {
+          "passed": true
+        },
+        "strictly_increasing_sample_axis": {
+          "passed": true
+        }
+      }
+    },
+    "public_leakage_audit": {
+      "passed": true,
+      "primary_feature_names": [
+        "target_is_s5",
+        "timing_offset_samples",
+        "absolute_timing_offset_samples",
+        "width_samples",
+        "strength",
+        "repeat",
+        "repeat_spacing_samples",
+        "pulse_span_samples",
+        "glitch_energy_proxy",
+        "response_received_numeric",
+        "ciphertext_equal_observed",
+        "ciphertext_equal_missing",
+        "ciphertext_hamming_distance_observed",
+        "ciphertext_hamming_distance_missing",
+        "trace_mean",
+        "trace_std",
+        "trace_peak_to_peak",
+        "trace_max_absolute",
+        "trace_high_frequency_energy",
+        "target_window_energy",
+        "pulse_window_energy",
+        "saturation_fraction",
+        "pulse_to_target_energy_ratio",
+        "high_frequency_to_variance_ratio",
+        "target_window_valid_fraction",
+        "pulse_window_valid_fraction"
+      ],
+      "forbidden_exact_features_present": [],
+      "forbidden_prefix_features_present": [],
+      "group_only_columns_selected_as_features": [],
+      "attack_payload_columns_selected_as_features": [],
+      "stratification_only_columns_selected_as_features": [],
+      "key_overlap_counts": {
+        "train__validation": 0,
+        "train__test": 0,
+        "train__attack": 0,
+        "validation__test": 0,
+        "validation__attack": 0,
+        "test__attack": 0
+      },
+      "plaintext_overlap_counts": {
+        "train__validation": 0,
+        "train__test": 0,
+        "train__attack": 0,
+        "validation__test": 0,
+        "validation__attack": 0,
+        "test__attack": 0
+      },
+      "healthy_ciphertext_overlap_counts": {
+        "train__validation": 0,
+        "train__test": 0,
+        "train__attack": 0,
+        "validation__test": 0,
+        "validation__attack": 0,
+        "test__attack": 0
+      },
+      "healthy_source_trace_overlap_counts": {
+        "train__validation": 1023,
+        "train__test": 1023,
+        "train__attack": 1024,
+        "validation__test": 1022,
+        "validation__attack": 1023,
+        "test__attack": 1023
+      },
+      "source_overlap_interpretation": "Stage 08 intentionally reuses the finite healthy ROI source pool. source_healthy_trace_id is excluded from X, traces are normalized, and a stricter source-disjoint robustness subset is exported.",
+      "primary_tabular_duplicate_audit": {
+        "cross_partition_duplicate_hash_count": 0,
+        "rows_in_cross_partition_duplicate_groups": 0,
+        "row_fraction": 0.0
+      },
+      "processed_trace_duplicate_audit": {
+        "cross_partition_duplicate_hash_count": 0,
+        "rows_in_cross_partition_duplicate_groups": 0,
+        "row_fraction": 0.0
+      },
+      "strict_source_disjoint_subset": {
+        "passed": true,
+        "unique_source_trace_count": 1024,
+        "included_row_count": 22046,
+        "included_fraction": 0.34446875,
+        "included_rows_by_partition": {
+          "train": 16000,
+          "validation": 1041,
+          "test": 982,
+          "attack": 4023
+        },
+        "minimum_rows_by_partition": {
+          "train": 1000,
+          "validation": 100,
+          "test": 100,
+          "attack": 250
+        },
+        "cross_partition_source_overlap_counts": {
+          "train__validation": 0,
+          "train__test": 0,
+          "train__attack": 0,
+          "validation__test": 0,
+          "validation__attack": 0,
+          "test__attack": 0
+        },
+        "statement": "This robustness subset is simultaneously key-disjoint and healthy-source-trace-disjoint. It is intended for secondary evaluation, not for replacing the primary Stage 08 partitions."
+      },
+      "all_primary_features_finite": true,
+      "all_processed_traces_finite": true
+    },
+    "public_private_label_join": {
+      "passed": true,
+      "checks": {
+        "public_ids_unique": true,
+        "private_ids_unique": true,
+        "id_sets_equal": true,
+        "one_to_one_join_complete": true,
+        "category_id_mapping_consistent": true,
+        "metadata_consistent": true,
+        "response_status_consistent": true,
+        "clean_ciphertext_observables_consistent": true
+      },
+      "metadata_column_consistency": {
+        "campaign_partition": true,
+        "target_sbox": true,
+        "target_sbox_index": true,
+        "key_id": true,
+        "session_id": true
+      }
+    },
+    "fixed_key_partitions_preserved": {
+      "passed": true
+    },
+    "attack_rows_excluded_from_development_labels": {
+      "passed": true
+    },
+    "all_six_classes_present_in_train": {
+      "passed": true
+    },
+    "all_six_classes_present_in_validation": {
+      "passed": true
+    },
+    "all_six_classes_present_in_test": {
+      "passed": true
+    },
+    "public_ml_freeze_created": {
+      "passed": true,
+      "freeze_sha256": "9002a13c1337be58c620074620bcfd012bec2076273e42628ad2d026d1d7db1f"
+    }
+  },
+  "label_counts_by_partition": {
+    "train": {
+      "missed": 8372,
+      "clean_target_ineffective": 4057,
+      "clean_target_effective": 8901,
+      "off_target": 5161,
+      "multi_hit": 3816,
+      "invalid_reset": 1693
+    },
+    "validation": {
+      "missed": 2043,
+      "clean_target_ineffective": 1028,
+      "clean_target_effective": 2229,
+      "off_target": 1347,
+      "multi_hit": 941,
+      "invalid_reset": 412
+    },
+    "test": {
+      "missed": 2003,
+      "clean_target_ineffective": 1060,
+      "clean_target_effective": 2191,
+      "off_target": 1384,
+      "multi_hit": 949,
+      "invalid_reset": 413
+    },
+    "attack": {
+      "missed": 4184,
+      "clean_target_ineffective": 1977,
+      "clean_target_effective": 4480,
+      "off_target": 2604,
+      "multi_hit": 1880,
+      "invalid_reset": 875
+    }
+  }
+}

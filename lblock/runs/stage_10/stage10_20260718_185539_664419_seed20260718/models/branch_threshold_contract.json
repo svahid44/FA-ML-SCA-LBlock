@@ -1,0 +1,19 @@
+{
+  "clean_target_effective": {
+    "average_precision": 0.903313407950902,
+    "f1": 0.8796852350383102,
+    "precision": 0.816923076923077,
+    "recall": 0.9528936742934051,
+    "roc_auc": 0.9736214526632949,
+    "threshold": 0.22999999999999998
+  },
+  "clean_target_ineffective": {
+    "average_precision": 0.5250384716912939,
+    "f1": 0.6149584487534626,
+    "precision": 0.4774193548387097,
+    "recall": 0.8638132295719845,
+    "roc_auc": 0.9267514750497264,
+    "threshold": 0.39499999999999996
+  },
+  "selection_partition": "validation"
+}

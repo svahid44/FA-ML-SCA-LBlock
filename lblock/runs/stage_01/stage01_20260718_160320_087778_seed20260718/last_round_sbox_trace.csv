@@ -1,0 +1,9 @@
+round_number,target_sbox,x32_nibble_hex,k32_nibble_hex,sbox_input_hex,sbox_output_hex,p_output_nibble_position,x32_hex,x33_hex
+32,0,3,5,6,a,2,c2181853,08e75bcd
+32,1,5,7,2,e,0,c2181853,08e75bcd
+32,2,8,3,b,3,3,c2181853,08e75bcd
+32,3,1,b,a,c,1,c2181853,08e75bcd
+32,4,8,2,a,4,6,c2181853,08e75bcd
+32,5,1,3,2,b,4,c2181853,08e75bcd
+32,6,2,c,e,1,7,c2181853,08e75bcd
+32,7,c,3,f,6,5,c2181853,08e75bcd

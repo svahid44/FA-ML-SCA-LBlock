@@ -1,0 +1,7 @@
+{
+  "attack_labels_accessed": false,
+  "expected_attack_label_sha256_from_stage09_summary": "443670d57a12bc305e08fcb33e41569ded0fcf4a2a3921f0fa8d0ed4da5be94e",
+  "locked_attack_label_file_exists": true,
+  "locked_attack_label_path": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\locked_attack_labels\\attack_quality_labels_LOCKED.csv",
+  "statement": "Stage 10 never opens the locked attack-label CSV. Attack predictions are produced from public features only."
+}

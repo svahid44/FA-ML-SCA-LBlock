@@ -1,0 +1,275 @@
+{
+  "all_integrity_checks_passed": false,
+  "candidate_top_fractions": [
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.65,
+    0.8,
+    1.0
+  ],
+  "chosen_top_fraction": 0.4,
+  "classifier_helped_by_fixed_rule": true,
+  "elapsed_seconds": 63.728129900002386,
+  "input_freeze_sha256": "eb9aa0133448955b644ca501bf3dcf778876ebbed5fc2ef80c11ccd290bbcebc",
+  "input_stage13r_v2_run": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_13R_paper_sifa_v2\\stage13R_v2_20260718_210424_794132_seed20260722",
+  "integrity_checks": {
+    "chosen_policy_uses_public_random_arm_only": true,
+    "exact_paper_sei_used": true,
+    "four_nibble_tasks_present_per_pipeline": true,
+    "input_stage13r_v2_freeze_verified": true,
+    "matched_random_same_budget_controls_present": true,
+    "probability_weighting_inside_sei": false,
+    "public_attack_frozen_before_truth": true,
+    "public_policy_selected_before_truth": true,
+    "two_joint_8bit_tasks_present_per_pipeline": true
+  },
+  "joint_8bit_evaluation": [
+    {
+      "key_id": 0,
+      "pipeline": "guided_budget_aware",
+      "predicted_joint_guess_hex": "68",
+      "true_is_unique_rank1": true,
+      "true_joint_guess_hex": "68",
+      "true_joint_rank": 1
+    },
+    {
+      "key_id": 1,
+      "pipeline": "guided_budget_aware",
+      "predicted_joint_guess_hex": "8e",
+      "true_is_unique_rank1": true,
+      "true_joint_guess_hex": "8e",
+      "true_joint_rank": 1
+    },
+    {
+      "key_id": 0,
+      "pipeline": "guided_raw",
+      "predicted_joint_guess_hex": "68",
+      "true_is_unique_rank1": true,
+      "true_joint_guess_hex": "68",
+      "true_joint_rank": 1
+    },
+    {
+      "key_id": 1,
+      "pipeline": "guided_raw",
+      "predicted_joint_guess_hex": "8e",
+      "true_is_unique_rank1": true,
+      "true_joint_guess_hex": "8e",
+      "true_joint_rank": 1
+    },
+    {
+      "key_id": 0,
+      "pipeline": "guided_threshold",
+      "predicted_joint_guess_hex": "68",
+      "true_is_unique_rank1": true,
+      "true_joint_guess_hex": "68",
+      "true_joint_rank": 1
+    },
+    {
+      "key_id": 1,
+      "pipeline": "guided_threshold",
+      "predicted_joint_guess_hex": "8e",
+      "true_is_unique_rank1": true,
+      "true_joint_guess_hex": "8e",
+      "true_joint_rank": 1
+    },
+    {
+      "key_id": 0,
+      "pipeline": "random_budget_aware",
+      "predicted_joint_guess_hex": "56",
+      "true_is_unique_rank1": false,
+      "true_joint_guess_hex": "68",
+      "true_joint_rank": 42
+    },
+    {
+      "key_id": 1,
+      "pipeline": "random_budget_aware",
+      "predicted_joint_guess_hex": "95",
+      "true_is_unique_rank1": false,
+      "true_joint_guess_hex": "8e",
+      "true_joint_rank": 27
+    },
+    {
+      "key_id": 0,
+      "pipeline": "random_raw",
+      "predicted_joint_guess_hex": "30",
+      "true_is_unique_rank1": false,
+      "true_joint_guess_hex": "68",
+      "true_joint_rank": 125
+    },
+    {
+      "key_id": 1,
+      "pipeline": "random_raw",
+      "predicted_joint_guess_hex": "a2",
+      "true_is_unique_rank1": false,
+      "true_joint_guess_hex": "8e",
+      "true_joint_rank": 150
+    },
+    {
+      "key_id": 0,
+      "pipeline": "random_threshold",
+      "predicted_joint_guess_hex": "76",
+      "true_is_unique_rank1": false,
+      "true_joint_guess_hex": "68",
+      "true_joint_rank": 63
+    },
+    {
+      "key_id": 1,
+      "pipeline": "random_threshold",
+      "predicted_joint_guess_hex": "9d",
+      "true_is_unique_rank1": false,
+      "true_joint_guess_hex": "8e",
+      "true_joint_rank": 35
+    }
+  ],
+  "matched_budget_comparison": [
+    {
+      "key_id": 0,
+      "matched_random_mean_true_rank": 7.53,
+      "matched_random_median_true_rank": 7.0,
+      "matched_random_rank1_fraction": 0.06666666666666667,
+      "model_better_than_random_median": false,
+      "model_topk_rank1": false,
+      "model_topk_true_rank": 7,
+      "target_sbox": "S0",
+      "target_sbox_index": 0
+    },
+    {
+      "key_id": 0,
+      "matched_random_mean_true_rank": 9.766666666666667,
+      "matched_random_median_true_rank": 10.0,
+      "matched_random_rank1_fraction": 0.02666666666666667,
+      "model_better_than_random_median": true,
+      "model_topk_rank1": false,
+      "model_topk_true_rank": 2,
+      "target_sbox": "S5",
+      "target_sbox_index": 5
+    },
+    {
+      "key_id": 1,
+      "matched_random_mean_true_rank": 9.863333333333333,
+      "matched_random_median_true_rank": 10.0,
+      "matched_random_rank1_fraction": 0.016666666666666666,
+      "model_better_than_random_median": true,
+      "model_topk_rank1": false,
+      "model_topk_true_rank": 3,
+      "target_sbox": "S0",
+      "target_sbox_index": 0
+    },
+    {
+      "key_id": 1,
+      "matched_random_mean_true_rank": 7.48,
+      "matched_random_median_true_rank": 7.0,
+      "matched_random_rank1_fraction": 0.08666666666666667,
+      "model_better_than_random_median": true,
+      "model_topk_rank1": false,
+      "model_topk_true_rank": 5,
+      "target_sbox": "S5",
+      "target_sbox_index": 5
+    }
+  ],
+  "output_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_13R_paper_sifa_v3_budget_aware\\stage13R_v3_20260718_214827_748936_seed20260723",
+  "paper_faithful_unweighted_scoring": true,
+  "pipeline_summary": [
+    {
+      "actual_clean_count": 183,
+      "actual_clean_precision": 0.06818181818181818,
+      "actual_clean_recall": 1.0,
+      "mean_bootstrap_true_winner_fraction": 0.035833333333333335,
+      "mean_loso_consensus": 0.5625,
+      "mean_score_margin": 0.0006323641680722029,
+      "mean_selected_ciphertexts_per_task": 671.0,
+      "mean_true_rank": 9.0,
+      "median_true_rank": 8.5,
+      "pipeline": "random_raw",
+      "rank1_joint_8bit_count": 0,
+      "rank1_nibble_count": 0,
+      "rank1_nibble_success_rate": 0.0
+    },
+    {
+      "actual_clean_count": 85,
+      "actual_clean_precision": 0.5214723926380368,
+      "actual_clean_recall": 0.4644808743169399,
+      "mean_bootstrap_true_winner_fraction": 0.09333333333333334,
+      "mean_loso_consensus": 0.4375,
+      "mean_score_margin": 0.005468286066893193,
+      "mean_selected_ciphertexts_per_task": 40.75,
+      "mean_true_rank": 5.5,
+      "median_true_rank": 6.0,
+      "pipeline": "random_threshold",
+      "rank1_joint_8bit_count": 0,
+      "rank1_nibble_count": 0,
+      "rank1_nibble_success_rate": 0.0
+    },
+    {
+      "actual_clean_count": 153,
+      "actual_clean_precision": 0.1424581005586592,
+      "actual_clean_recall": 0.8360655737704918,
+      "mean_bootstrap_true_winner_fraction": 0.1,
+      "mean_loso_consensus": 0.4375,
+      "mean_score_margin": 0.0006259116181998302,
+      "mean_selected_ciphertexts_per_task": 268.5,
+      "mean_true_rank": 4.25,
+      "median_true_rank": 4.0,
+      "pipeline": "random_budget_aware",
+      "rank1_joint_8bit_count": 0,
+      "rank1_nibble_count": 0,
+      "rank1_nibble_success_rate": 0.0
+    },
+    {
+      "actual_clean_count": 2783,
+      "actual_clean_precision": 0.5317157050057317,
+      "actual_clean_recall": 1.0,
+      "mean_bootstrap_true_winner_fraction": 1.0,
+      "mean_loso_consensus": 1.0,
+      "mean_score_margin": 0.005386124223162649,
+      "mean_selected_ciphertexts_per_task": 1308.5,
+      "mean_true_rank": 1.0,
+      "median_true_rank": 1.0,
+      "pipeline": "guided_raw",
+      "rank1_joint_8bit_count": 2,
+      "rank1_nibble_count": 4,
+      "rank1_nibble_success_rate": 1.0
+    },
+    {
+      "actual_clean_count": 2783,
+      "actual_clean_precision": 0.5317157050057317,
+      "actual_clean_recall": 1.0,
+      "mean_bootstrap_true_winner_fraction": 1.0,
+      "mean_loso_consensus": 1.0,
+      "mean_score_margin": 0.005386124223162649,
+      "mean_selected_ciphertexts_per_task": 1308.5,
+      "mean_true_rank": 1.0,
+      "median_true_rank": 1.0,
+      "pipeline": "guided_threshold",
+      "rank1_joint_8bit_count": 2,
+      "rank1_nibble_count": 4,
+      "rank1_nibble_success_rate": 1.0
+    },
+    {
+      "actual_clean_count": 1131,
+      "actual_clean_precision": 0.5401146131805158,
+      "actual_clean_recall": 0.40639597556593604,
+      "mean_bootstrap_true_winner_fraction": 0.9566666666666667,
+      "mean_loso_consensus": 1.0,
+      "mean_score_margin": 0.006917288099852911,
+      "mean_selected_ciphertexts_per_task": 523.5,
+      "mean_true_rank": 1.0,
+      "median_true_rank": 1.0,
+      "pipeline": "guided_budget_aware",
+      "rank1_joint_8bit_count": 2,
+      "rank1_nibble_count": 4,
+      "rank1_nibble_success_rate": 1.0
+    }
+  ],
+  "primary_statistic": "SEI",
+  "public_freeze_sha256": "9b03497ca5ce180eefa1b561ed22b49e65cdd204da1941a09264c5d14f5dcd4d",
+  "run_id": "stage13R_v3_20260718_214827_748936_seed20260723",
+  "stage": "13R-v3",
+  "title": "Budget-aware Stage-10 selection for paper-faithful LBlock SIFA"
+}

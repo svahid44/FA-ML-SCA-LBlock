@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-07-18T18:08:35",
+  "statement": "All public theoretical outputs were generated and frozen before opening Stage 06 private ground truth.",
+  "ground_truth_opened_before_freeze": false,
+  "files": {
+    "fault_bias_definitions.json": "e2aa3a454eb42847d49c296591c8971be44bd903cb95aa65d5503d85e97442d8",
+    "random_and_4_conditional_distributions.png": "7a05a0c396657b8b9e6c84133706b01363ffe453d63832f490a6ad14b42ae80a",
+    "stage_07_config.json": "6fd56e0c0cfcef020ae50d8a27db3eb6a517a71902545d8be0d4c200317bf2fc",
+    "theoretical_attack_prior.json": "cefeac18601c31cb2c9421705e224131e93803f50b638894b446dd308b81cafa",
+    "theoretical_fault_bias_arrays.npz": "a2b5709eca14e43a2f1d3f8c63ccacb74e0a94f2ce4f48a536cd380539e4b520",
+    "theoretical_fault_bias_by_input.csv": "9c74e7ada5567acdb0d6d1250840dc6b1f565c7fad18c1fcc63540382332571f",
+    "theoretical_fault_model_capacity.png": "89edba30f61963b728817f6ed4df449db26d7f7ad611057a1b405e76b02ab39e",
+    "theoretical_ineffective_probability.png": "db11611edcd7780b72801a5a48f12edd2f3c652fcf9cd318dc47ba9b2678b57c",
+    "theoretical_model_capacity.csv": "b2eea4cf0a5829268db0800deadce296b671d408a6fc3c3d8280f35748294c8a",
+    "theoretical_validation_checks.json": "1d6adef99b8a5164a50ed328d17e97e69c2c5417c63df7204a4fc983f36cba33"
+  },
+  "freeze_sha256": "186a9e4517b090e348f41ff18023185bc73f8c6534586f17ffc606324d3b2e3c"
+}

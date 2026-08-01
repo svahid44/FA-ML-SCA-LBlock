@@ -1,0 +1,35 @@
+{
+  "available": true,
+  "warning": "Validation only. These values were computed after the public estimate was frozen.",
+  "estimation_freeze_sha256": "56138cfac19d5d8947dca392939b71c195599fe9301cdd4ef58f8504b76755ca",
+  "private_file_sha256": "c637a1803fcf608dc8edc0c8be91d68b7abbda9b841acd0888db4aeab2902324",
+  "all_sbox_center_coverage_rate": 1.0,
+  "full_final_round_coverage_rate_per_trace": 1.0,
+  "minimum_margin_to_roi_start_samples": 20.138334298659174,
+  "minimum_margin_to_roi_end_samples": 41.30390219805031,
+  "hidden_median_round_period_samples": 128.0,
+  "absolute_round_period_error_samples": 0.0,
+  "original_final_center_std_per_sbox": [
+    5.2941862500800925,
+    5.314590222413929,
+    5.280241469294757,
+    5.277341942889217,
+    5.29103752461207,
+    5.304774422698878,
+    5.283476772025889,
+    5.278481022790457
+  ],
+  "aligned_final_center_std_per_sbox": [
+    2.8783387388402613,
+    2.869038691528549,
+    2.8755559911232984,
+    2.8903247848796134,
+    2.8612045570509177,
+    2.8867324359298943,
+    2.858408507366822,
+    2.9201205027778583
+  ],
+  "median_original_final_center_std": 5.28725714831898,
+  "median_aligned_final_center_std": 2.87694736498178,
+  "median_center_std_reduction_fraction": 0.4558714879421988
+}

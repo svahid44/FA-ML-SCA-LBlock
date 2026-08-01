@@ -1,0 +1,12 @@
+{
+  "estimation_mode": "public-only",
+  "stage_02_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718",
+  "files_opened_by_estimator": [
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718\\public\\healthy_traces.npz",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718\\public\\healthy_trace_metadata.csv",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718\\public\\trace_simulation_config.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718\\stage_02_summary.json"
+  ],
+  "private_files_opened_by_estimator": [],
+  "private_evaluation_policy": "Allowed only after public estimate files have been written and hashed."
+}

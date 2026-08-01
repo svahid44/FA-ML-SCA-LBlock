@@ -1,0 +1,34 @@
+{
+  "bootstrap_repetitions": 300,
+  "candidate_top_fractions": [
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.65,
+    0.8,
+    1.0
+  ],
+  "input_freeze_verification": {
+    "checked_file_count": 16,
+    "freeze_sha256": "eb9aa0133448955b644ca501bf3dcf778876ebbed5fc2ef80c11ccd290bbcebc",
+    "manifest_path": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_13R_paper_sifa_v2\\stage13R_v2_20260718_210424_794132_seed20260722\\paper_sifa_public_attack_freeze_manifest.json",
+    "verified": true
+  },
+  "input_root_fallback": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_13R_paper_sifa_v2",
+  "input_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_13R_paper_sifa_v2\\stage13R_v2_20260718_210424_794132_seed20260722",
+  "matched_random_repetitions": 300,
+  "minimum_selected_per_task": 128,
+  "output_root": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_13R_paper_sifa_v3_budget_aware",
+  "primary_selection_method": "session_balanced_probability_top_fraction",
+  "primary_statistic": "SEI",
+  "random_seed": 20260723,
+  "required_loso_consensus": 0.75,
+  "resolved_input_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_13R_paper_sifa_v2\\stage13R_v2_20260718_210424_794132_seed20260722",
+  "resolved_output_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_13R_paper_sifa_v3_budget_aware\\stage13R_v3_20260718_214827_748936_seed20260723",
+  "truth_or_private_files_opened": false
+}

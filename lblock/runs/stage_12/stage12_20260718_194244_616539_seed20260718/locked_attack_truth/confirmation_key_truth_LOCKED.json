@@ -1,0 +1,23 @@
+{
+  "statement": "Do not open before the corresponding Stage-13/14/15 attack score has been frozen.",
+  "confirmation_key_ids": [
+    6,
+    7
+  ],
+  "keys": [
+    {
+      "key_id": 6,
+      "master_key_hex": "3154a3dab9ae6f1ce73e",
+      "round_key_32_hex": "a9458e5d",
+      "K32_0": 13,
+      "K32_5": 4
+    },
+    {
+      "key_id": 7,
+      "master_key_hex": "686a0a83f53c44a4bb3c",
+      "round_key_32_hex": "17cea3b7",
+      "K32_0": 7,
+      "K32_5": 12
+    }
+  ]
+}

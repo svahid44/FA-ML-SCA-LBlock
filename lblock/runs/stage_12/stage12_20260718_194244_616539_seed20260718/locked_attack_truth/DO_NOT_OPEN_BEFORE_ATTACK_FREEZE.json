@@ -1,0 +1,5 @@
+{
+  "locked_file": "confirmation_key_truth_LOCKED.json",
+  "sha256": "bf3e2a18dab5a0b579d2ad3607e9dcdb15ad474db43d74e792362632f4e86b45",
+  "reason": "Prevents key-answer leakage into SIFA/SEFA/SHFA implementation and tuning."
+}

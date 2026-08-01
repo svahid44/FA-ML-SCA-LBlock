@@ -1,0 +1,46 @@
+[
+  {
+    "session_id": 0,
+    "gain": 1.0614257532208597,
+    "noise_scale": 1.054146504616696,
+    "baseline_offset": -0.047554865046853474,
+    "baseline_slope": -0.01342557445901372,
+    "timing_shift_samples": 0,
+    "clock_scale": 0.9972362528445197,
+    "clock_phase": 4.387730599069251,
+    "drift_phase": 2.8101148008583436
+  },
+  {
+    "session_id": 1,
+    "gain": 1.0065490511541757,
+    "noise_scale": 1.1487534774604489,
+    "baseline_offset": -0.35871333036608055,
+    "baseline_slope": 0.0061230920125795105,
+    "timing_shift_samples": -2,
+    "clock_scale": 1.000833569304654,
+    "clock_phase": 5.6758218484307905,
+    "drift_phase": 2.110633693874936
+  },
+  {
+    "session_id": 2,
+    "gain": 0.767697841247821,
+    "noise_scale": 0.9996254920931783,
+    "baseline_offset": -0.0898416343769588,
+    "baseline_slope": -0.019160692409871765,
+    "timing_shift_samples": -2,
+    "clock_scale": 0.9998931491904847,
+    "clock_phase": 5.693534980108136,
+    "drift_phase": 5.640611513496645
+  },
+  {
+    "session_id": 3,
+    "gain": 1.089609393543391,
+    "noise_scale": 1.164170270575702,
+    "baseline_offset": 0.05641311678979575,
+    "baseline_slope": -0.24117917198650218,
+    "timing_shift_samples": 1,
+    "clock_scale": 0.9994261335838789,
+    "clock_phase": 5.741007104235579,
+    "drift_phase": 0.08334975540496847
+  }
+]

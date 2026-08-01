@@ -1,0 +1,37 @@
+{
+  "stage": 4,
+  "run_id": "stage04_20260718_171931_573552_seed20260718",
+  "created_at": "2026-07-18T17:20:00",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "config": {
+    "input_stage3_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718",
+    "output_root": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_04",
+    "random_seed": 20260718,
+    "number_of_sboxes": 8,
+    "number_of_classes": 16,
+    "minimum_class_count": 2,
+    "permutation_count": 48,
+    "smoothing_radius_samples": 2,
+    "specificity_weight": 0.35,
+    "minimum_spacing_fraction_of_round": 0.04,
+    "maximum_spacing_fraction_of_round": 0.12,
+    "earliest_first_center_fraction_of_round": 0.04,
+    "latest_first_center_fraction_of_round": 0.42,
+    "latest_last_center_fraction_of_round": 0.88,
+    "prominence_weight": 0.15,
+    "profile_balance_penalty": 0.05,
+    "bootstrap_iterations": 64,
+    "bootstrap_confidence_percent": 95.0,
+    "minimum_subset_traces": 64,
+    "exploration_half_width_fraction_of_spacing": 0.75,
+    "save_plots": true,
+    "enable_private_evaluation": true
+  },
+  "input_file_sha256": {
+    "stage_03_summary.json": "e4e63cbe6e618f75cc0688f3d40e299dbcca41ffa90d870d9eab5d61af704a46",
+    "final_round_roi_traces.npz": "7b52555d37918b3dde915038c4d8efa4534d5331fcf9f0b989ba538aa1453952",
+    "final_round_roi.json": "ab832209ee26542f4ef632325d52a44fb7d9514eefe388e1b3977acee02c5707",
+    "aligned_trace_metadata.csv": "26255b184a8b22782dfc86aa22fcc54bc16a4cdb18a12306c8a1d1fdf09ccc3c"
+  }
+}

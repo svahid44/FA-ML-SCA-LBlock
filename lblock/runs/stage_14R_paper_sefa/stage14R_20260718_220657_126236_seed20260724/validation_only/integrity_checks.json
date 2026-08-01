@@ -1,0 +1,23 @@
+{
+  "all_integrity_checks_passed": true,
+  "checks": {
+    "all_confirmation_tasks_key_identifiable": true,
+    "attack_frozen_before_truth_opened": true,
+    "calibration_and_confirmation_disjoint": true,
+    "faulty_ciphertext_values_not_used_by_key_scorer": true,
+    "fresh_campaign_row_count_correct": true,
+    "locked_truth_hashes_verified": true,
+    "matched_random_controls_present_for_all_budget_tasks": true,
+    "no_probability_weighting_inside_sei": true,
+    "paired_plaintext_key_target_session_design_passed": true,
+    "policy_frozen_before_confirmation_attack": true,
+    "primary_score_is_exact_unweighted_sei": true,
+    "sefa_policy_selected_from_public_calibration_only": true,
+    "sefa_uses_correct_reference_ciphertexts": true,
+    "sefa_uses_effective_event_rule": true,
+    "stage11_and_stage10_freezes_verified": true,
+    "twelve_pipelines_four_tasks_each": true,
+    "twelve_pipelines_two_joint_tasks_each": true,
+    "x31_partial_decryption_guard_passed": true
+  }
+}

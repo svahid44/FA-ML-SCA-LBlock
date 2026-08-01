@@ -1,0 +1,22 @@
+{
+  "closed_loop_rule": "After each batch, score realized responses with the frozen Stage-10 quality classifier, update empirical yields, but do not retrain on Attack labels.",
+  "control_requirement": "Retain missed, neighbor, multi-hit, and invalid controls so quality drift remains observable.",
+  "exploit_source": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_11\\stage11_20260718_191029_290452_seed20260718\\recommendations\\exploit_parameter_recommendations.csv",
+  "explore_source": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_11\\stage11_20260718_191029_290452_seed20260718\\recommendations\\explore_parameter_recommendations.csv",
+  "fractions": {
+    "exploit_recommendations": 0.7,
+    "explore_recommendations": 0.2,
+    "negative_and_safety_controls": 0.1
+  },
+  "objective_allocation": {
+    "SEFA": 0.35,
+    "SHFA": 0.3,
+    "SIFA": 0.35
+  },
+  "recommended_total_experiments": 24000,
+  "stage": 12,
+  "target_allocation": {
+    "S0": 0.5,
+    "S5": 0.5
+  }
+}

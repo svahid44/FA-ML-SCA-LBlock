@@ -1,0 +1,121 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "attack_prediction_row_count_correct": true,
+    "candidate_count_correct": true,
+    "deployment_model_reload_passed": true,
+    "feature_name_audit_passed": true,
+    "locked_attack_labels_accessed": false,
+    "partition_contract_passed": true,
+    "probability_checks": {
+      "attack_finite": true,
+      "attack_row_sums": true,
+      "test_finite": true,
+      "test_row_sums": true,
+      "validation_finite": true,
+      "validation_row_sums": true
+    },
+    "selected_model_has_all_classes": true,
+    "stage09_all_checks_passed": true,
+    "stage09_public_freeze_verified": true,
+    "stage09_public_leakage_audit_passed": true,
+    "test_evaluation_count": 1
+  },
+  "feature_audit": {
+    "feature_count": 26,
+    "passed": true,
+    "violations": []
+  },
+  "partition_audit": {
+    "development_attack_id_overlap": 0,
+    "expected_partition_counts": {
+      "attack": 16000,
+      "test": 8000,
+      "train": 32000,
+      "validation": 8000
+    },
+    "expected_partition_key_ids": {
+      "attack": [
+        22,
+        23
+      ],
+      "test": [
+        20,
+        21
+      ],
+      "train": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "validation": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "observed_partition_counts": {
+      "attack": 16000,
+      "test": 8000,
+      "train": 32000,
+      "validation": 8000
+    },
+    "observed_partition_key_ids": {
+      "attack": [
+        22,
+        23
+      ],
+      "test": [
+        20,
+        21
+      ],
+      "train": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "validation": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "passed": true
+  },
+  "stage09_freeze_verification": {
+    "file_mismatches": [],
+    "manifest_digest_matches_summary": true,
+    "manifest_freeze_sha256": "9002a13c1337be58c620074620bcfd012bec2076273e42628ad2d026d1d7db1f",
+    "manifest_path": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718\\public_ml_freeze_manifest.json",
+    "passed": true,
+    "summary_freeze_sha256": "9002a13c1337be58c620074620bcfd012bec2076273e42628ad2d026d1d7db1f"
+  }
+}

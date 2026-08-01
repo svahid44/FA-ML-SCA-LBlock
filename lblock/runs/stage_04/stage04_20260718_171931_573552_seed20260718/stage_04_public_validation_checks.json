@@ -1,0 +1,75 @@
+{
+  "all_public_checks_passed": true,
+  "checks": {
+    "eight_centers_generated": {
+      "passed": true,
+      "center_count": 8
+    },
+    "centers_strictly_increasing": {
+      "passed": true,
+      "centers": [
+        4083,
+        4092,
+        4101,
+        4110,
+        4119,
+        4128,
+        4137,
+        4146
+      ]
+    },
+    "regular_spacing": {
+      "passed": true,
+      "observed_spacings": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    },
+    "centers_inside_roi": {
+      "passed": true
+    },
+    "centers_inside_round_32": {
+      "passed": true,
+      "round_interval": [
+        4059,
+        4187
+      ]
+    },
+    "core_windows_valid": {
+      "passed": true
+    },
+    "core_windows_non_overlapping": {
+      "passed": true
+    },
+    "all_profiles_finite": {
+      "passed": true
+    },
+    "observable_class_coverage": {
+      "passed": true,
+      "minimum_observed_classes_per_key": 16
+    },
+    "bootstrap_spacing_stability": {
+      "passed": true,
+      "dominant_spacing": 9,
+      "per_gap_stability_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "overall_stability_rate": 1.0
+    },
+    "public_only_estimation_contract": {
+      "passed": true,
+      "statement": "No private timing, key value, round key or internal state was used by the estimator."
+    }
+  }
+}

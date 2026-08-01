@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-07-18T22:10:53",
+  "files": {
+    "chosen_sefa_budget_policy_public.json": "dfabe6bbebc33c151eca13f57cd33dac433cc25b141f23a94b0e64d06b9577cc",
+    "sefa_global_policy_grid_public.csv": "3f13098e0185ebb9e2846fc7b2a2decab6e02ae81c3abe2d9d22abefa5ed84ea",
+    "sefa_top_fraction_candidate_scores_public.csv": "c5bbdfe9d80a7d74a1a16da2ae3deb84af089bbd29f3b4ee851889a02f6aa6f0",
+    "sefa_top_fraction_predictions_public.csv": "e4a88e3bdd8d7451d8f1a7967e1443a565ac60a5571bcd121c84fd079c2db097"
+  },
+  "freeze_sha256": "a7de2d6a60763ac4e9189bffd10150c032edb6402daf86b8ebd649e53cf624d6",
+  "statement": "SEFA budget policy selected from public random-arm calibration rows before truth and before confirmation scoring."
+}

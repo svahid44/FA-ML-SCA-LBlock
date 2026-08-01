@@ -1,0 +1,49 @@
+{
+  "session_balancing": {
+    "sessions": [
+      {
+        "session_id": 0,
+        "trace_count": 256,
+        "removed_mean_profile_average": 0.29292342183276465,
+        "removed_mean_profile_std": 0.13636571721166846,
+        "robust_scale": 0.5045045605853125
+      },
+      {
+        "session_id": 1,
+        "trace_count": 256,
+        "removed_mean_profile_average": 0.2734549437004718,
+        "removed_mean_profile_std": 0.13112396314646435,
+        "robust_scale": 0.5286604255130243
+      },
+      {
+        "session_id": 2,
+        "trace_count": 256,
+        "removed_mean_profile_average": 0.23656720474230958,
+        "removed_mean_profile_std": 0.10777584140570008,
+        "robust_scale": 0.4476774504587652
+      },
+      {
+        "session_id": 3,
+        "trace_count": 256,
+        "removed_mean_profile_average": 0.32530950477037435,
+        "removed_mean_profile_std": 0.15060145287400295,
+        "robust_scale": 0.5492626312110258
+      }
+    ]
+  },
+  "permutation_count": 48,
+  "profile_shape": [
+    8,
+    148
+  ],
+  "maximum_permutation_z_per_target": {
+    "S0": 34.39916038138145,
+    "S1": 25.651587623016695,
+    "S2": 41.18688028625405,
+    "S3": 24.848959564428878,
+    "S4": 26.70314447188399,
+    "S5": 37.19795510467523,
+    "S6": 49.118992719548956,
+    "S7": 35.65533872527817
+  }
+}

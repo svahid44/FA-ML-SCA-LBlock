@@ -1,0 +1,132 @@
+{
+  "attack": "paper-faithful SHFA",
+  "branch_selection_policies": {
+    "effective_threshold": 0.22999999999999998,
+    "effective_top_fraction": 0.65,
+    "ineffective_threshold": 0.39499999999999996,
+    "ineffective_top_fraction": 0.4,
+    "policies_were_frozen_before_stage14_confirmation": true
+  },
+  "comparison_principle": "Model impact is evaluated within each attack at the same total fault-attempt budget. Effective and ineffective event counts are not used as a direct cross-attack superiority metric.",
+  "configuration": {
+    "bootstrap_repetitions": 300,
+    "expected_stage14_public_attack_freeze_sha256": "f0a0e2a3794059f4475a874a13d6ddfe974d42e54890f93b39eb2a409a9ef3df",
+    "injection_checkpoints": [
+      250,
+      500,
+      1000,
+      1500,
+      2000,
+      3000,
+      4000,
+      6000,
+      8000
+    ],
+    "input_stage14_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_14R_paper_sefa\\stage14R_20260718_220657_126236_seed20260724",
+    "matched_random_repetitions": 300,
+    "minimum_branch_samples": 16,
+    "number_of_keys": 2,
+    "number_of_sessions": 4,
+    "output_root": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_15R_paper_shfa",
+    "random_seed": 20260725,
+    "save_plots": true,
+    "stable_loso_threshold": 1.0,
+    "target_sbox_indices": [
+      0,
+      5
+    ]
+  },
+  "equal_injection_budget": 8000,
+  "event_sets": {
+    "disjoint": true,
+    "effective": "response_received and C_prime != C",
+    "ineffective": "response_received and C_prime == C"
+  },
+  "input_stage14_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_14R_paper_sefa\\stage14R_20260718_220657_126236_seed20260724",
+  "key_recovery_ciphertext": "correct/non-faulty C in both branches",
+  "pipelines": {
+    "shfa_guided_budget": {
+      "attack_type": "SHFA",
+      "campaign_arm": "guided_model",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "budget",
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "shfa_guided_raw": {
+      "attack_type": "SHFA",
+      "campaign_arm": "guided_model",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "raw",
+      "uses_stage10": false,
+      "uses_stage11": true
+    },
+    "shfa_guided_threshold": {
+      "attack_type": "SHFA",
+      "campaign_arm": "guided_model",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "threshold",
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "shfa_random_budget": {
+      "attack_type": "SHFA",
+      "campaign_arm": "random_uniform",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "budget",
+      "uses_stage10": true,
+      "uses_stage11": false
+    },
+    "shfa_random_raw": {
+      "attack_type": "SHFA",
+      "campaign_arm": "random_uniform",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "raw",
+      "uses_stage10": false,
+      "uses_stage11": false
+    },
+    "shfa_random_threshold": {
+      "attack_type": "SHFA",
+      "campaign_arm": "random_uniform",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "threshold",
+      "uses_stage10": true,
+      "uses_stage11": false
+    }
+  },
+  "primary_score": "SEI_h(k)=sum_x sum_y (p_hat_e,k(x)*p_hat_i,k(y)-1/256)^2; highest score wins",
+  "private_labels_opened": false,
+  "stage10_probability_inside_shfa_score": false,
+  "truth_opened": false,
+  "verified_stage14_public_attack_freeze_sha256": "f0a0e2a3794059f4475a874a13d6ddfe974d42e54890f93b39eb2a409a9ef3df"
+}

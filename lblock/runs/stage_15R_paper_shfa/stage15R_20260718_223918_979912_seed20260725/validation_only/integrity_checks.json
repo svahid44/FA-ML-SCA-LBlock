@@ -1,0 +1,24 @@
+{
+  "all_integrity_checks_passed": true,
+  "checks": {
+    "all_public_tasks_identifiable": true,
+    "both_branch_policies_frozen_before_confirmation": true,
+    "confirmation_partition_only": true,
+    "correct_ciphertexts_used_for_both_branches": true,
+    "cross_attack_comparison_uses_equal_total_injection_budget": true,
+    "cross_attack_primary_table_excludes_event_count_comparison": true,
+    "effective_and_ineffective_event_sets_disjoint": true,
+    "exact_joint_outer_product_sei_used": true,
+    "faulty_ciphertext_values_not_used_by_key_scorer": true,
+    "joint_sei_algebraic_identity_checked": true,
+    "locked_truth_hashes_verified": true,
+    "matched_random_controls_for_all_stage10_tasks": true,
+    "no_stage10_probability_weighting_inside_shfa_score": true,
+    "shfa_attack_frozen_before_truth_opened": true,
+    "six_pipelines_four_nibble_tasks_each": true,
+    "six_pipelines_two_joint_tasks_each": true,
+    "stage14_frozen_scores_reproduced_from_public_campaign": true,
+    "stage14_public_attack_freeze_verified": true,
+    "stage14_public_policy_freeze_verified": true
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "confirmation_partition_only": true,
+  "correct_ciphertext_used_in_both_branches": true,
+  "equal_total_fault_attempt_budget": 8000,
+  "faulty_ciphertext_values_used_for_key_scoring": false,
+  "input_stage14_public_attack_freeze_sha256": "f0a0e2a3794059f4475a874a13d6ddfe974d42e54890f93b39eb2a409a9ef3df",
+  "joint_distribution": "p_hat_e,k(x) * p_hat_i,k(y)",
+  "pipelines": {
+    "shfa_guided_budget": {
+      "attack_type": "SHFA",
+      "campaign_arm": "guided_model",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "budget",
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "shfa_guided_raw": {
+      "attack_type": "SHFA",
+      "campaign_arm": "guided_model",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "raw",
+      "uses_stage10": false,
+      "uses_stage11": true
+    },
+    "shfa_guided_threshold": {
+      "attack_type": "SHFA",
+      "campaign_arm": "guided_model",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "threshold",
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "shfa_random_budget": {
+      "attack_type": "SHFA",
+      "campaign_arm": "random_uniform",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "budget",
+      "uses_stage10": true,
+      "uses_stage11": false
+    },
+    "shfa_random_raw": {
+      "attack_type": "SHFA",
+      "campaign_arm": "random_uniform",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "raw",
+      "uses_stage10": false,
+      "uses_stage11": false
+    },
+    "shfa_random_threshold": {
+      "attack_type": "SHFA",
+      "campaign_arm": "random_uniform",
+      "effective_budget_fraction": 0.65,
+      "effective_probability_column": "p_clean_target_effective",
+      "effective_threshold": 0.22999999999999998,
+      "ineffective_budget_fraction": 0.4,
+      "ineffective_probability_column": "p_clean_target_ineffective",
+      "ineffective_threshold": 0.39499999999999996,
+      "selector": "threshold",
+      "uses_stage10": true,
+      "uses_stage11": false
+    }
+  },
+  "primary_statistic": "joint-distribution unweighted SEI_h",
+  "private_labels_opened": false,
+  "probability_weighting_inside_score": false,
+  "truth_opened": false,
+  "uniform_reference": "1/256"
+}

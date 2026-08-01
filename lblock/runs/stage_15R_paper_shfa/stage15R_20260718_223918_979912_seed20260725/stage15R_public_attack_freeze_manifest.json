@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-07-18T22:40:04",
+  "files": {
+    "injection_prefix_shfa_candidate_scores_public.csv": "60c523d06c87b2f2080768658f3d7629a22a9d0b638020eba639b581de54c510",
+    "injection_prefix_shfa_predictions_public.csv": "8d82e0203ae5cf8101e5bb9fdb8d86ac8cda2b5ed8c0df2b28a03b9e91d01eea",
+    "joint_8bit_shfa_candidate_scores_public.csv": "4c0aa88b535c00989f2c178e6dcf76bde8b7128640f05901badd39b467e6a63a",
+    "joint_8bit_shfa_predictions_public.csv": "5f440820390c3739b83ab653533b509d63ef841a27b054c18b7db2c056557383",
+    "public_attack_contract.json": "2ec28d3efb32fe4a29178849ff568e1fbcb64638ea1af71c53d079dd33bd5520",
+    "shfa_candidate_scores_public.csv": "0ddb406639b974102b45c3802367b739e02a1a6bbfa9b2c52a8a52cd0f2d3397",
+    "shfa_predictions_public.csv": "00ddbea4046e50f84aac7920aa71da5848dfc0389fad3c576857cb4d9538d87d",
+    "stage15R_pre_registered_contract.json": "a964f1341a02aedeac5e6b9f0ea7123df1a23acd49f80c4cd2d6e8e7903ae223"
+  },
+  "freeze_sha256": "e491537d593659c61739a396bd0cdd52d44e766873fe8bc37d8cada3682820bf",
+  "statement": "All SHFA scores, predictions, injection-prefix curves, and 8-bit rankings were frozen before Stage-14R key truth or private labels were opened by Stage 15R."
+}

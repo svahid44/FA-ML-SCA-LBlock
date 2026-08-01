@@ -1,0 +1,89 @@
+{
+  "algorithm": "LBlock-64/80",
+  "stage": 5,
+  "selection_source": "Public Stage 03/04 data and public robustness tests only",
+  "ground_truth_used_for_selection": false,
+  "selected_pair_rank": 1,
+  "selected_pair_score": 0.6873351543072339,
+  "selected_sboxes": [
+    "S0",
+    "S5"
+  ],
+  "selected_sbox_indices": [
+    0,
+    5
+  ],
+  "selected_last_round_key_nibbles": [
+    "K32[0]",
+    "K32[5]"
+  ],
+  "selected_last_round_key_bit_indices": [
+    0,
+    1,
+    2,
+    3,
+    20,
+    21,
+    22,
+    23
+  ],
+  "total_target_bits": 8,
+  "pair_center_gap_samples": 45,
+  "pair_exploration_window_overlap_fraction": 0.0,
+  "targets": [
+    {
+      "sbox": "S0",
+      "sbox_index": 0,
+      "target_key_nibble": "K32[0]",
+      "target_key_bits": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "center_sample": 4083,
+      "center_offset_from_round_32_start_samples": 24,
+      "core_window_start_sample_inclusive": 4079,
+      "core_window_end_sample_exclusive": 4088,
+      "exploration_window_start_sample_inclusive": 4076,
+      "exploration_window_end_sample_exclusive": 4091,
+      "public_safe_interval_start_sample_inclusive": 4080,
+      "public_safe_interval_end_sample_exclusive": 4086,
+      "target_quality_score": 0.5168255761947325,
+      "single_target_rank": 4
+    },
+    {
+      "sbox": "S5",
+      "sbox_index": 5,
+      "target_key_nibble": "K32[5]",
+      "target_key_bits": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "center_sample": 4128,
+      "center_offset_from_round_32_start_samples": 69,
+      "core_window_start_sample_inclusive": 4124,
+      "core_window_end_sample_exclusive": 4133,
+      "exploration_window_start_sample_inclusive": 4121,
+      "exploration_window_end_sample_exclusive": 4136,
+      "public_safe_interval_start_sample_inclusive": 4125,
+      "public_safe_interval_end_sample_exclusive": 4131,
+      "target_quality_score": 0.763074554032892,
+      "single_target_rank": 1
+    }
+  ],
+  "next_stage_contract": {
+    "fault_engine_targets": [
+      "S0",
+      "S5"
+    ],
+    "nominal_times": {
+      "S0": 4083,
+      "S5": 4128
+    },
+    "timing_scan_policy": "Sweep only public exploration windows; never configure from private timing.",
+    "minimum_key_recovery_goal": "Recover both selected 4-bit nibbles (8 bits of K32)."
+  }
+}

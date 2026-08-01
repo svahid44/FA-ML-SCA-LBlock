@@ -1,0 +1,25 @@
+{
+  "candidate_top_fractions": [
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.65,
+    0.8,
+    1.0
+  ],
+  "key_statistic": "SEI(k)=sum_x (p_hat_k(x)-1/16)^2",
+  "matched_budget_control": "For every random-arm task, compare the Stage-10 top-ranked subset with stratified random subsets of exactly the same size.",
+  "minimum_selected_per_task": 128,
+  "paper_ineffective_rule": "response returned and C_prime == C",
+  "probability_weighting_in_key_statistic": false,
+  "public_policy_rule": "Choose one global fraction using only the four random-arm public tasks. Lexicographically maximize: robust task count, mean leave-one-session-out winner consensus, median relative SEI margin; break remaining ties by the smaller fraction. A robust task has a unique winner, full four-session coverage, and LOSO consensus >= required_loso_consensus.",
+  "reference_attack": "Dobraunig et al. SIFA, practical SEI ranking",
+  "selection_method": "session_balanced_probability_top_fraction",
+  "stage10_role": "Rank paper-ineffective ciphertexts before the unweighted paper SEI; the model probability never enters the SEI equation.",
+  "truth_or_private_files_available_to_selection": false
+}

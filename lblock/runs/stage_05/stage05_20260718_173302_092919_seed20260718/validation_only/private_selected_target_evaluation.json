@@ -1,0 +1,29 @@
+{
+  "available": true,
+  "warning": "Validation only; opened after public selection freeze.",
+  "estimation_freeze_sha256": "4f551562e48a8db5d2cc18ff38b5ead432777c696326cc327b706878ba46343d",
+  "selected_targets": [
+    {
+      "sbox": "S0",
+      "estimated_center": 4083.0,
+      "hidden_median_center": 4082.700865366219,
+      "absolute_center_error_samples": 0.2991346337807954,
+      "exploration_window_coverage": 0.939453125,
+      "public_safe_interval_coverage": 0.78125,
+      "hidden_center_std_samples": 2.8783387388402613
+    },
+    {
+      "sbox": "S5",
+      "estimated_center": 4128.0,
+      "hidden_median_center": 4127.768604650827,
+      "absolute_center_error_samples": 0.23139534917299898,
+      "exploration_window_coverage": 0.9462890625,
+      "public_safe_interval_coverage": 0.7822265625,
+      "hidden_center_std_samples": 2.8867324359298956
+    }
+  ],
+  "mean_absolute_center_error_samples": 0.2652649914768972,
+  "maximum_absolute_center_error_samples": 0.2991346337807954,
+  "mean_exploration_window_coverage": 0.94287109375,
+  "mean_public_safe_interval_coverage": 0.78173828125
+}

@@ -1,0 +1,183 @@
+{
+  "warning": "Private validation material. Never use key values as ML features.",
+  "partition_key_ids": {
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "validation": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "test": [
+      20,
+      21
+    ],
+    "attack": [
+      22,
+      23
+    ]
+  },
+  "keys": [
+    {
+      "key_id": 0,
+      "campaign_partition": "train",
+      "master_key_hex": "bcf0c9ab2a35212a2d7a",
+      "round_key_32_hex": "4bd86229"
+    },
+    {
+      "key_id": 1,
+      "campaign_partition": "train",
+      "master_key_hex": "30f46dafd9facd19a25c",
+      "round_key_32_hex": "6bf81978"
+    },
+    {
+      "key_id": 2,
+      "campaign_partition": "train",
+      "master_key_hex": "56393baad927ade159cb",
+      "round_key_32_hex": "2b7f8e4e"
+    },
+    {
+      "key_id": 3,
+      "campaign_partition": "train",
+      "master_key_hex": "292c62d1bec6a39beb0d",
+      "round_key_32_hex": "669d2d6b"
+    },
+    {
+      "key_id": 4,
+      "campaign_partition": "train",
+      "master_key_hex": "8b35e56bab76c1bfacf0",
+      "round_key_32_hex": "f3c820d6"
+    },
+    {
+      "key_id": 5,
+      "campaign_partition": "train",
+      "master_key_hex": "11893371ad4bb7a7e62a",
+      "round_key_32_hex": "2238768a"
+    },
+    {
+      "key_id": 6,
+      "campaign_partition": "train",
+      "master_key_hex": "886943d3490f38515744",
+      "round_key_32_hex": "5c699ea7"
+    },
+    {
+      "key_id": 7,
+      "campaign_partition": "train",
+      "master_key_hex": "ce8cf188b4529b634260",
+      "round_key_32_hex": "b44f6e93"
+    },
+    {
+      "key_id": 8,
+      "campaign_partition": "train",
+      "master_key_hex": "a6eda43d40b55e3668c8",
+      "round_key_32_hex": "34102558"
+    },
+    {
+      "key_id": 9,
+      "campaign_partition": "train",
+      "master_key_hex": "7615a4b952e99ff1a356",
+      "round_key_32_hex": "e4e365ac"
+    },
+    {
+      "key_id": 10,
+      "campaign_partition": "train",
+      "master_key_hex": "c9d13e044a1250bc0685",
+      "round_key_32_hex": "462bb492"
+    },
+    {
+      "key_id": 11,
+      "campaign_partition": "train",
+      "master_key_hex": "c553fe005a19e7850373",
+      "round_key_32_hex": "e391b76c"
+    },
+    {
+      "key_id": 12,
+      "campaign_partition": "train",
+      "master_key_hex": "1152c37e53a7dd2bf970",
+      "round_key_32_hex": "c50c2f78"
+    },
+    {
+      "key_id": 13,
+      "campaign_partition": "train",
+      "master_key_hex": "9eb316e24662a2879c3c",
+      "round_key_32_hex": "65d007a5"
+    },
+    {
+      "key_id": 14,
+      "campaign_partition": "train",
+      "master_key_hex": "31ed312e59b7e4ff75c5",
+      "round_key_32_hex": "1bc81d42"
+    },
+    {
+      "key_id": 15,
+      "campaign_partition": "train",
+      "master_key_hex": "f52ea873a1de3bcb62fc",
+      "round_key_32_hex": "42a454b3"
+    },
+    {
+      "key_id": 16,
+      "campaign_partition": "validation",
+      "master_key_hex": "b7e3ee268d9794f450d7",
+      "round_key_32_hex": "575cbe02"
+    },
+    {
+      "key_id": 17,
+      "campaign_partition": "validation",
+      "master_key_hex": "82ac2bd3cad9707bcd02",
+      "round_key_32_hex": "aca8313e"
+    },
+    {
+      "key_id": 18,
+      "campaign_partition": "validation",
+      "master_key_hex": "de14ad8b80be9bf1019c",
+      "round_key_32_hex": "64a70534"
+    },
+    {
+      "key_id": 19,
+      "campaign_partition": "validation",
+      "master_key_hex": "a45da0bdab26a561f8c3",
+      "round_key_32_hex": "14c8d8e8"
+    },
+    {
+      "key_id": 20,
+      "campaign_partition": "test",
+      "master_key_hex": "70e068db436cba41feed",
+      "round_key_32_hex": "2e81a9a4"
+    },
+    {
+      "key_id": 21,
+      "campaign_partition": "test",
+      "master_key_hex": "5f53559435af7f883c88",
+      "round_key_32_hex": "5aa598c4"
+    },
+    {
+      "key_id": 22,
+      "campaign_partition": "attack",
+      "master_key_hex": "4f77a74d450b7e11f8bc",
+      "round_key_32_hex": "c81061c0"
+    },
+    {
+      "key_id": 23,
+      "campaign_partition": "attack",
+      "master_key_hex": "9e92f8b968a06973c464",
+      "round_key_32_hex": "f4e25b0f"
+    }
+  ]
+}

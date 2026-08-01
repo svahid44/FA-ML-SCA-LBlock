@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "unique_source_trace_count": 1024,
+  "included_row_count": 22046,
+  "included_fraction": 0.34446875,
+  "included_rows_by_partition": {
+    "train": 16000,
+    "validation": 1041,
+    "test": 982,
+    "attack": 4023
+  },
+  "minimum_rows_by_partition": {
+    "train": 1000,
+    "validation": 100,
+    "test": 100,
+    "attack": 250
+  },
+  "cross_partition_source_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 0,
+    "train__attack": 0,
+    "validation__test": 0,
+    "validation__attack": 0,
+    "test__attack": 0
+  },
+  "statement": "This robustness subset is simultaneously key-disjoint and healthy-source-trace-disjoint. It is intended for secondary evaluation, not for replacing the primary Stage 08 partitions."
+}

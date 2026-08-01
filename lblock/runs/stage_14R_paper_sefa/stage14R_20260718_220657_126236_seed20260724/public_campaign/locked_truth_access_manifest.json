@@ -1,0 +1,7 @@
+{
+  "fault_labels_sha256": "f5442d3e3c810e796276ca83fb612cd9f8c6ed24d1b9bdc66a8131d46d092e33",
+  "key_truth_sha256": "2ef2366b0d3aa607f0f35e9a4147e99f6b770780367347071b58805f3a302cea",
+  "locked_truth_opened_during_campaign": false,
+  "locked_truth_written": true,
+  "statement": "Private labels and keys are unavailable to policy selection and public scoring."
+}

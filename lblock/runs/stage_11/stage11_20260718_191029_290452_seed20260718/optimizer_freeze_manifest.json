@@ -1,0 +1,29 @@
+{
+  "attack_labels_accessed": false,
+  "attack_rows_accessed": false,
+  "created_at": "2026-07-18T19:11:13",
+  "development_private_labels_accessed": false,
+  "files": {
+    "models/glitch_surrogate_extra_trees.joblib": "accfc6fe81f24a0c48948efdc0255c94f3cca2650a12b2a88b8d3ececc073d63",
+    "models/glitch_surrogate_ridge.joblib": "68f81e030dc49b9462f4c29ca5750c0b128a5288054d20516b812f6fae13da4a",
+    "models/optimizer_model_card.json": "8b0fd2a58b79d9dd3bf00f267387f66e004fa9b2c9bfa818eac516624ff317f0",
+    "models/optimizer_objective_contract.json": "bc33967fc7146448b5d74885bdaf0c022293dff554ea424a062f543bfcc453d1",
+    "models/pre_injection_feature_contract.json": "f785866bb783f9e5caed4bb36bd515caf8dc5d4dd4efe478d18beeff772b5c95",
+    "models/pre_injection_glitch_optimizer.joblib": "accfc6fe81f24a0c48948efdc0255c94f3cca2650a12b2a88b8d3ececc073d63",
+    "models/pre_injection_support_model.joblib": "b3ebcd340c5f3b411b39419dd241c07181de5bff35f198028733401647b1575c",
+    "models/public_only_access_manifest.json": "94cee3f4e498737e8d93b3207f944234f8eb8bf9a4dc7cf6682941bb35454914",
+    "recommendations/S0_SEFA_response_surface.png": "75cee0b534911854380c1f45d521e0e48a2c9cf03b11e75e7ac993ed2c05e0fc",
+    "recommendations/S0_SHFA_response_surface.png": "270dcdffd06260b6624a3805f9fe7ff7b5e56908a2262161627ca893751d291b",
+    "recommendations/S0_SIFA_response_surface.png": "1583030f4fa9a647b88ba9ff06cb4c8c8317726b586c5aa52b98bc2980d1cde6",
+    "recommendations/S5_SEFA_response_surface.png": "7bc0ec272332873f4aa3a037ea09088b68829ce108df7a9d84acb3bbe67bdc6b",
+    "recommendations/S5_SHFA_response_surface.png": "1235d72be52156df558c01657f0f0c5aaa33857457c461ee9698d9d7d81107c8",
+    "recommendations/S5_SIFA_response_surface.png": "1f099d8a7a388ef55db77874b5689c9a1a8dc5bf57c8b862821c9e2bad7ab5a0",
+    "recommendations/all_parameter_recommendations.csv": "6857305825558b63e8037313265ab9555ba92f23f3069e8d96a9546a600223c5",
+    "recommendations/exploit_parameter_recommendations.csv": "b4878bc669322904cac3d07e9db9de99f4d7a0b1b3ac8068fc09cffcbd33e07b",
+    "recommendations/explore_parameter_recommendations.csv": "edd25974fffcfa318e4f6159197b17a1042bac1e66b85cc118a96c7fc9348e47",
+    "recommendations/stage_12_campaign_policy.json": "7f874a17608d9309e0d28a6576c61643b3482123bc7a93ff058c52ed8776f37d"
+  },
+  "freeze_sha256": "7cd74ce6d2ce99df7a76b2fdd2f709ea247d0f3e3ac17d496a12c0d1b661e150",
+  "statement": "Stage-11 pre-injection optimizer, support model, objectives, and recommendations were frozen using public Train/Validation data only.",
+  "test_rows_accessed": false
+}

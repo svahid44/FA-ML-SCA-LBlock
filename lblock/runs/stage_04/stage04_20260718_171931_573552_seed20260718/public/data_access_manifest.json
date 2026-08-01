@@ -1,0 +1,18 @@
+{
+  "estimation_mode": "public-only",
+  "stage_03_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718",
+  "files_opened_by_estimator": [
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718\\stage_03_summary.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718\\public\\final_round_roi_traces.npz",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718\\public\\final_round_roi.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718\\public\\aligned_trace_metadata.csv"
+  ],
+  "stage_02_files_opened_by_estimator": [],
+  "private_files_opened_by_estimator": [],
+  "explicitly_not_read": [
+    "Stage 02 trace_simulation_config.json timing fields",
+    "hidden_nominal_timing_map.json",
+    "hidden_timing_and_crypto_ground_truth.npz",
+    "private_key_manifest.json"
+  ]
+}

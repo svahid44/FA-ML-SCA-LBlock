@@ -1,0 +1,35 @@
+{
+  "stage": 9,
+  "run_id": "stage09_20260718_184149_756498_seed20260718",
+  "created_at": "2026-07-18T18:42:08",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "config": {
+    "input_stage8_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_08\\stage08_20260718_182609_471595_seed20260718",
+    "output_root": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_09",
+    "random_seed": 20260718,
+    "target_window_radius_samples": 24,
+    "pulse_window_radius_samples": 24,
+    "highpass_moving_average_width": 9,
+    "trace_standard_deviation_floor": 1e-06,
+    "duplicate_trace_round_decimals": 5,
+    "association_quantile_bins": 16,
+    "strict_source_train_fraction": 0.5,
+    "strict_source_validation_fraction": 0.125,
+    "strict_source_test_fraction": 0.125,
+    "strict_source_attack_fraction": 0.25,
+    "minimum_strict_source_rows_train": 1000,
+    "minimum_strict_source_rows_validation": 100,
+    "minimum_strict_source_rows_test": 100,
+    "minimum_strict_source_rows_attack": 250,
+    "maximum_primary_feature_duplicate_fraction": 0.001,
+    "maximum_cross_partition_trace_duplicate_count": 0,
+    "save_plots": true
+  },
+  "input_sha256": {
+    "stage_08_summary.json": "41c277806ae47f49040e4a2447931ef571fd8f7993746f1221ccf390d15cd031",
+    "large_fault_campaign_public.csv": "3e6e176bb57a8fb8f143e4855c5e75c5ae3784375cfe62a4b6d2d8cad9abdcd6",
+    "large_fault_response_traces.npz": "b7b6ab0a949a69b11579f67af83006630ba626a1c813874026c473207bfc0d2b",
+    "campaign_partition_manifest.json": "8b5caf2571e82ff3cbe84f930d109a8a4bdd6c2c3841c0c58be3e90ce76597a0"
+  }
+}

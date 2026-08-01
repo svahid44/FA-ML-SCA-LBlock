@@ -1,0 +1,39 @@
+{
+  "input_stage6_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_06\\stage06_20260718_175343_608585_seed20260718",
+  "output_root": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_07",
+  "random_seed": 20260718,
+  "number_of_inputs": 16,
+  "dirichlet_alpha": 0.5,
+  "confidence_level": 0.95,
+  "bootstrap_repetitions": 300,
+  "minimum_clean_samples_for_bootstrap": 40,
+  "minimum_each_outcome_for_bootstrap": 5,
+  "offset_bin_edges": [
+    -1000000000.0,
+    -12.0,
+    -4.0,
+    4.0,
+    12.0,
+    1000000000.0
+  ],
+  "width_bin_edges": [
+    0.0,
+    3.0,
+    6.0,
+    1000000000.0
+  ],
+  "strength_bin_edges": [
+    0.0,
+    0.65,
+    1.1,
+    1000000000.0
+  ],
+  "minimum_parameter_cell_attempts": 20,
+  "top_parameter_cells_per_attack": 12,
+  "save_plots": true,
+  "enable_empirical_validation": true,
+  "minimum_primary_pi_correlation": 0.85,
+  "maximum_primary_qi_tv_distance": 0.17,
+  "maximum_primary_qe_tv_distance": 0.12,
+  "maximum_primary_mean_rate_error": 0.05
+}

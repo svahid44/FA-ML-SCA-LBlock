@@ -1,0 +1,38 @@
+{
+  "algorithm": "LBlock-64/80",
+  "block_size_bits": 64,
+  "master_key_size_bits": 80,
+  "round_count": 32,
+  "external_byte_order": "big-endian",
+  "internal_nibble_numbering": {
+    "nibble_0": "bits 3..0",
+    "nibble_7": "bits 31..28"
+  },
+  "plaintext_layout": "M = X1 || X0",
+  "ciphertext_layout": "C = X32 || X33",
+  "round_equation": "X_i = F(X_{i-1},K_{i-1}) XOR ROL8(X_{i-2}), i=2..33",
+  "f_equation": "F(X,K)=P(S(X XOR K))",
+  "p_source_for_output": [
+    1,
+    3,
+    0,
+    2,
+    5,
+    7,
+    4,
+    6
+  ],
+  "last_round": {
+    "round_number": 32,
+    "inputs": [
+      "X31",
+      "X32",
+      "K32"
+    ],
+    "sbox_input_equation": "input_i = nibble_i(X32) XOR nibble_i(K32)",
+    "sbox_output_equation": "output_i = SBOX[i][input_i]",
+    "x33_equation": "X33 = P(S(X32 XOR K32)) XOR ROL8(X31)",
+    "observable_relation": "X32 is the left 32-bit half of the correct ciphertext",
+    "key_guess_relation": "input_i(k)=nibble_i(X32) XOR k"
+  }
+}

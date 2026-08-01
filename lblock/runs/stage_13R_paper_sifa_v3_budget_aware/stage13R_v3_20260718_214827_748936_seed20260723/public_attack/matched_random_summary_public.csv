@@ -1,0 +1,5 @@
+key_id,target_sbox,target_sbox_index,matched_subset_size,model_topk_winner,model_topk_winner_hex,matched_random_modal_winner,matched_random_distinct_winner_count
+0,S0,0,285,5,5,3,16
+0,S5,5,243,6,6,0,16
+1,S0,0,308,9,9,10,16
+1,S5,5,238,5,5,2,16

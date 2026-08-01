@@ -1,0 +1,46 @@
+{
+  "chosen_top_fraction": 0.4,
+  "formula": "sum_x (p_hat_k(x)-1/16)^2",
+  "pipelines": {
+    "guided_budget_aware": {
+      "campaign_arm": "guided_model",
+      "selection": "chosen_session_balanced_top_fraction",
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "guided_raw": {
+      "campaign_arm": "guided_model",
+      "selection": "all_paper_ineffective",
+      "uses_stage10": false,
+      "uses_stage11": true
+    },
+    "guided_threshold": {
+      "campaign_arm": "guided_model",
+      "selection": "previous_fixed_threshold",
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "random_budget_aware": {
+      "campaign_arm": "random_uniform",
+      "selection": "chosen_session_balanced_top_fraction",
+      "uses_stage10": true,
+      "uses_stage11": false
+    },
+    "random_raw": {
+      "campaign_arm": "random_uniform",
+      "selection": "all_paper_ineffective",
+      "uses_stage10": false,
+      "uses_stage11": false
+    },
+    "random_threshold": {
+      "campaign_arm": "random_uniform",
+      "selection": "previous_fixed_threshold",
+      "uses_stage10": true,
+      "uses_stage11": false
+    }
+  },
+  "primary_statistic": "SEI",
+  "ranking_direction": "descending",
+  "sample_weights_inside_SEI": false,
+  "truth_or_private_access_before_freeze": false
+}

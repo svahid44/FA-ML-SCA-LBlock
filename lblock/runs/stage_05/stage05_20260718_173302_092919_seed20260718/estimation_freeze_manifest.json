@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-18T17:33:21",
+  "statement": "Public Stage 05 result frozen before private validation.",
+  "files": {
+    "selected_two_nibble_targets.json": "984a05a42a341c17db5c3957346c48f71a6e8280cc15de026878bf26cfb73780",
+    "sbox_robustness_ranking.csv": "2033a03efdb0fe4b1253a7d0a10ee9fe474217fd81aba71a3feab69000ce8ff1",
+    "two_nibble_pair_ranking.csv": "1ac47b0d14375a040cb4099ed7cff21f51e0bf575daec7e4a1c05699a5f2f8e7",
+    "timing_robustness_summary.json": "8c6bd5bd99e18b92adebf847b7babf8207401497ffd98a24b83a0f47c7aa13c5",
+    "data_access_manifest.json": "b7533e58ab53bed2478665e0f96c0fe2711a14d3eef3f343cb9a1bdc5fa614d7"
+  },
+  "freeze_sha256": "4f551562e48a8db5d2cc18ff38b5ead432777c696326cc327b706878ba46343d"
+}

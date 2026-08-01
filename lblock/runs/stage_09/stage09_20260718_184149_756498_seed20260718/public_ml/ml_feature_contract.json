@@ -1,0 +1,108 @@
+{
+  "stage": 9,
+  "primary_quality_classifier_feature_names": [
+    "target_is_s5",
+    "timing_offset_samples",
+    "absolute_timing_offset_samples",
+    "width_samples",
+    "strength",
+    "repeat",
+    "repeat_spacing_samples",
+    "pulse_span_samples",
+    "glitch_energy_proxy",
+    "response_received_numeric",
+    "ciphertext_equal_observed",
+    "ciphertext_equal_missing",
+    "ciphertext_hamming_distance_observed",
+    "ciphertext_hamming_distance_missing",
+    "trace_mean",
+    "trace_std",
+    "trace_peak_to_peak",
+    "trace_max_absolute",
+    "trace_high_frequency_energy",
+    "target_window_energy",
+    "pulse_window_energy",
+    "saturation_fraction",
+    "pulse_to_target_energy_ratio",
+    "high_frequency_to_variance_ratio",
+    "target_window_valid_fraction",
+    "pulse_window_valid_fraction"
+  ],
+  "primary_trace_view": "target_aligned_zscore",
+  "secondary_trace_views": [
+    "pulse_aligned_zscore",
+    "full_trace_highpass"
+  ],
+  "trace_view_shapes": {
+    "full_trace_highpass": [
+      64000,
+      148
+    ],
+    "target_aligned_zscore": [
+      64000,
+      49
+    ],
+    "pulse_aligned_zscore": [
+      64000,
+      49
+    ]
+  },
+  "metadata_only_columns": [
+    "campaign_partition",
+    "experiment_id",
+    "key_id",
+    "session_id",
+    "source_healthy_trace_id"
+  ],
+  "attack_payload_only_columns": [
+    "faulty_ciphertext_hex",
+    "healthy_ciphertext_hex",
+    "plaintext_hex"
+  ],
+  "stratification_only_columns": [
+    "fault_model"
+  ],
+  "forbidden_exact_feature_names": [
+    "activation_probabilities",
+    "actual_centers",
+    "category",
+    "category_id",
+    "changed_sbox_input_count",
+    "design_regime",
+    "fault_effective",
+    "global_jitter_samples",
+    "hit_scores",
+    "impacted_mask",
+    "impacted_sbox_count",
+    "impacted_sboxes",
+    "injection_jitter_samples",
+    "invalid_probability",
+    "invalid_subtype",
+    "master_key_hex",
+    "model_details_json",
+    "off_target_impacted",
+    "round_key_32_hex",
+    "target_faulted_input",
+    "target_impacted",
+    "target_original_input",
+    "x31_hex",
+    "x32_hex"
+  ],
+  "forbidden_feature_prefixes": [
+    "master_key",
+    "round_key",
+    "true_key",
+    "x31",
+    "x32",
+    "target_original",
+    "target_faulted",
+    "impacted_",
+    "actual_",
+    "hidden_",
+    "oracle_",
+    "ground_truth"
+  ],
+  "preprocessing_rule": "Fit imputation/scaling/model parameters on Train only. Use Validation for model selection, Test once for final classifier evaluation, and never use Attack labels during Stages 10-14.",
+  "fault_model_feature_policy": "fault_model is excluded from the primary model because the true physical fault mechanism is not directly observable.",
+  "cryptographic_value_policy": "Raw plaintext and ciphertext values are retained only in the final attack payload and are excluded from quality-classifier X."
+}

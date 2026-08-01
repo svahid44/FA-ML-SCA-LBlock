@@ -1,0 +1,18 @@
+{
+  "algorithm": "LBlock-64/80",
+  "locator_stage": 3,
+  "estimation_source": "public healthy traces only",
+  "number_of_rounds": 32,
+  "global_trigger_sample": 96,
+  "estimated_round_period_samples": 128,
+  "estimated_round_period_ns": 1280.0,
+  "estimated_round_1_start_sample": 91,
+  "estimated_round_32_start_sample": 4059,
+  "roi_start_sample_inclusive": 4049,
+  "roi_end_sample_exclusive": 4197,
+  "roi_width_samples": 148,
+  "roi_start_time_us": 40.49,
+  "roi_end_time_us": 41.97,
+  "guard_samples": 10,
+  "warning": "No S-box-specific timing has been estimated in Stage 03. Stage 04 must map S0..S7 inside this ROI."
+}

@@ -1,0 +1,25 @@
+{
+  "chosen_top_fraction": 0.4,
+  "created_at": "2026-07-18T21:49:27",
+  "files": {
+    "public_attack/bootstrap_candidate_scores_public.csv": "df3acf7312e48552b2766997bbe9ce7329b00220f598b85788d60548429290bf",
+    "public_attack/bootstrap_winner_stability_public.csv": "09ba5af259c3c61bc3c63bafc32b4d2d1103ce4a61788802bd6d6baf07ece45e",
+    "public_attack/budget_aware_sifa_candidate_scores_public.csv": "1815e40e1bf54f1d8d17216028fed284282144f80f8ce91f4a086a05e74c6240",
+    "public_attack/budget_aware_sifa_predictions_public.csv": "0ea899e56893ee6f5a36c0fbceab649e3ab4899216e29a0c8455610b573ad44c",
+    "public_attack/joint_8bit_candidate_scores_public.csv": "c3b31c28719dbd97fa943cf01baf032753cb4de75a3fc0c0313e051485828f04",
+    "public_attack/joint_8bit_predictions_public.csv": "2ece54666fe746feb6d4f330aca23841e4df44806c5233e40ad3acd54c657e62",
+    "public_attack/matched_random_candidate_scores_public.csv": "d86681ee7a98e2835afa1e3fd2ee3a81df00657ec069cd092160d6e8a20dcb5e",
+    "public_attack/matched_random_summary_public.csv": "c6c3e68968d1e74041365b54409bfe5b1ab8cec7c96d1e693dc18238337726c9",
+    "public_attack/paper_faithful_attack_contract.json": "a4401520f1d204c0e356c601d3d150585e53d34f6a03a4b50c0a267f6623c002",
+    "public_selection/budget_aware_selection_contract.json": "fce03d98a6ce040e4d344eaeed642e31a9f00b1053a158e8a96153778e4db9c8",
+    "public_selection/chosen_budget_aware_policy_public.json": "81c48515757fa88ec6f0ccc0ed9ab83dd75b35b48be6794a1fa2c32dd3e039f3",
+    "public_selection/global_policy_selection_grid_public.csv": "d723fdffa2a2aba419d99f2bd2f22907c322345c89f22b782d79fd4439f767f5",
+    "public_selection/selected_events_public.csv": "25ea0b481326055baae706c7dc6f6c290a728d22134d741735eb7f0f946a1b17",
+    "public_selection/stage_13R_v3_config.json": "3c54a61a34f9c2524d04e7105f82693fe7c4e1ee0173f6c5d1c47d77599471c1",
+    "public_selection/top_fraction_candidate_scores_public.csv": "ef30b0f0c1fd00ed634e5be2b779a82915cee470e828e3af44f41ddbab3b987a",
+    "public_selection/top_fraction_predictions_public.csv": "36b624827b9aa480fa2a1f8d322e6f0b0b15fb075d0ae667a9b6dac591ce408c"
+  },
+  "freeze_sha256": "9b03497ca5ce180eefa1b561ed22b49e65cdd204da1941a09264c5d14f5dcd4d",
+  "input_stage13r_v2_freeze_sha256": "eb9aa0133448955b644ca501bf3dcf778876ebbed5fc2ef80c11ccd290bbcebc",
+  "statement": "All budget candidates, the public-only selected fraction, all paper-SEI scores, public predictions, bootstrap scores, matched-budget controls, and joint 8-bit predictions were frozen before opening key truth or simulator labels."
+}

@@ -1,0 +1,43 @@
+{
+  "warning": "Private ground truth. Never use as an ML feature or attack input.",
+  "keys": [
+    {
+      "key_id": 0,
+      "master_key_hex": "94be897446726719d350"
+    },
+    {
+      "key_id": 1,
+      "master_key_hex": "454d5b2e2dc08ce40669"
+    },
+    {
+      "key_id": 2,
+      "master_key_hex": "982fc83b7cc8e27ed3ed"
+    },
+    {
+      "key_id": 3,
+      "master_key_hex": "9a12785cf0bfd7f9169e"
+    },
+    {
+      "key_id": 4,
+      "master_key_hex": "19befa4e32aa4154e8eb"
+    },
+    {
+      "key_id": 5,
+      "master_key_hex": "6ce416051079421e4d04"
+    },
+    {
+      "key_id": 6,
+      "master_key_hex": "b67736ff4c567a14112b"
+    },
+    {
+      "key_id": 7,
+      "master_key_hex": "b78b228f913a5cfcb7ec"
+    }
+  ],
+  "session_timing_shifts_samples": [
+    -0.17493655547327344,
+    0.34896488027789513,
+    0.27443037869902204,
+    -0.12910529500272433
+  ]
+}

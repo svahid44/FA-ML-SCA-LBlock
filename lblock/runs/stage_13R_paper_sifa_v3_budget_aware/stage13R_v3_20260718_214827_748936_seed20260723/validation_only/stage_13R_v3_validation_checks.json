@@ -1,0 +1,11 @@
+{
+  "chosen_policy_uses_public_random_arm_only": true,
+  "exact_paper_sei_used": true,
+  "four_nibble_tasks_present_per_pipeline": true,
+  "input_stage13r_v2_freeze_verified": true,
+  "matched_random_same_budget_controls_present": true,
+  "probability_weighting_inside_sei": false,
+  "public_attack_frozen_before_truth": true,
+  "public_policy_selected_before_truth": true,
+  "two_joint_8bit_tasks_present_per_pipeline": true
+}

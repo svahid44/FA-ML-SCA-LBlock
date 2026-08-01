@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-07-18T19:45:16",
+  "statement": "Stage-12 public campaign, traces, classifier scores, and adaptive selection history were frozen before private simulator labels were opened.",
+  "source_stage_11_optimizer_freeze_sha256": "7cd74ce6d2ce99df7a76b2fdd2f709ea247d0f3e3ac17d496a12c0d1b661e150",
+  "source_stage_10_model_freeze_sha256": "f5b26f90c8b25ea066e9710aa3c4d2c362cf590ed3d95f68125194793b91eb5a",
+  "files": {
+    "closed_loop_batch_summary_public.csv": "d467966b79482fc4fccaadaa8167c9bca3eeb9aad335c52940a633c6b74f7689",
+    "closed_loop_campaign_contract.json": "3025dcb32b0d6d995c58e372d6cf684c4f440055cd15b75837e3e76a7b12b37e",
+    "closed_loop_campaign_public.csv": "ca72318b79ec7ec8a008361a5cae080ff1ae1432baaf0e24e9ee88c2b73f556a",
+    "closed_loop_quality_probabilities_public.csv": "2d566cc2be40743ee76527106f93801d2f6f278b3a7eb72971789b1472e9f911",
+    "closed_loop_response_traces.npz": "8230ea4eaf6428ba987924de6cab7ecfbc72ea08859c8fc0e2541db0b35957c3",
+    "closed_loop_selection_log_public.csv": "7b89afe877c7185c4336c09685df71d806006a62012c3ef635892636cb26a44f",
+    "confirmation_attack_payload_public.csv": "3805ff0bade40b0ea2da332c317941bd87ccb77dfeb8ce30d6ef971e361a01a9",
+    "public_closed_loop_feedback_by_batch.png": "ffb9bf8cb2b4e920f56f612480c318f30efced0bbff154913678235880e42f6a",
+    "public_feedback_access_manifest.json": "e0efeddf811dca96907d60b55e612a4751cca22ca216cfe4fd911db185e04a4e"
+  },
+  "freeze_sha256": "aa21419a45ad2a52957744718b2fe023e87f71b11ded4602275c1f9a8806c5bb"
+}

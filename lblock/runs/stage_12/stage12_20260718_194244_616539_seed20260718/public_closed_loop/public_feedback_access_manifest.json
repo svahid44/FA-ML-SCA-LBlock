@@ -1,0 +1,8 @@
+{
+  "private_labels_accessed_during_closed_loop": false,
+  "private_key_truth_accessed_during_closed_loop": false,
+  "stage09_locked_attack_labels_accessed": false,
+  "stage10_attack_rows_accessed": false,
+  "stage11_test_rows_accessed": false,
+  "statement": "All policy updates used only public response observations and frozen Stage-10 probabilities."
+}

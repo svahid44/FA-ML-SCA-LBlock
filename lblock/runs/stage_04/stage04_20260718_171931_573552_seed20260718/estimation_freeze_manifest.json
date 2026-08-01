@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-07-18T17:19:59",
+  "statement": "The public Stage 04 timing map was frozen before private timing validation.",
+  "files": {
+    "sbox_timing_map.json": "f0878576228aca91e760cdc01a72119c9d60abd435d4a4d11deb0ebd87a0d2da",
+    "sbox_dependency_profiles.npz": "00928b30b80cc7359e983296e5430c4b9b4f688de05d519a59f09dcdb8c56b82",
+    "observable_label_audit.json": "8e6d659a68ecd8c84b44c2a88a66a5afe59bf4bcee64fa313795785b6ff49457",
+    "bootstrap_timing_stability.csv": "cfeda0d4f9dff7c0b24a32d006c93a52b1517338e895319e3cc83e14bf1d409a",
+    "data_access_manifest.json": "33281341241a82adf88e8c6947be2e87191ae5b536db838af40e11dc2aaefa06"
+  },
+  "freeze_sha256": "7036f5f9278600914be15ada186260813e5160ec1c05135de37b1405435e4073"
+}

@@ -1,0 +1,7 @@
+pipeline,selected_ciphertext_count,actual_clean_target_ineffective_count,actual_clean_precision,actual_clean_recall,uses_stage10_classifier,uses_stage11_optimizer
+random_raw,2684,183,0.06818181818181818,1.0,False,False
+random_threshold,163,85,0.5214723926380368,0.4644808743169399,True,False
+random_budget_aware,1074,153,0.1424581005586592,0.8360655737704918,True,False
+guided_raw,5234,2783,0.5317157050057317,1.0,False,True
+guided_threshold,5234,2783,0.5317157050057317,1.0,True,True
+guided_budget_aware,2094,1131,0.5401146131805158,0.40639597556593604,True,True

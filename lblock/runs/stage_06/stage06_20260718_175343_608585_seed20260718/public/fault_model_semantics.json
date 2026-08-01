@@ -1,0 +1,22 @@
+{
+  "primary_model": {
+    "name": "random_and_4",
+    "definition": "For every activated S-box input X, sample R uniformly from 0..15 and set X'=X AND R.",
+    "ineffective_probability": "2^{-HW(X)}",
+    "paper_role": "Primary biased model for SIFA, SEFA and SHFA experiments."
+  },
+  "control_models": {
+    "random_and_2": "Randomize two mask-bit positions; pass the other two positions through.",
+    "single_bit_flip": "Flip one uniformly selected input bit.",
+    "stuck_at_bit": "Force one uniformly selected input bit to zero or one.",
+    "random_nibble": "Replace the input nibble by a uniform random 4-bit value."
+  },
+  "event_classes": [
+    "missed",
+    "clean_target_ineffective",
+    "clean_target_effective",
+    "off_target",
+    "multi_hit",
+    "invalid_reset"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "stage": 9,
+  "name": "LBlock Stage 08 fault-quality ML dataset",
+  "row_count": 64000,
+  "target_sboxes": [
+    "S0",
+    "S5"
+  ],
+  "target_key_nibbles": [
+    "K32[0]",
+    "K32[5]"
+  ],
+  "target_bit_indices": [
+    0,
+    1,
+    2,
+    3,
+    20,
+    21,
+    22,
+    23
+  ],
+  "label_space": [
+    "missed",
+    "clean_target_ineffective",
+    "clean_target_effective",
+    "off_target",
+    "multi_hit",
+    "invalid_reset"
+  ],
+  "public_observations_only_in_X": true,
+  "known_limitations": [
+    "The campaign is simulated rather than measured on hardware.",
+    "Healthy source traces are reused across primary partitions.",
+    "A key-and-source-disjoint robustness subset is provided.",
+    "Observable ciphertext equality is a legitimate but strong shortcut.",
+    "Attack labels must remain unopened during model development."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "warning": "Validation only. Stage 03/04 must estimate these times from public traces and must not load this file.",
+  "global_trigger_sample": 96,
+  "nominal_final_round_start": 4064,
+  "nominal_final_round_sbox_centers": {
+    "S0": 4084,
+    "S1": 4093,
+    "S2": 4102,
+    "S3": 4111,
+    "S4": 4120,
+    "S5": 4129,
+    "S6": 4138,
+    "S7": 4147
+  }
+}

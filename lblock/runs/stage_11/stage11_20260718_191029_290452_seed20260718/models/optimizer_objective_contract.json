@@ -1,0 +1,43 @@
+{
+  "exploration_bonus": "robust utility + exploration_disagreement_weight * cross-family disagreement",
+  "exploration_disagreement_weight": 0.35,
+  "ground_truth_used": false,
+  "objectives": {
+    "SEFA": {
+      "base_probability": "p_clean_target_effective",
+      "robust_utility": "mean(p_e under parameter jitter) - risk_penalty * std(p_e)"
+    },
+    "SHFA": {
+      "base_probability": "harmonic mean of p_i/(81/256) and p_e/(175/256)",
+      "robust_utility": "mean(normalized harmonic utility) - risk_penalty * std"
+    },
+    "SIFA": {
+      "base_probability": "p_clean_target_ineffective",
+      "robust_utility": "mean(p_i under parameter jitter) - risk_penalty * std(p_i)"
+    }
+  },
+  "pre_injection_features": [
+    "target_is_s5",
+    "timing_offset_samples",
+    "absolute_timing_offset_samples",
+    "width_samples",
+    "strength",
+    "repeat",
+    "repeat_spacing_samples",
+    "pulse_span_samples",
+    "glitch_energy_proxy"
+  ],
+  "probability_classes": [
+    "missed",
+    "clean_target_ineffective",
+    "clean_target_effective",
+    "off_target",
+    "multi_hit",
+    "invalid_reset"
+  ],
+  "risk_penalty": 0.6,
+  "stage": 11,
+  "teacher": "Stage-10 calibrated six-class public probabilities",
+  "theoretical_effective_rate": 0.68359375,
+  "theoretical_ineffective_rate": 0.31640625
+}

@@ -1,0 +1,97 @@
+{
+  "forbidden_feature_tokens": [
+    "category",
+    "label",
+    "master_key",
+    "round_key",
+    "true_key",
+    "x31",
+    "x32",
+    "target_original",
+    "target_faulted",
+    "impacted_",
+    "actual_",
+    "hidden_",
+    "oracle_",
+    "ground_truth",
+    "design_regime",
+    "activation_probability",
+    "hit_score"
+  ],
+  "observable_full": {
+    "tabular_features": [
+      "target_is_s5",
+      "timing_offset_samples",
+      "absolute_timing_offset_samples",
+      "width_samples",
+      "strength",
+      "repeat",
+      "repeat_spacing_samples",
+      "pulse_span_samples",
+      "glitch_energy_proxy",
+      "response_received_numeric",
+      "ciphertext_equal_observed",
+      "ciphertext_equal_missing",
+      "ciphertext_hamming_distance_observed",
+      "ciphertext_hamming_distance_missing",
+      "trace_mean",
+      "trace_std",
+      "trace_peak_to_peak",
+      "trace_max_absolute",
+      "trace_high_frequency_energy",
+      "target_window_energy",
+      "pulse_window_energy",
+      "saturation_fraction",
+      "pulse_to_target_energy_ratio",
+      "high_frequency_to_variance_ratio",
+      "target_window_valid_fraction",
+      "pulse_window_valid_fraction"
+    ],
+    "trace_arrays": [
+      "full_trace_highpass",
+      "target_aligned_zscore",
+      "pulse_aligned_zscore"
+    ]
+  },
+  "parameter_only": [
+    "target_is_s5",
+    "timing_offset_samples",
+    "absolute_timing_offset_samples",
+    "width_samples",
+    "strength",
+    "repeat",
+    "repeat_spacing_samples",
+    "pulse_span_samples",
+    "glitch_energy_proxy",
+    "target_window_valid_fraction",
+    "pulse_window_valid_fraction"
+  ],
+  "parameter_trace": {
+    "parameter_features": [
+      "target_is_s5",
+      "timing_offset_samples",
+      "absolute_timing_offset_samples",
+      "width_samples",
+      "strength",
+      "repeat",
+      "repeat_spacing_samples",
+      "pulse_span_samples",
+      "glitch_energy_proxy",
+      "target_window_valid_fraction",
+      "pulse_window_valid_fraction"
+    ],
+    "trace_arrays": [
+      "full_trace_highpass",
+      "target_aligned_zscore",
+      "pulse_aligned_zscore"
+    ]
+  },
+  "trace_only": {
+    "arrays": [
+      "full_trace_highpass",
+      "target_aligned_zscore",
+      "pulse_aligned_zscore"
+    ],
+    "dimension": 246
+  }
+}

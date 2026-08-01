@@ -1,0 +1,11 @@
+{
+  "number_of_traces": 1024,
+  "number_of_samples": 4288,
+  "pretrigger_end_sample": 92,
+  "edge_baseline_samples": 64,
+  "highpass_window_samples": 51,
+  "amplitude_preserving_global_mean": 0.28920867824957436,
+  "amplitude_preserving_global_std": 0.6451482574689714,
+  "alignment_signal_global_mean": 0.018245486874003392,
+  "alignment_signal_global_std": 1.0152375708621633
+}

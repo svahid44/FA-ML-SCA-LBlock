@@ -1,0 +1,132 @@
+{
+  "chosen_sefa_top_fraction": 0.65,
+  "confirmation_partition_only": true,
+  "faulty_ciphertext_values_used_for_key_scoring": false,
+  "frozen_sifa_top_fraction": 0.4,
+  "pipelines": {
+    "sefa_guided_budget": {
+      "attack_type": "SEFA",
+      "budget_fraction": 0.65,
+      "campaign_arm": "guided_model",
+      "probability_column": "p_clean_target_effective",
+      "selector": "budget",
+      "threshold": 0.22999999999999998,
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "sefa_guided_raw": {
+      "attack_type": "SEFA",
+      "budget_fraction": 0.65,
+      "campaign_arm": "guided_model",
+      "probability_column": "p_clean_target_effective",
+      "selector": "raw",
+      "threshold": 0.22999999999999998,
+      "uses_stage10": false,
+      "uses_stage11": true
+    },
+    "sefa_guided_threshold": {
+      "attack_type": "SEFA",
+      "budget_fraction": 0.65,
+      "campaign_arm": "guided_model",
+      "probability_column": "p_clean_target_effective",
+      "selector": "threshold",
+      "threshold": 0.22999999999999998,
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "sefa_random_budget": {
+      "attack_type": "SEFA",
+      "budget_fraction": 0.65,
+      "campaign_arm": "random_uniform",
+      "probability_column": "p_clean_target_effective",
+      "selector": "budget",
+      "threshold": 0.22999999999999998,
+      "uses_stage10": true,
+      "uses_stage11": false
+    },
+    "sefa_random_raw": {
+      "attack_type": "SEFA",
+      "budget_fraction": 0.65,
+      "campaign_arm": "random_uniform",
+      "probability_column": "p_clean_target_effective",
+      "selector": "raw",
+      "threshold": 0.22999999999999998,
+      "uses_stage10": false,
+      "uses_stage11": false
+    },
+    "sefa_random_threshold": {
+      "attack_type": "SEFA",
+      "budget_fraction": 0.65,
+      "campaign_arm": "random_uniform",
+      "probability_column": "p_clean_target_effective",
+      "selector": "threshold",
+      "threshold": 0.22999999999999998,
+      "uses_stage10": true,
+      "uses_stage11": false
+    },
+    "sifa_guided_budget": {
+      "attack_type": "SIFA",
+      "budget_fraction": 0.4,
+      "campaign_arm": "guided_model",
+      "probability_column": "p_clean_target_ineffective",
+      "selector": "budget",
+      "threshold": 0.39499999999999996,
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "sifa_guided_raw": {
+      "attack_type": "SIFA",
+      "budget_fraction": 0.4,
+      "campaign_arm": "guided_model",
+      "probability_column": "p_clean_target_ineffective",
+      "selector": "raw",
+      "threshold": 0.39499999999999996,
+      "uses_stage10": false,
+      "uses_stage11": true
+    },
+    "sifa_guided_threshold": {
+      "attack_type": "SIFA",
+      "budget_fraction": 0.4,
+      "campaign_arm": "guided_model",
+      "probability_column": "p_clean_target_ineffective",
+      "selector": "threshold",
+      "threshold": 0.39499999999999996,
+      "uses_stage10": true,
+      "uses_stage11": true
+    },
+    "sifa_random_budget": {
+      "attack_type": "SIFA",
+      "budget_fraction": 0.4,
+      "campaign_arm": "random_uniform",
+      "probability_column": "p_clean_target_ineffective",
+      "selector": "budget",
+      "threshold": 0.39499999999999996,
+      "uses_stage10": true,
+      "uses_stage11": false
+    },
+    "sifa_random_raw": {
+      "attack_type": "SIFA",
+      "budget_fraction": 0.4,
+      "campaign_arm": "random_uniform",
+      "probability_column": "p_clean_target_ineffective",
+      "selector": "raw",
+      "threshold": 0.39499999999999996,
+      "uses_stage10": false,
+      "uses_stage11": false
+    },
+    "sifa_random_threshold": {
+      "attack_type": "SIFA",
+      "budget_fraction": 0.4,
+      "campaign_arm": "random_uniform",
+      "probability_column": "p_clean_target_ineffective",
+      "selector": "threshold",
+      "threshold": 0.39499999999999996,
+      "uses_stage10": true,
+      "uses_stage11": false
+    }
+  },
+  "primary_statistic": "SEI",
+  "probability_weighting_inside_sei": false,
+  "sefa_uses_correct_ciphertexts_from_effective_trials": true,
+  "truth_opened": false
+}

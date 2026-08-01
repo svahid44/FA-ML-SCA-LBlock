@@ -1,0 +1,17 @@
+{
+  "trace_shape": [
+    1024,
+    4288
+  ],
+  "trace_dtype": "float32",
+  "sampling_rate_hz": 100000000.0,
+  "sample_period_ns": 10.0,
+  "trace_duration_us": 42.88,
+  "global_trigger_sample": 96,
+  "global_mean": 0.1805259734392166,
+  "global_std": 0.6670936346054077,
+  "minimum_value": -8.376760482788086,
+  "maximum_value": 9.079129219055176,
+  "unique_plaintexts": 976,
+  "unique_ciphertexts": 1006
+}

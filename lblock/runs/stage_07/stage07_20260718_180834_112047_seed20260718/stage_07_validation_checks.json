@@ -1,0 +1,88 @@
+{
+  "all_checks_passed": true,
+  "theoretical": {
+    "all_theoretical_checks_passed": true,
+    "checks": {
+      "transition_rows_sum_to_one": {
+        "passed": true,
+        "maximum_error": 4.440892098500626e-16
+      },
+      "random_and_4_formula": {
+        "passed": true,
+        "maximum_error": 0.0
+      },
+      "random_and_4_mean_probability": {
+        "passed": true,
+        "observed": 0.31640625,
+        "expected": 0.31640625
+      },
+      "primary_nonzero_attack_capacities": {
+        "passed": true,
+        "sifa_kl_bits": 0.3268166637820419,
+        "sefa_kl_bits": 0.12554622886068184,
+        "shfa_kl_bits": 0.4523628926427241,
+        "mutual_information_bits": 0.18922945241001846
+      },
+      "constant_ineffective_probability_models_have_zero_information": {
+        "passed": true,
+        "maximum_information_bits": 0.0
+      },
+      "single_bit_flip_is_always_effective": {
+        "passed": true,
+        "mean_ineffective_probability": 0.0
+      }
+    }
+  },
+  "empirical": {
+    "all_empirical_checks_passed": true,
+    "checks": {
+      "S0_primary_pi_correlation": {
+        "passed": true,
+        "value": 0.9696548932740525,
+        "threshold": 0.85
+      },
+      "S0_primary_qi_tv": {
+        "passed": true,
+        "value": 0.09230289254356643,
+        "threshold": 0.17
+      },
+      "S0_primary_qe_tv": {
+        "passed": true,
+        "value": 0.06464285714285713,
+        "threshold": 0.12
+      },
+      "S0_primary_mean_rate": {
+        "passed": true,
+        "value": 0.003978840011614415,
+        "threshold": 0.05
+      },
+      "S5_primary_pi_correlation": {
+        "passed": true,
+        "value": 0.96066456796498,
+        "threshold": 0.85
+      },
+      "S5_primary_qi_tv": {
+        "passed": true,
+        "value": 0.1324806444862942,
+        "threshold": 0.17
+      },
+      "S5_primary_qe_tv": {
+        "passed": true,
+        "value": 0.0605703211517165,
+        "threshold": 0.12
+      },
+      "S5_primary_mean_rate": {
+        "passed": true,
+        "value": 0.006623641304347838,
+        "threshold": 0.05
+      },
+      "both_selected_targets_present": {
+        "passed": true,
+        "targets": [
+          "S0",
+          "S5"
+        ]
+      }
+    }
+  }
+}

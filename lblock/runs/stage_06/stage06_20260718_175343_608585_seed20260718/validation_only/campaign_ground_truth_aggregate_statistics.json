@@ -1,0 +1,99 @@
+{
+  "number_of_experiments": 12000,
+  "category_counts": {
+    "missed": 3860,
+    "clean_target_ineffective": 734,
+    "clean_target_effective": 1737,
+    "off_target": 2946,
+    "multi_hit": 1339,
+    "invalid_reset": 1384
+  },
+  "category_rates": {
+    "missed": 0.32166666666666666,
+    "clean_target_ineffective": 0.06116666666666667,
+    "clean_target_effective": 0.14475,
+    "off_target": 0.2455,
+    "multi_hit": 0.11158333333333334,
+    "invalid_reset": 0.11533333333333333
+  },
+  "fault_model_counts": {
+    "random_and_4": 7840,
+    "random_and_2": 1207,
+    "single_bit_flip": 1214,
+    "stuck_at_bit": 872,
+    "random_nibble": 867
+  },
+  "fault_model_rates": {
+    "random_and_4": 0.6533333333333333,
+    "random_and_2": 0.10058333333333333,
+    "single_bit_flip": 0.10116666666666667,
+    "stuck_at_bit": 0.07266666666666667,
+    "random_nibble": 0.07225
+  },
+  "target_category_counts": {
+    "S0": {
+      "missed": 2111,
+      "clean_target_ineffective": 407,
+      "clean_target_effective": 949,
+      "off_target": 1212,
+      "multi_hit": 627,
+      "invalid_reset": 694
+    },
+    "S5": {
+      "missed": 1749,
+      "clean_target_ineffective": 327,
+      "clean_target_effective": 788,
+      "off_target": 1734,
+      "multi_hit": 712,
+      "invalid_reset": 690
+    }
+  },
+  "model_category_counts": {
+    "random_and_4": {
+      "missed": 2533,
+      "clean_target_ineffective": 497,
+      "clean_target_effective": 1100,
+      "off_target": 1902,
+      "multi_hit": 878,
+      "invalid_reset": 930
+    },
+    "random_and_2": {
+      "missed": 410,
+      "clean_target_ineffective": 133,
+      "clean_target_effective": 119,
+      "off_target": 282,
+      "multi_hit": 138,
+      "invalid_reset": 125
+    },
+    "single_bit_flip": {
+      "missed": 370,
+      "clean_target_ineffective": 0,
+      "clean_target_effective": 263,
+      "off_target": 312,
+      "multi_hit": 139,
+      "invalid_reset": 130
+    },
+    "stuck_at_bit": {
+      "missed": 269,
+      "clean_target_ineffective": 87,
+      "clean_target_effective": 94,
+      "off_target": 233,
+      "multi_hit": 91,
+      "invalid_reset": 98
+    },
+    "random_nibble": {
+      "missed": 278,
+      "clean_target_ineffective": 17,
+      "clean_target_effective": 161,
+      "off_target": 217,
+      "multi_hit": 93,
+      "invalid_reset": 101
+    }
+  },
+  "mean_impacted_sbox_count": 0.7091666666666666,
+  "maximum_impacted_sbox_count": 6,
+  "mean_invalid_probability": 0.11543326281021679,
+  "primary_random_and_clean_target_count": 1597,
+  "primary_random_and_clean_target_ineffective_count": 497,
+  "primary_random_and_clean_target_ineffective_rate": 0.3112085159674389
+}

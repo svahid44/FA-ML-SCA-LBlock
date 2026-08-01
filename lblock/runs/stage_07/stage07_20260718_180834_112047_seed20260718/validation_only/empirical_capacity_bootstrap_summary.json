@@ -1,0 +1,360 @@
+{
+  "S0:random_and_4": {
+    "bootstrap_available": true,
+    "repetitions": 300,
+    "clean_count": 861,
+    "ineffective_count": 269,
+    "effective_count": 592,
+    "ineffective_rate": {
+      "mean": 0.3134417344173442,
+      "std": 0.015369427839607546,
+      "ci_low": 0.28339140534262486,
+      "ci_high": 0.34268292682926826
+    },
+    "sifa_kl_bits": {
+      "mean": 0.35320134226757155,
+      "std": 0.04734467332430074,
+      "ci_low": 0.266967846212853,
+      "ci_high": 0.4478037294426036
+    },
+    "sefa_kl_bits": {
+      "mean": 0.16409972736491213,
+      "std": 0.016971707532019178,
+      "ci_low": 0.13608208105349426,
+      "ci_high": 0.20189931122287957
+    },
+    "shfa_kl_bits": {
+      "mean": 0.5173010696324838,
+      "std": 0.052611030451089606,
+      "ci_low": 0.4262138200852195,
+      "ci_high": 0.6245622125496954
+    },
+    "mutual_information_bits": {
+      "mean": 0.1996914455506532,
+      "std": 0.0197436473919306,
+      "ci_low": 0.16400135608987482,
+      "ci_high": 0.2401606404150453
+    },
+    "pi_correlation": {
+      "mean": 0.9482015573391998,
+      "std": 0.017024144100967607,
+      "ci_low": 0.912240007517684,
+      "ci_high": 0.9758454836037903
+    }
+  },
+  "S0:random_and_2": {
+    "bootstrap_available": true,
+    "repetitions": 300,
+    "clean_count": 139,
+    "ineffective_count": 79,
+    "effective_count": 60,
+    "ineffective_rate": {
+      "mean": 0.5709592326139089,
+      "std": 0.03639317654944163,
+      "ci_low": 0.49640287769784175,
+      "ci_high": 0.6368705035971222
+    },
+    "sifa_kl_bits": {
+      "mean": 0.29919287333411654,
+      "std": 0.07550297116149329,
+      "ci_low": 0.16145077574165845,
+      "ci_high": 0.4541100862109054
+    },
+    "sefa_kl_bits": {
+      "mean": 0.3577526739581099,
+      "std": 0.08530986064753283,
+      "ci_low": 0.2166960384928258,
+      "ci_high": 0.5277366535554803
+    },
+    "shfa_kl_bits": {
+      "mean": 0.6569455472922265,
+      "std": 0.1139876107495236,
+      "ci_low": 0.4565046505294511,
+      "ci_high": 0.8648600384156498
+    },
+    "mutual_information_bits": {
+      "mean": 0.2118181670896539,
+      "std": 0.03899373279376101,
+      "ci_low": 0.14944356912520323,
+      "ci_high": 0.28900666892203203
+    },
+    "pi_correlation": {
+      "mean": 0.699433670391934,
+      "std": 0.08517025568153246,
+      "ci_low": 0.5343424791944347,
+      "ci_high": 0.8477769060341255
+    }
+  },
+  "S0:single_bit_flip": {
+    "bootstrap_available": false,
+    "reason": "Insufficient samples in one or both clean outcomes",
+    "clean_count": 162,
+    "ineffective_count": 0,
+    "effective_count": 162
+  },
+  "S0:stuck_at_bit": {
+    "bootstrap_available": true,
+    "repetitions": 300,
+    "clean_count": 103,
+    "ineffective_count": 51,
+    "effective_count": 52,
+    "ineffective_rate": {
+      "mean": 0.49734627831715217,
+      "std": 0.0427330067354234,
+      "ci_low": 0.4174757281553398,
+      "ci_high": 0.5728155339805825
+    },
+    "sifa_kl_bits": {
+      "mean": 0.25485897109987526,
+      "std": 0.07689751485469427,
+      "ci_low": 0.11952077212105022,
+      "ci_high": 0.41826371590289146
+    },
+    "sefa_kl_bits": {
+      "mean": 0.29690399557967034,
+      "std": 0.07149771641313442,
+      "ci_low": 0.16663514918895567,
+      "ci_high": 0.4609596899609351
+    },
+    "shfa_kl_bits": {
+      "mean": 0.5517629666795456,
+      "std": 0.09638246007585366,
+      "ci_low": 0.3796834518611657,
+      "ci_high": 0.7494374209277475
+    },
+    "mutual_information_bits": {
+      "mean": 0.11953156405014004,
+      "std": 0.03481360428611315,
+      "ci_low": 0.05802122008115033,
+      "ci_high": 0.19258048164455807
+    },
+    "pi_correlation": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    }
+  },
+  "S0:random_nibble": {
+    "bootstrap_available": true,
+    "repetitions": 300,
+    "clean_count": 91,
+    "ineffective_count": 8,
+    "effective_count": 83,
+    "ineffective_rate": {
+      "mean": 0.08904761904761906,
+      "std": 0.022699366924327346,
+      "ci_low": 0.04395604395604396,
+      "ci_high": 0.13186813186813187
+    },
+    "sifa_kl_bits": {
+      "mean": 0.35134625371901235,
+      "std": 0.07551100195410612,
+      "ci_low": 0.21396172458265192,
+      "ci_high": 0.5275252685287938
+    },
+    "sefa_kl_bits": {
+      "mean": 0.19620949430812737,
+      "std": 0.050162864007322235,
+      "ci_low": 0.11576370379541781,
+      "ci_high": 0.30248588024189327
+    },
+    "shfa_kl_bits": {
+      "mean": 0.5475557480271397,
+      "std": 0.09080133631222649,
+      "ci_low": 0.40288559427227805,
+      "ci_high": 0.767636327420292
+    },
+    "mutual_information_bits": {
+      "mean": 0.05950781744589861,
+      "std": 0.020290867485624954,
+      "ci_low": 0.02636257335965323,
+      "ci_high": 0.11021626584479327
+    },
+    "pi_correlation": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    }
+  },
+  "S5:random_and_4": {
+    "bootstrap_available": true,
+    "repetitions": 300,
+    "clean_count": 736,
+    "ineffective_count": 228,
+    "effective_count": 508,
+    "ineffective_rate": {
+      "mean": 0.3110461956521739,
+      "std": 0.016053153880838437,
+      "ci_low": 0.2805366847826087,
+      "ci_high": 0.3451086956521739
+    },
+    "sifa_kl_bits": {
+      "mean": 0.3811612420116642,
+      "std": 0.048818735222278024,
+      "ci_low": 0.2963019072238708,
+      "ci_high": 0.4802450396114968
+    },
+    "sefa_kl_bits": {
+      "mean": 0.16826581708588512,
+      "std": 0.018330768578445306,
+      "ci_low": 0.13612334129424286,
+      "ci_high": 0.20376775274973105
+    },
+    "shfa_kl_bits": {
+      "mean": 0.5494270590975492,
+      "std": 0.05328576042779126,
+      "ci_low": 0.4551775771247559,
+      "ci_high": 0.6630285243659478
+    },
+    "mutual_information_bits": {
+      "mean": 0.20756886875192546,
+      "std": 0.0209624308412625,
+      "ci_low": 0.17107169606371136,
+      "ci_high": 0.24946035207874714
+    },
+    "pi_correlation": {
+      "mean": 0.9397157614541581,
+      "std": 0.018583182307579958,
+      "ci_low": 0.8971417534221459,
+      "ci_high": 0.9708729772603157
+    }
+  },
+  "S5:random_and_2": {
+    "bootstrap_available": true,
+    "repetitions": 300,
+    "clean_count": 113,
+    "ineffective_count": 54,
+    "effective_count": 59,
+    "ineffective_rate": {
+      "mean": 0.4751032448377581,
+      "std": 0.03956499542380686,
+      "ci_low": 0.39823008849557523,
+      "ci_high": 0.5575221238938053
+    },
+    "sifa_kl_bits": {
+      "mean": 0.18335571542996468,
+      "std": 0.05801329536571057,
+      "ci_low": 0.08883027155731987,
+      "ci_high": 0.31245950511244625
+    },
+    "sefa_kl_bits": {
+      "mean": 0.33423356144890426,
+      "std": 0.053774202167488246,
+      "ci_low": 0.2485943279944785,
+      "ci_high": 0.4446345177770144
+    },
+    "shfa_kl_bits": {
+      "mean": 0.5175892768788689,
+      "std": 0.08014284791951339,
+      "ci_low": 0.37870789838073005,
+      "ci_high": 0.6993853743734773
+    },
+    "mutual_information_bits": {
+      "mean": 0.1534925939067536,
+      "std": 0.03541734136502356,
+      "ci_low": 0.09097251327708174,
+      "ci_high": 0.2289131584652673
+    },
+    "pi_correlation": {
+      "mean": 0.3038774322454903,
+      "std": 0.10684265014625932,
+      "ci_low": 0.09681362924224718,
+      "ci_high": 0.5010468912585079
+    }
+  },
+  "S5:single_bit_flip": {
+    "bootstrap_available": false,
+    "reason": "Insufficient samples in one or both clean outcomes",
+    "clean_count": 101,
+    "ineffective_count": 0,
+    "effective_count": 101
+  },
+  "S5:stuck_at_bit": {
+    "bootstrap_available": true,
+    "repetitions": 300,
+    "clean_count": 78,
+    "ineffective_count": 36,
+    "effective_count": 42,
+    "ineffective_rate": {
+      "mean": 0.4606410256410256,
+      "std": 0.04449521621806078,
+      "ci_low": 0.3717948717948718,
+      "ci_high": 0.5512820512820513
+    },
+    "sifa_kl_bits": {
+      "mean": 0.37351451563285654,
+      "std": 0.1009589226507816,
+      "ci_low": 0.21409455414711814,
+      "ci_high": 0.5890047352665183
+    },
+    "sefa_kl_bits": {
+      "mean": 0.3746218589385633,
+      "std": 0.07433008081767366,
+      "ci_low": 0.24544761380756824,
+      "ci_high": 0.5214187895518534
+    },
+    "shfa_kl_bits": {
+      "mean": 0.7481363745714198,
+      "std": 0.1276869716478027,
+      "ci_low": 0.530100593749818,
+      "ci_high": 1.0193151030062124
+    },
+    "mutual_information_bits": {
+      "mean": 0.12360995381343388,
+      "std": 0.03356981716269337,
+      "ci_low": 0.06685178427092883,
+      "ci_high": 0.20440509091747294
+    },
+    "pi_correlation": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    }
+  },
+  "S5:random_nibble": {
+    "bootstrap_available": true,
+    "repetitions": 300,
+    "clean_count": 87,
+    "ineffective_count": 9,
+    "effective_count": 78,
+    "ineffective_rate": {
+      "mean": 0.10547892720306513,
+      "std": 0.03079096104802546,
+      "ci_low": 0.04597701149425287,
+      "ci_high": 0.16091954022988506
+    },
+    "sifa_kl_bits": {
+      "mean": 0.5428133023678146,
+      "std": 0.13967986804643184,
+      "ci_low": 0.2844105621172609,
+      "ci_high": 0.7947980953023537
+    },
+    "sefa_kl_bits": {
+      "mean": 0.2148878183881239,
+      "std": 0.05739818865059594,
+      "ci_low": 0.12159980004764209,
+      "ci_high": 0.3444897489474898
+    },
+    "shfa_kl_bits": {
+      "mean": 0.7577011207559385,
+      "std": 0.15112268531274567,
+      "ci_low": 0.44662395022170487,
+      "ci_high": 1.0187767442325628
+    },
+    "mutual_information_bits": {
+      "mean": 0.10503569376263389,
+      "std": 0.03563803808757533,
+      "ci_low": 0.045869633184308624,
+      "ci_high": 0.1789923315294413
+    },
+    "pi_correlation": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    }
+  }
+}

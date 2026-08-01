@@ -1,0 +1,14 @@
+{
+  "stage": 1,
+  "run_id": "stage01_20260718_160320_087778_seed20260718",
+  "created_at": "2026-07-18T16:03:24",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "config": {
+    "random_roundtrip_tests": 2000,
+    "random_seed": 20260718,
+    "output_root": "runs/stage_01",
+    "save_full_trace_json": true
+  },
+  "config_sha256": "c4d91369ca8d33b35e08c9471021436ab716268216582b8eaf0c147408be4d6f"
+}

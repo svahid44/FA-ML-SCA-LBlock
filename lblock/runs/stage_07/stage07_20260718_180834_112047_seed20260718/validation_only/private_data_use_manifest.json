@@ -1,0 +1,20 @@
+{
+  "opened_after_theory_freeze": true,
+  "theory_freeze_sha256": "186a9e4517b090e348f41ff18023185bc73f8c6534586f17ffc606324d3b2e3c",
+  "files_opened": [
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_06\\stage06_20260718_175343_608585_seed20260718\\public\\fault_campaign_public.csv",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_06\\stage06_20260718_175343_608585_seed20260718\\private_ground_truth\\fault_ground_truth.csv"
+  ],
+  "private_fields_used": [
+    "category",
+    "target_original_input",
+    "target_faulted_input",
+    "impacted_sbox_count"
+  ],
+  "private_fields_not_exported_as_attack_features": [
+    "master_key_hex",
+    "round_key_32_hex",
+    "x31_hex",
+    "x32_hex"
+  ]
+}

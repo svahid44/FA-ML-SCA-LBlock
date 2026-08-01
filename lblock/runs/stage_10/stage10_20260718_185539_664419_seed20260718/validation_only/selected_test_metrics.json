@@ -1,0 +1,10 @@
+{
+  "accuracy": 0.71125,
+  "balanced_accuracy": 0.7408412111248713,
+  "expected_calibration_error": 0.022369268513170146,
+  "log_loss": 0.6603220046297942,
+  "macro_f1": 0.7288639720797173,
+  "multiclass_brier_score": 0.38680440688095863,
+  "number_of_rows": 8000,
+  "weighted_f1": 0.712913271937222
+}

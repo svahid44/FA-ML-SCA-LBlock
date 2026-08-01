@@ -1,0 +1,11 @@
+{
+  "p_j_i": "P(ineffective | X=j)",
+  "p_j_e": "P(effective | X=j) = 1 - p_j_i",
+  "q_j_i": "P(X=j | ineffective)",
+  "q_j_e": "P(X=j | effective)",
+  "q_h_xy": "q_e(x) * q_i(y)",
+  "sifa_capacity_metric": "D_KL(q_i || Uniform_16) in bits",
+  "sefa_capacity_metric": "D_KL(q_e || Uniform_16) in bits",
+  "shfa_capacity_metric": "D_KL(q_e tensor q_i || Uniform_256) in bits",
+  "channel_information_metric": "I(X; effective/ineffective) under uniform X"
+}

@@ -1,0 +1,62 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all_targets_and_objectives_present": {
+      "passed": true
+    },
+    "development_partitions_only": {
+      "partition_counts": {
+        "train": 32000,
+        "validation": 8000
+      },
+      "passed": true
+    },
+    "model_reload_check": {
+      "passed": true
+    },
+    "pre_injection_feature_leakage_audit": {
+      "feature_names": [
+        "target_is_s5",
+        "timing_offset_samples",
+        "absolute_timing_offset_samples",
+        "width_samples",
+        "strength",
+        "repeat",
+        "repeat_spacing_samples",
+        "pulse_span_samples",
+        "glitch_energy_proxy"
+      ],
+      "forbidden_token_violations": [],
+      "passed": true,
+      "primitive_parameter_features_missing": [],
+      "statement": "All optimizer inputs are selected or derived before fault injection. No response, ciphertext, trace, key, session, fault-model, or private-label field is present."
+    },
+    "public_only_data_access": {
+      "passed": true
+    },
+    "recommendation_counts": {
+      "exploit": 144,
+      "explore": 72,
+      "passed": true
+    },
+    "recommendations_are_finite": {
+      "passed": true
+    },
+    "selected_surrogate_branch_rank_quality": {
+      "minimum": 0.2,
+      "observed": 0.558672924877702,
+      "passed": true
+    },
+    "selected_surrogate_top_decile_uplift": {
+      "minimum": 1.08,
+      "observed": 1.960026625324478,
+      "passed": true
+    },
+    "stage_09_public_freeze_verified": {
+      "passed": true
+    },
+    "stage_10_model_freeze_verified": {
+      "passed": true
+    }
+  }
+}

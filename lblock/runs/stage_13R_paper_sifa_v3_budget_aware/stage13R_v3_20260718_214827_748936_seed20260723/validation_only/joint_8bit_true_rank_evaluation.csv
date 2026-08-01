@@ -1,0 +1,13 @@
+pipeline,key_id,true_joint_guess_hex,predicted_joint_guess_hex,true_joint_rank,true_is_unique_rank1
+guided_budget_aware,0,68,68,1,True
+guided_budget_aware,1,8e,8e,1,True
+guided_raw,0,68,68,1,True
+guided_raw,1,8e,8e,1,True
+guided_threshold,0,68,68,1,True
+guided_threshold,1,8e,8e,1,True
+random_budget_aware,0,68,56,42,False
+random_budget_aware,1,8e,95,27,False
+random_raw,0,68,30,125,False
+random_raw,1,8e,a2,150,False
+random_threshold,0,68,76,63,False
+random_threshold,1,8e,9d,35,False

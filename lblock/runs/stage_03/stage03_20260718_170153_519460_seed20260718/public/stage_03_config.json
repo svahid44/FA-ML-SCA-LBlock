@@ -1,0 +1,22 @@
+{
+  "input_stage2_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718",
+  "output_root": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03",
+  "random_seed": 20260718,
+  "number_of_rounds": 32,
+  "highpass_window_samples": 51,
+  "edge_baseline_samples": 64,
+  "global_alignment_iterations": 2,
+  "maximum_global_shift_samples": 12,
+  "number_of_local_anchors": 10,
+  "local_anchor_window_samples": 288,
+  "maximum_local_shift_samples": 8,
+  "minimum_anchor_correlation": 0.05,
+  "period_search_lower_factor": 0.65,
+  "period_search_upper_factor": 1.35,
+  "round_start_search_radius_samples": 18,
+  "final_round_refinement_radius_samples": 10,
+  "final_round_guard_samples": 10,
+  "save_aligned_full_traces": true,
+  "save_plots": true,
+  "enable_private_evaluation": true
+}

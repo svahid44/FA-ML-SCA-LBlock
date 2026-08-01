@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-07-18T17:54:27",
+  "statement": "Public Stage 06 observations, configured parameters, response traces and analytical fault-model semantics were frozen before private ground-truth artifacts and label-dependent validation outputs were written.",
+  "files": {
+    "fault_campaign_public.csv": "94e0235b22c70ade341eb2fb9242a34ec6d84974b69104418058c9266800678d",
+    "fault_model_semantics.json": "fee56602f79e958195f04e10ffdfcd52e825cd77cebfbcda2bcec7ddedc299f5",
+    "fault_response_traces.npz": "8cf0e4fe01e35522a89e22a617cfe8e321c83ce31a5ff0e02f69dd5c1d6b696e",
+    "glitch_parameter_coverage.png": "808234584f165f1fda96c7318a99cb76252340fdab079c24533ee3f7b88df86d",
+    "random_and_4_analytical_validation.json": "f457ff65bf0ab9ba6f8d496d8440d3f758c806901529f58c07f2b8fe4cb721f2",
+    "random_and_4_bias_summary.csv": "e5ab674835788482ff955064e655a6ea7e7a18d22c17987548620c0533fa9a81",
+    "random_and_4_ineffective_bias.png": "2fda4da8b821d29b075f53007f89efe22547d53581889269f2d580463bb12904",
+    "random_and_4_transition_matrix.csv": "b912dbc0298d1330c99c97c158ca9f35b40a28e97e7bdde344cdd9fa27486600",
+    "stage_06_config.json": "986dc31e890726a7f6d4c76e78f52e58ebe0bbd7d184c1c36743a73930a636b5",
+    "trace_feature_definitions.json": "9fbb1f07a837b7593121f6f513d6dfdf968fe8669799b1f4f126e83bbceb6e0f"
+  },
+  "freeze_sha256": "c045b19e160b92b826319657a4108b370964c542cd70f5372f31d98b496dd57b"
+}

@@ -1,0 +1,85 @@
+{
+  "stage": 5,
+  "run_id": "stage05_20260718_173302_092919_seed20260718",
+  "created_at": "2026-07-18T17:33:21",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "config": {
+    "input_stage4_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718",
+    "output_root": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_05",
+    "random_seed": 20260718,
+    "number_of_sboxes": 8,
+    "number_of_classes": 16,
+    "minimum_class_count": 2,
+    "smoothing_radius_samples": 2,
+    "specificity_weight": 0.35,
+    "local_first_center_radius_samples": 7,
+    "local_spacing_radius_samples": 3,
+    "subset_sizes": [
+      128,
+      256,
+      512,
+      768
+    ],
+    "subset_repetitions": 20,
+    "stress_repetitions": 8,
+    "stress_scenarios": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.25
+      ],
+      [
+        0.0,
+        0.5
+      ],
+      [
+        1.0,
+        0.25
+      ],
+      [
+        1.5,
+        0.5
+      ]
+    ],
+    "safe_response_fraction": 0.6,
+    "minimum_isolation_margin": 0.0,
+    "weight_signal": 0.15,
+    "weight_prominence": 0.15,
+    "weight_isolation": 0.18,
+    "weight_safe_width": 0.1,
+    "weight_subset": 0.16,
+    "weight_stress": 0.14,
+    "weight_group": 0.07,
+    "weight_bootstrap": 0.03,
+    "weight_peak": 0.02,
+    "pair_weight_mean": 0.6,
+    "pair_weight_worst": 0.2,
+    "pair_weight_separation": 0.15,
+    "pair_weight_nonoverlap": 0.05,
+    "save_plots": true,
+    "enable_private_evaluation": true
+  },
+  "input_file_sha256": {
+    "stage_04_summary.json": "f08b9eadb7c945a5c11b1e9f88356eb37147d54be0dfb6314cb36fe474deee34",
+    "lblock_final_round_timing_map.json": "f0878576228aca91e760cdc01a72119c9d60abd435d4a4d11deb0ebd87a0d2da",
+    "sbox_dependency_profiles.npz": "00928b30b80cc7359e983296e5430c4b9b4f688de05d519a59f09dcdb8c56b82",
+    "final_round_roi_traces.npz": "7b52555d37918b3dde915038c4d8efa4534d5331fcf9f0b989ba538aa1453952",
+    "aligned_trace_metadata.csv": "26255b184a8b22782dfc86aa22fcc54bc16a4cdb18a12306c8a1d1fdf09ccc3c"
+  }
+}

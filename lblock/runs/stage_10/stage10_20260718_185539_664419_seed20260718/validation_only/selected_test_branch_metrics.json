@@ -1,0 +1,24 @@
+{
+  "clean_target_effective": {
+    "average_precision": 0.9068519095571199,
+    "f1": 0.8793610760823876,
+    "positive_class": "clean_target_effective",
+    "precision": 0.8149590962212699,
+    "prevalence": 0.273875,
+    "recall": 0.9548151528982199,
+    "roc_auc": 0.9746946753723172,
+    "support": 2191,
+    "threshold": 0.22999999999999998
+  },
+  "clean_target_ineffective": {
+    "average_precision": 0.555887501116247,
+    "f1": 0.6204756980351603,
+    "positive_class": "clean_target_ineffective",
+    "precision": 0.4888647474198805,
+    "prevalence": 0.1325,
+    "recall": 0.8490566037735849,
+    "roc_auc": 0.9264428252949813,
+    "support": 1060,
+    "threshold": 0.39499999999999996
+  }
+}

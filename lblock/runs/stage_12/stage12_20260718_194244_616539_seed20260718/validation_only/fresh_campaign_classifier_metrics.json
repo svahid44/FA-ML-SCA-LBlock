@@ -1,0 +1,112 @@
+{
+  "number_of_rows": 24000,
+  "accuracy": 0.7395,
+  "balanced_accuracy": 0.6698934113674871,
+  "macro_f1": 0.667387921832247,
+  "weighted_f1": 0.7043090626480577,
+  "log_loss": 0.6303908993542598,
+  "multiclass_brier_score": 0.37186259141363914,
+  "expected_calibration_error": 0.04822872249278688,
+  "per_class": {
+    "missed": {
+      "precision": 0.7176204819277109,
+      "recall": 0.2050344234079174,
+      "f1": 0.31894243641231595,
+      "support": 4648
+    },
+    "clean_target_ineffective": {
+      "precision": 0.5451950523311132,
+      "recall": 0.9681098204857445,
+      "f1": 0.6975576352430952,
+      "support": 4735
+    },
+    "clean_target_effective": {
+      "precision": 0.8848760477973961,
+      "recall": 0.9631175385809958,
+      "f1": 0.922340474973277,
+      "support": 10303
+    },
+    "off_target": {
+      "precision": 0.7016216216216217,
+      "recall": 0.4872372372372372,
+      "f1": 0.5750996898537882,
+      "support": 1332
+    },
+    "multi_hit": {
+      "precision": 0.6442166910688141,
+      "recall": 0.39586144849302746,
+      "f1": 0.4903872945110059,
+      "support": 2223
+    },
+    "invalid_reset": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 759
+    }
+  },
+  "confusion_matrix": [
+    [
+      953,
+      3571,
+      0,
+      119,
+      5,
+      0
+    ],
+    [
+      137,
+      4584,
+      0,
+      6,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9923,
+      46,
+      334,
+      0
+    ],
+    [
+      224,
+      108,
+      212,
+      649,
+      139,
+      0
+    ],
+    [
+      14,
+      145,
+      1079,
+      105,
+      880,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      759
+    ]
+  ],
+  "branch_metrics": {
+    "clean_target_ineffective": {
+      "support": 4735,
+      "prevalence": 0.19729166666666667,
+      "average_precision": 0.5896622784523918,
+      "roc_auc": 0.9083806663631872
+    },
+    "clean_target_effective": {
+      "support": 10303,
+      "prevalence": 0.4292916666666667,
+      "average_precision": 0.9214918323966595,
+      "roc_auc": 0.963675148370512
+    }
+  }
+}

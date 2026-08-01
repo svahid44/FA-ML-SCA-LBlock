@@ -1,0 +1,15 @@
+{
+  "estimation_mode": "public-only",
+  "files_opened_before_freeze": [
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718\\stage_04_summary.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718\\public\\lblock_final_round_timing_map.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718\\public\\sbox_dependency_profiles.npz",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718\\public\\final_round_roi_traces.npz",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718\\public\\aligned_trace_metadata.csv"
+  ],
+  "private_files_opened_before_freeze": [],
+  "master_key_used": false,
+  "round_key_used": false,
+  "internal_state_used": false,
+  "hidden_timing_used": false
+}

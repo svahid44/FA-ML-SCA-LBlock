@@ -1,0 +1,17 @@
+{
+  "chosen_top_fraction": 0.65,
+  "confirmation_partition_accessed_during_policy_selection": false,
+  "policy_row": {
+    "all_tasks_meet_minimum_count": true,
+    "mean_loso_consensus": 0.6875,
+    "mean_selected_ciphertext_count": 555.25,
+    "median_relative_margin": 0.13686923263079984,
+    "robust_task_count": 3,
+    "top_fraction": 0.65,
+    "unique_task_count": 4
+  },
+  "selection_arm": "random_uniform",
+  "selection_partition": "calibration",
+  "selection_uses_key_truth": false,
+  "selection_uses_private_fault_labels": false
+}

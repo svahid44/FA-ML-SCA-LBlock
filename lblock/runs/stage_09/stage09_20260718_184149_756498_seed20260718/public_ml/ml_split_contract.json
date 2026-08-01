@@ -1,0 +1,58 @@
+{
+  "stage": 9,
+  "split_unit": "key_id",
+  "partition_order": [
+    "train",
+    "validation",
+    "test",
+    "attack"
+  ],
+  "partition_counts": {
+    "train": 32000,
+    "validation": 8000,
+    "test": 8000,
+    "attack": 16000
+  },
+  "partition_key_ids": {
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "validation": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "test": [
+      20,
+      21
+    ],
+    "attack": [
+      22,
+      23
+    ]
+  },
+  "allowed_uses": {
+    "train": "fit preprocessing and model parameters",
+    "validation": "select hyperparameters and thresholds",
+    "test": "one-time held-out model evaluation",
+    "attack": "apply frozen model and perform final cryptanalysis"
+  },
+  "attack_labels_locked": true,
+  "strict_source_disjoint_subset_available": true
+}

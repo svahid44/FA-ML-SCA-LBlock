@@ -1,0 +1,5 @@
+campaign_partition,key_id,target_sbox,target_sbox_index,primary_model_attempt_count,clean_target_count,clean_ineffective_count,clean_effective_count,observed_ineffective_rate_given_clean,minimum_original_input_count,maximum_original_input_count,original_input_imbalance_ratio,input_0_count,input_1_count,input_2_count,input_3_count,input_4_count,input_5_count,input_6_count,input_7_count,input_8_count,input_9_count,input_a_count,input_b_count,input_c_count,input_d_count,input_e_count,input_f_count
+attack,22,S0,0,3251,1318,399,919,0.30273141122913505,187,228,1.2192513368983957,191,199,203,224,203,203,197,213,217,228,192,208,187,207,188,191
+attack,22,S5,5,3149,1249,380,869,0.3042433947157726,173,217,1.254335260115607,191,207,190,199,173,189,191,205,188,207,179,217,198,201,201,213
+attack,23,S0,0,3213,1345,416,929,0.3092936802973978,185,221,1.1945945945945946,200,213,198,203,197,221,203,202,219,196,187,198,202,202,187,185
+attack,23,S5,5,3187,1241,408,833,0.3287671232876712,177,233,1.3163841807909604,177,195,198,206,179,197,233,182,193,189,212,204,205,209,190,218

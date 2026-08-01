@@ -1,0 +1,10 @@
+{
+  "trace_mean": "Mean of the observable ROI response trace.",
+  "trace_std": "Standard deviation of the observable ROI response trace.",
+  "trace_peak_to_peak": "Maximum minus minimum trace amplitude.",
+  "trace_max_absolute": "Maximum absolute trace amplitude.",
+  "trace_high_frequency_energy": "Mean squared first difference.",
+  "target_window_energy": "Mean squared amplitude within +/-5 samples of the public target center.",
+  "pulse_window_energy": "Mean squared amplitude within +/-4 samples of configured pulse centers.",
+  "saturation_fraction": "Fraction of ROI samples with absolute amplitude above four standardized units."
+}

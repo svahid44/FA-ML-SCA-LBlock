@@ -1,0 +1,24 @@
+{
+  "all_passed": true,
+  "official_vectors": [
+    {
+      "plaintext_hex": "0000000000000000",
+      "key_hex": "00000000000000000000",
+      "ciphertext_hex": "c218185308e75bcd",
+      "obtained_ciphertext_hex": "c218185308e75bcd",
+      "encryption_passed": true,
+      "decryption_passed": true
+    },
+    {
+      "plaintext_hex": "0123456789abcdef",
+      "key_hex": "0123456789abcdeffedc",
+      "ciphertext_hex": "4b7179d8ebee0c26",
+      "obtained_ciphertext_hex": "4b7179d8ebee0c26",
+      "encryption_passed": true,
+      "decryption_passed": true
+    }
+  ],
+  "random_roundtrip_tests": 256,
+  "random_roundtrip_passed": 256,
+  "final_round_reconstruction_passed": 256
+}

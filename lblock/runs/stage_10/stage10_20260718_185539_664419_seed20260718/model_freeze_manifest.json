@@ -1,0 +1,16 @@
+{
+  "attack_labels_accessed": false,
+  "created_at": "2026-07-18T18:57:10",
+  "files": {
+    "models\\attack_label_access_manifest.json": "870afd6beb936914336ff3bfc4efb8106a1dfa12ec28c1c21c11831dc5dd0c9c",
+    "models\\branch_threshold_contract.json": "36a0817b90e9ec853579b33818c9bddc472721658760eea6a6d6338ef8ca1c3e",
+    "models\\fault_quality_deployment_model.joblib": "378259d952ef6e0d77f6fbe78592ed246ab0bc9d8dc7134a27dc6814a5c60361",
+    "models\\feature_view_contract.json": "2717ef7c92046b01fae6ac6053f8b0b9e1f1a7af5af9c1ed384c3d26c6134d61",
+    "models\\selected_model_card.json": "ea124239b0571dd5e65a7b3ed39c65dc3999cad6f1795f729856e6a82b49d55b",
+    "models\\selected_test_evaluation_model.joblib": "5971d6259f5212a3bba988b6cccf8a84d5445649acf233e276c2c49773a7ec17",
+    "predictions\\attack_quality_probabilities_public.csv": "bf6ee15227663810fb0a5971f947d4437d6bcaa1903a2246ab0d2b82f70531be",
+    "predictions\\development_quality_probabilities_public.csv": "c71edeab0cd49555576b696cab034791878b1a19d31eedc68e41e729a7d50b02"
+  },
+  "freeze_sha256": "f5b26f90c8b25ea066e9710aa3c4d2c362cf590ed3d95f68125194793b91eb5a",
+  "statement": "The selected and deployment models, thresholds, and public probability outputs were frozen without reading Stage-09 locked attack labels."
+}

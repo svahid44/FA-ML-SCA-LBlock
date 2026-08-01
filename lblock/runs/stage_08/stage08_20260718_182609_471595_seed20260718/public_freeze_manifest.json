@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-07-18T18:29:44",
+  "statement": "Stage 08 public campaign and partitions were frozen before private labels, internal states, and key values were written.",
+  "files": {
+    "campaign_design_policy.json": "d48d4018c02b4a938e34996a405ea414da546a62648b39e66053a6c5733f356a",
+    "campaign_partition_manifest.json": "8b5caf2571e82ff3cbe84f930d109a8a4bdd6c2c3841c0c58be3e90ce76597a0",
+    "campaign_partition_sizes.png": "579f96fbb98871a8c1c5b40c0aecb527c607e4dc7ea5d058270aafc80e6fc320",
+    "fault_model_allocation.png": "7f3d0b0fe60af5fd4230c76e05956fda086f70965a595a3f9eee2f460c05544a",
+    "large_campaign_parameter_coverage.png": "e654f7568076fc8deedc67906d91bba9ecc889cb486d62a4a8e8eb8e03a53dd7",
+    "large_fault_campaign_public.csv": "3e6e176bb57a8fb8f143e4855c5e75c5ae3784375cfe62a4b6d2d8cad9abdcd6",
+    "large_fault_response_traces.npz": "b7b6ab0a949a69b11579f67af83006630ba626a1c813874026c473207bfc0d2b",
+    "public_data_access_manifest.json": "09768fea2056da769ce736b724c3091763d1016599a98fd6a7dd854d7810f596",
+    "stage_08_config.json": "9a7ec854709706913ab52ee34467a526b5ad4a1fe1a67bc3df74cbec8fb8eaf1",
+    "trace_feature_definitions.json": "eaef9fb2f9617c3c4643a19cd97672d3a6ed13c10cf174facc3540f3f16b4cee"
+  },
+  "freeze_sha256": "3d6126be7d56e817a323cc98758a7789763cf31f3b2fae174c17a5207fee1272"
+}

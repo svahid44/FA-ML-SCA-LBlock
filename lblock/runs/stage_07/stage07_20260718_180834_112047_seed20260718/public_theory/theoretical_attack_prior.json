@@ -1,0 +1,19 @@
+{
+  "stage": 7,
+  "primary_fault_model": "random_and_4",
+  "model_definition": "X' = X AND R, R uniform on 0..15",
+  "ground_truth_used": false,
+  "analytical_mean_ineffective_probability": 0.31640625,
+  "sifa_kl_capacity_bits": 0.3268166637820419,
+  "sefa_kl_capacity_bits": 0.12554622886068184,
+  "shfa_joint_kl_capacity_bits": 0.4523628926427241,
+  "uniform_input_mutual_information_bits": 0.18922945241001846,
+  "recommended_stage_08_policy": {
+    "primary_model_fraction": 0.8,
+    "control_model_fraction": 0.2,
+    "retain_both_selected_targets": true,
+    "retain_broad_offset_width_strength_exploration": true,
+    "do_not_use_private_oracle_parameter_cells_as_attack_features": true,
+    "reason": "Random-AND-4 provides non-zero theoretical bias for both ineffective and effective outcomes, while SHFA combines both."
+  }
+}

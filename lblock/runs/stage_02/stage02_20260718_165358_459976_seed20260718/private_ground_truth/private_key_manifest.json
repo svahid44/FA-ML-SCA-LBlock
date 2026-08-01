@@ -1,0 +1,25 @@
+{
+  "warning": "Validation/profiling only. Do not use actual key values as attack features.",
+  "keys": [
+    {
+      "key_id": 0,
+      "master_key_hex": "00000000000000000000",
+      "round_key_32_hex": "3c32b375"
+    },
+    {
+      "key_id": 1,
+      "master_key_hex": "0123456789abcdeffedc",
+      "round_key_32_hex": "f5d55639"
+    },
+    {
+      "key_id": 2,
+      "master_key_hex": "ed16d91e985fc76339ca",
+      "round_key_32_hex": "f38fe6fa"
+    },
+    {
+      "key_id": 3,
+      "master_key_hex": "e00795362e98744aeb3a",
+      "round_key_32_hex": "ffea1279"
+    }
+  ]
+}

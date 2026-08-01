@@ -1,0 +1,29 @@
+{
+  "calibration_confirmation_split": {
+    "calibration_attempts_per_task_arm": 2000,
+    "confirmation_attempts_per_task_arm": 8000,
+    "final_key_recovery_source": "disjoint confirmation partition only",
+    "policy_source": "random arm calibration partition only"
+  },
+  "faulty_ciphertext_use": "event classification only; never parsed by key scorer",
+  "guided_parameter_source": "Stage-11 rank-1 SEFA exploit recommendation",
+  "lblock_partial_decryption": "X31_hat_t(k)=nibble_j(X33) XOR S_s(nibble_s(X32) XOR k)",
+  "paired_design": "same key/plaintext/target/session/source trace for guided and random pair",
+  "physical_fault_target": "X31 state nibble after X32 is formed and before ROL8(X31) is XORed into X33",
+  "primary_attack": "SEFA",
+  "primary_statistic": "unweighted SEI",
+  "private_truth_available_before_public_freeze": false,
+  "probability_weighting_inside_sei": "forbidden",
+  "random_parameter_source": "uniform sampling from identical Stage-11 support bounds",
+  "secondary_same_campaign_comparison": "SIFA",
+  "sefa_key_recovery_data": "correct/non-faulty ciphertext C from effective trials",
+  "sefa_observation_rule": "response_received and C_prime != C",
+  "sei_equation": "sum_x (p_hat_k(x)-1/16)^2; highest score wins",
+  "sifa_observation_rule": "response_received and C_prime == C",
+  "stage10_effective_role": "hard threshold or session-balanced top-fraction selection only",
+  "stage10_ineffective_role": "same SIFA ablation with previously frozen 0.40 top fraction",
+  "target_mapping": {
+    "S0": "fault X31[0], recover K32[0]",
+    "S5": "fault X31[2], recover K32[5]"
+  }
+}

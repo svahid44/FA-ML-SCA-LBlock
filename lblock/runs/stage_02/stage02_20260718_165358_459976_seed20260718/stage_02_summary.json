@@ -1,0 +1,38 @@
+{
+  "stage": 2,
+  "run_id": "stage02_20260718_165358_459976_seed20260718",
+  "run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718",
+  "public_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718\\public",
+  "private_ground_truth_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_02\\stage02_20260718_165358_459976_seed20260718\\private_ground_truth",
+  "all_checks_passed": true,
+  "number_of_traces": 1024,
+  "number_of_samples_per_trace": 4288,
+  "number_of_keys": 4,
+  "number_of_sessions": 4,
+  "sampling_rate_hz": 100000000.0,
+  "global_trigger_sample": 96,
+  "public_metadata_leakage_audit_passed": true,
+  "event_order_passed": true,
+  "event_bounds_passed": true,
+  "ciphertext_validation_passed": true,
+  "deterministic_generation_passed": true,
+  "final_round_sbox_signal_check_passed": true,
+  "minimum_final_round_oracle_correlation": 0.5573889696363226,
+  "elapsed_seconds": 15.987941100029275,
+  "public_files": [
+    "example_healthy_trace.png",
+    "healthy_trace_metadata.csv",
+    "healthy_traces.npz",
+    "mean_healthy_trace.png",
+    "trace_simulation_config.json",
+    "trace_statistics.json"
+  ],
+  "private_files": [
+    "final_round_hidden_timing_validation.png",
+    "hidden_nominal_timing_map.json",
+    "hidden_timing_and_crypto_ground_truth.npz",
+    "hidden_timing_statistics.json",
+    "private_key_manifest.json",
+    "session_profiles.json"
+  ]
+}

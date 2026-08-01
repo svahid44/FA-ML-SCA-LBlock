@@ -1,0 +1,12 @@
+{
+  "stage": 2,
+  "run_id": "stage02_20260718_165358_459976_seed20260718",
+  "created_at_local": "2026-07-18T16:54:14",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "numpy_version": "1.26.4",
+  "matplotlib_version": "3.8.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "config_sha256": "315dd9aec5825cbc2d988a11773508298bb1719a786db418bb119084ff8eca9d",
+  "random_seed": 20260718,
+  "stage_01_module_path": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_01\\stage01_20260718_160320_087778_seed20260718\\stage_01_lblock_reference.py"
+}

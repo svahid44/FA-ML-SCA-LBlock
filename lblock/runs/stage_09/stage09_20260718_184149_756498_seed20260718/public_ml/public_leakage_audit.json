@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "primary_feature_names": [
+    "target_is_s5",
+    "timing_offset_samples",
+    "absolute_timing_offset_samples",
+    "width_samples",
+    "strength",
+    "repeat",
+    "repeat_spacing_samples",
+    "pulse_span_samples",
+    "glitch_energy_proxy",
+    "response_received_numeric",
+    "ciphertext_equal_observed",
+    "ciphertext_equal_missing",
+    "ciphertext_hamming_distance_observed",
+    "ciphertext_hamming_distance_missing",
+    "trace_mean",
+    "trace_std",
+    "trace_peak_to_peak",
+    "trace_max_absolute",
+    "trace_high_frequency_energy",
+    "target_window_energy",
+    "pulse_window_energy",
+    "saturation_fraction",
+    "pulse_to_target_energy_ratio",
+    "high_frequency_to_variance_ratio",
+    "target_window_valid_fraction",
+    "pulse_window_valid_fraction"
+  ],
+  "forbidden_exact_features_present": [],
+  "forbidden_prefix_features_present": [],
+  "group_only_columns_selected_as_features": [],
+  "attack_payload_columns_selected_as_features": [],
+  "stratification_only_columns_selected_as_features": [],
+  "key_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 0,
+    "train__attack": 0,
+    "validation__test": 0,
+    "validation__attack": 0,
+    "test__attack": 0
+  },
+  "plaintext_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 0,
+    "train__attack": 0,
+    "validation__test": 0,
+    "validation__attack": 0,
+    "test__attack": 0
+  },
+  "healthy_ciphertext_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 0,
+    "train__attack": 0,
+    "validation__test": 0,
+    "validation__attack": 0,
+    "test__attack": 0
+  },
+  "healthy_source_trace_overlap_counts": {
+    "train__validation": 1023,
+    "train__test": 1023,
+    "train__attack": 1024,
+    "validation__test": 1022,
+    "validation__attack": 1023,
+    "test__attack": 1023
+  },
+  "source_overlap_interpretation": "Stage 08 intentionally reuses the finite healthy ROI source pool. source_healthy_trace_id is excluded from X, traces are normalized, and a stricter source-disjoint robustness subset is exported.",
+  "primary_tabular_duplicate_audit": {
+    "cross_partition_duplicate_hash_count": 0,
+    "rows_in_cross_partition_duplicate_groups": 0,
+    "row_fraction": 0.0
+  },
+  "processed_trace_duplicate_audit": {
+    "cross_partition_duplicate_hash_count": 0,
+    "rows_in_cross_partition_duplicate_groups": 0,
+    "row_fraction": 0.0
+  },
+  "strict_source_disjoint_subset": {
+    "passed": true,
+    "unique_source_trace_count": 1024,
+    "included_row_count": 22046,
+    "included_fraction": 0.34446875,
+    "included_rows_by_partition": {
+      "train": 16000,
+      "validation": 1041,
+      "test": 982,
+      "attack": 4023
+    },
+    "minimum_rows_by_partition": {
+      "train": 1000,
+      "validation": 100,
+      "test": 100,
+      "attack": 250
+    },
+    "cross_partition_source_overlap_counts": {
+      "train__validation": 0,
+      "train__test": 0,
+      "train__attack": 0,
+      "validation__test": 0,
+      "validation__attack": 0,
+      "test__attack": 0
+    },
+    "statement": "This robustness subset is simultaneously key-disjoint and healthy-source-trace-disjoint. It is intended for secondary evaluation, not for replacing the primary Stage 08 partitions."
+  },
+  "all_primary_features_finite": true,
+  "all_processed_traces_finite": true
+}

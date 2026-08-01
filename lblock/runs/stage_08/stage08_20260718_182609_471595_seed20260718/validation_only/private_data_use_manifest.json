@@ -1,0 +1,20 @@
+{
+  "private_data_used_only_after_public_freeze": true,
+  "public_freeze_sha256": "3d6126be7d56e817a323cc98758a7789763cf31f3b2fae174c17a5207fee1272",
+  "uses": [
+    "event-class validation",
+    "attack-partition clean-sample readiness",
+    "input-balance checks",
+    "final key-recovery truth for later stages"
+  ],
+  "private_data_not_permitted_as_ml_features": [
+    "master_key_hex",
+    "round_key_32_hex",
+    "x31_hex",
+    "x32_hex",
+    "target_original_input",
+    "target_faulted_input",
+    "impacted_sboxes",
+    "category"
+  ]
+}

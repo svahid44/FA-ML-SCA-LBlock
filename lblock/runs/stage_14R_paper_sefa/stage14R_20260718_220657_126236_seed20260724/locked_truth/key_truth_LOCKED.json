@@ -1,0 +1,14 @@
+{
+  "keys": [
+    {
+      "key_id": 0,
+      "master_key_hex": "8fffbca467a099a5a41e",
+      "round_key_32_hex": "1cb1db34"
+    },
+    {
+      "key_id": 1,
+      "master_key_hex": "8f0000c36f58c019ccf0",
+      "round_key_32_hex": "be67c44d"
+    }
+  ]
+}

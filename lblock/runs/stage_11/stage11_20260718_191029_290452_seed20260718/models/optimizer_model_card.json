@@ -1,0 +1,105 @@
+{
+  "candidate_families": [
+    "ridge",
+    "extra_trees"
+  ],
+  "feature_count": 9,
+  "feature_names": [
+    "target_is_s5",
+    "timing_offset_samples",
+    "absolute_timing_offset_samples",
+    "width_samples",
+    "strength",
+    "repeat",
+    "repeat_spacing_samples",
+    "pulse_span_samples",
+    "glitch_energy_proxy"
+  ],
+  "limitations": [
+    "The optimizer distils a simulated post-injection teacher model.",
+    "Recommended uplift is model-predicted and must be validated in Stage 12.",
+    "Cross-family disagreement is only an uncertainty proxy.",
+    "All candidate domains are bounded by observed public development parameters."
+  ],
+  "model_role": "pre-injection multi-output glitch-quality surrogate",
+  "private_labels_used": false,
+  "selected_family": "extra_trees",
+  "selection_rule": "Highest validation mean SIFA/SEFA Spearman rank correlation; ties broken by lower branch RMSE and lower all-class MAE.",
+  "soft_target_columns": [
+    "p_missed",
+    "p_clean_target_ineffective",
+    "p_clean_target_effective",
+    "p_off_target",
+    "p_multi_hit",
+    "p_invalid_reset"
+  ],
+  "stage": 11,
+  "stage_10_teacher_model_freeze_sha256": "f5b26f90c8b25ea066e9710aa3c4d2c362cf590ed3d95f68125194793b91eb5a",
+  "teacher_selected_family": "logistic",
+  "teacher_selected_view": "observable_full",
+  "test_or_attack_rows_used": false,
+  "validation_metrics": {
+    "all_class_mae": 0.12867122713969467,
+    "all_class_rmse": 0.19853860427822675,
+    "class_metrics": {
+      "clean_target_effective": {
+        "mae": 0.2212376785985374,
+        "predicted_mean": 0.23530674078045308,
+        "r2": 0.26686100224858456,
+        "rmse": 0.2902158780287901,
+        "spearman": 0.5879198163034347,
+        "top_decile_uplift": 1.9647482392034137,
+        "true_mean": 0.2341003778092414
+      },
+      "clean_target_ineffective": {
+        "mae": 0.18143984535530278,
+        "predicted_mean": 0.16987896800741592,
+        "r2": 0.20187764148606513,
+        "rmse": 0.2376433672957889,
+        "spearman": 0.5294260334519695,
+        "top_decile_uplift": 1.9553050114455426,
+        "true_mean": 0.1707172858645226
+      },
+      "invalid_reset": {
+        "mae": 0.012223125959173424,
+        "predicted_mean": 0.0507201544569274,
+        "r2": 0.8875000495706593,
+        "rmse": 0.07412329793368524,
+        "spearman": 0.4493171751474238,
+        "top_decile_uplift": 9.866251208022724,
+        "true_mean": 0.05157009578610538
+      },
+      "missed": {
+        "mae": 0.16105268486019378,
+        "predicted_mean": 0.20084151223460242,
+        "r2": 0.440223637626293,
+        "rmse": 0.20464441697171987,
+        "spearman": 0.6509808157262629,
+        "top_decile_uplift": 3.028668244511432,
+        "true_mean": 0.20156840880551727
+      },
+      "multi_hit": {
+        "mae": 0.11432272717719459,
+        "predicted_mean": 0.16348120542871994,
+        "r2": 0.4762012351924114,
+        "rmse": 0.17055823431478004,
+        "spearman": 0.6969099913501562,
+        "top_decile_uplift": 3.4486918048255912,
+        "true_mean": 0.1630828986492841
+      },
+      "off_target": {
+        "mae": 0.08175130088776583,
+        "predicted_mean": 0.17977141909188124,
+        "r2": 0.6727383369333084,
+        "rmse": 0.13907597371918126,
+        "spearman": 0.8498173386924586,
+        "top_decile_uplift": 3.4630415267353567,
+        "true_mean": 0.17896093308532934
+      }
+    },
+    "maximum_probability_row_sum_error": 4.440892098500626e-16,
+    "mean_branch_rmse": 0.2639296226622895,
+    "mean_branch_spearman": 0.558672924877702,
+    "mean_branch_top_decile_uplift": 1.960026625324478
+  }
+}

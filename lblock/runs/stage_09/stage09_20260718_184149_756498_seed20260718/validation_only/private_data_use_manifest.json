@@ -1,0 +1,42 @@
+{
+  "private_data_opened_after_public_ml_freeze": true,
+  "public_ml_freeze_sha256": "9002a13c1337be58c620074620bcfd012bec2076273e42628ad2d026d1d7db1f",
+  "private_columns_used_as_labels": [
+    "category",
+    "category_id"
+  ],
+  "private_columns_used_for_join_validation_only": [
+    "campaign_partition",
+    "target_sbox",
+    "target_sbox_index",
+    "key_id",
+    "session_id"
+  ],
+  "private_columns_never_selected_as_features": [
+    "activation_probabilities",
+    "actual_centers",
+    "category",
+    "category_id",
+    "changed_sbox_input_count",
+    "design_regime",
+    "fault_effective",
+    "global_jitter_samples",
+    "hit_scores",
+    "impacted_mask",
+    "impacted_sbox_count",
+    "impacted_sboxes",
+    "injection_jitter_samples",
+    "invalid_probability",
+    "invalid_subtype",
+    "master_key_hex",
+    "model_details_json",
+    "off_target_impacted",
+    "round_key_32_hex",
+    "target_faulted_input",
+    "target_impacted",
+    "target_original_input",
+    "x31_hex",
+    "x32_hex"
+  ],
+  "attack_label_file_sha256": "443670d57a12bc305e08fcb33e41569ded0fcf4a2a3921f0fa8d0ed4da5be94e"
+}

@@ -1,0 +1,18 @@
+{
+  "files_opened_before_public_freeze": [
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_07\\stage07_20260718_180834_112047_seed20260718\\stage_07_summary.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_07\\stage07_20260718_180834_112047_seed20260718\\public_theory\\theoretical_attack_prior.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_06\\stage06_20260718_175343_608585_seed20260718\\stage_06_summary.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_05\\stage05_20260718_173302_092919_seed20260718\\stage_05_summary.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_05\\stage05_20260718_173302_092919_seed20260718\\public\\lblock_8bit_target_contract.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_04\\stage04_20260718_171931_573552_seed20260718\\public\\lblock_final_round_timing_map.json",
+    "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_03\\stage03_20260718_170153_519460_seed20260718\\public\\final_round_roi_traces.npz"
+  ],
+  "stage_07_oracle_files_opened": [],
+  "forbidden_generation_inputs": {
+    "oracle_parameter_cells": false,
+    "oracle_campaign_recommendations": false,
+    "stage_06_private_ground_truth": false,
+    "stage_06_key_manifest": false
+  }
+}

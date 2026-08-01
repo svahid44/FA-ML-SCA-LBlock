@@ -1,0 +1,159 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "stage_01_reference_recheck": {
+      "passed": true,
+      "vectors": [
+        {
+          "name": "all_zero_vector",
+          "plaintext_hex": "0000000000000000",
+          "key_hex": "00000000000000000000",
+          "expected_ciphertext_hex": "c218185308e75bcd",
+          "observed_ciphertext_hex": "c218185308e75bcd",
+          "encryption_passed": true,
+          "decryption_passed": true,
+          "byte_encryption_passed": true,
+          "byte_decryption_passed": true
+        },
+        {
+          "name": "incremental_vector",
+          "plaintext_hex": "0123456789abcdef",
+          "key_hex": "0123456789abcdeffedc",
+          "expected_ciphertext_hex": "4b7179d8ebee0c26",
+          "observed_ciphertext_hex": "4b7179d8ebee0c26",
+          "encryption_passed": true,
+          "decryption_passed": true,
+          "byte_encryption_passed": true,
+          "byte_decryption_passed": true
+        }
+      ]
+    },
+    "trace_array": {
+      "passed": true,
+      "expected_shape": [
+        1024,
+        4288
+      ],
+      "observed_shape": [
+        1024,
+        4288
+      ],
+      "dtype": "float32",
+      "all_finite": true,
+      "global_mean": 0.1805259734392166,
+      "global_std": 0.6670936346054077,
+      "mean_pointwise_trace_std": 0.6523441672325134
+    },
+    "public_metadata_leakage_audit": {
+      "passed": true,
+      "columns": [
+        "trace_id",
+        "key_id",
+        "session_id",
+        "plaintext_class",
+        "plaintext_hex",
+        "ciphertext_hex",
+        "global_trigger_sample",
+        "sampling_rate_hz",
+        "number_of_samples",
+        "trace_sha256"
+      ],
+      "violations": [],
+      "allowed_global_reference": "global_trigger_sample"
+    },
+    "event_bounds": {
+      "passed": true,
+      "minimum_event_center": 97,
+      "maximum_event_center": 4195,
+      "number_of_samples": 4288,
+      "pulse_radius": 7
+    },
+    "event_order": {
+      "passed": true,
+      "violating_trace_round_pairs": 0,
+      "checked_trace_round_pairs": 32768
+    },
+    "ciphertexts": {
+      "passed": true,
+      "checked_traces": 1024,
+      "failures": []
+    },
+    "final_round_sbox_signal": {
+      "passed": true,
+      "minimum_absolute_correlation_across_sboxes": 0.5573889696363226,
+      "threshold": 0.08,
+      "per_sbox": [
+        {
+          "target_sbox": 0,
+          "oracle_hw_correlation_at_true_center": 0.6674409906838155,
+          "oracle_hd_correlation_at_true_center": 0.4341142658156941,
+          "maximum_absolute_oracle_correlation": 0.6674409906838155,
+          "median_true_center_sample": 4082.0,
+          "true_center_std_samples": 5.2941862500800925
+        },
+        {
+          "target_sbox": 1,
+          "oracle_hw_correlation_at_true_center": 0.5858839881116211,
+          "oracle_hd_correlation_at_true_center": 0.3433491179261747,
+          "maximum_absolute_oracle_correlation": 0.5858839881116211,
+          "median_true_center_sample": 4091.0,
+          "true_center_std_samples": 5.314590222413929
+        },
+        {
+          "target_sbox": 2,
+          "oracle_hw_correlation_at_true_center": 0.6476435885623714,
+          "oracle_hd_correlation_at_true_center": 0.34242921445595226,
+          "maximum_absolute_oracle_correlation": 0.6476435885623714,
+          "median_true_center_sample": 4100.0,
+          "true_center_std_samples": 5.280241469294757
+        },
+        {
+          "target_sbox": 3,
+          "oracle_hw_correlation_at_true_center": 0.5573889696363226,
+          "oracle_hd_correlation_at_true_center": 0.14084453341559422,
+          "maximum_absolute_oracle_correlation": 0.5573889696363226,
+          "median_true_center_sample": 4109.0,
+          "true_center_std_samples": 5.277341942889217
+        },
+        {
+          "target_sbox": 4,
+          "oracle_hw_correlation_at_true_center": 0.666867116371013,
+          "oracle_hd_correlation_at_true_center": 0.35709998584370234,
+          "maximum_absolute_oracle_correlation": 0.666867116371013,
+          "median_true_center_sample": 4118.0,
+          "true_center_std_samples": 5.29103752461207
+        },
+        {
+          "target_sbox": 5,
+          "oracle_hw_correlation_at_true_center": 0.661134308499575,
+          "oracle_hd_correlation_at_true_center": 0.4431784739308829,
+          "maximum_absolute_oracle_correlation": 0.661134308499575,
+          "median_true_center_sample": 4127.0,
+          "true_center_std_samples": 5.304774422698878
+        },
+        {
+          "target_sbox": 6,
+          "oracle_hw_correlation_at_true_center": 0.6612146482697023,
+          "oracle_hd_correlation_at_true_center": 0.2819670475095961,
+          "maximum_absolute_oracle_correlation": 0.6612146482697023,
+          "median_true_center_sample": 4136.0,
+          "true_center_std_samples": 5.283476772025889
+        },
+        {
+          "target_sbox": 7,
+          "oracle_hw_correlation_at_true_center": 0.6702572346928689,
+          "oracle_hd_correlation_at_true_center": 0.5210310469231898,
+          "maximum_absolute_oracle_correlation": 0.6702572346928689,
+          "median_true_center_sample": 4145.0,
+          "true_center_std_samples": 5.278481022790457
+        }
+      ],
+      "validation_only": true
+    },
+    "deterministic_first_trace": {
+      "passed": true,
+      "trace_id": 0,
+      "regenerated_sha256": "55c3fabb0995fc06264310d7480e2965dc8b18515fbda25d9a0f8d325ba559b1"
+    }
+  }
+}

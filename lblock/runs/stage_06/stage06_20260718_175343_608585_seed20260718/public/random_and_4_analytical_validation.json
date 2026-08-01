@@ -1,0 +1,10 @@
+{
+  "model": "random_and_4",
+  "definition": "X' = X AND R, where R is uniform over all 4-bit values",
+  "mask_count": 16,
+  "input_count": 16,
+  "subset_property_holds": true,
+  "maximum_ineffective_probability_formula_error": 0.0,
+  "formula": "P[X'=X | X=x] = 2^{-HW(x)}",
+  "all_checks_passed": true
+}

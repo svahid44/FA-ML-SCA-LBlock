@@ -1,0 +1,56 @@
+{
+  "all_public_checks_passed": true,
+  "checks": {
+    "shape_preserved": {
+      "passed": true,
+      "original_shape": [
+        1024,
+        4288
+      ],
+      "aligned_shape": [
+        1024,
+        4288
+      ]
+    },
+    "finite_values": {
+      "passed": true
+    },
+    "trace_count_consistency": {
+      "passed": true
+    },
+    "final_round_roi_bounds": {
+      "passed": true,
+      "roi_start": 4049,
+      "roi_end": 4197
+    },
+    "roi_width_plausibility": {
+      "passed": true,
+      "period": 128,
+      "roi_width": 148
+    },
+    "round_period_plausibility": {
+      "passed": true,
+      "estimated_period": 128,
+      "expected_from_length": 131.0
+    },
+    "global_shift_bounds": {
+      "passed": true,
+      "minimum": -12,
+      "maximum": 9
+    },
+    "alignment_correlation_not_degraded": {
+      "passed": true,
+      "before": 0.12181615659096034,
+      "after": 0.21670408491185716
+    },
+    "local_residual_not_increased": {
+      "passed": true,
+      "before": 1.0,
+      "after": 1.0
+    },
+    "public_only_input_contract": {
+      "passed": true,
+      "statement": "The estimation pipeline received only Stage 02 public files. Private evaluation is a separate post-freeze function."
+    }
+  }
+}

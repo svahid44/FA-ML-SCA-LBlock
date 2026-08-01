@@ -1,0 +1,16 @@
+{
+  "source": "Stage 06 trace feature definitions",
+  "features": [
+    "trace_mean",
+    "trace_std",
+    "trace_peak_to_peak",
+    "trace_max_abs",
+    "trace_l1_energy",
+    "trace_l2_energy",
+    "trace_high_frequency_energy",
+    "target_window_energy",
+    "pulse_window_energy",
+    "saturation_fraction"
+  ],
+  "private_labels_used": false
+}

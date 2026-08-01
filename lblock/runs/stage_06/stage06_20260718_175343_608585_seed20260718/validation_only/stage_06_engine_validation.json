@@ -1,0 +1,83 @@
+{
+  "all_public_and_private_checks_passed": true,
+  "checks": {
+    "reference_core": {
+      "passed": true
+    },
+    "random_and_4_analytical_semantics": {
+      "passed": true
+    },
+    "experiment_count": {
+      "passed": true,
+      "expected": 12000,
+      "observed": 12000
+    },
+    "all_six_categories_present": {
+      "passed": true,
+      "minimum_count_per_category": 36,
+      "counts": {
+        "missed": 3860,
+        "clean_target_ineffective": 734,
+        "clean_target_effective": 1737,
+        "off_target": 2946,
+        "multi_hit": 1339,
+        "invalid_reset": 1384
+      }
+    },
+    "primary_random_and_model_dominates": {
+      "passed": true,
+      "observed_fraction": 0.6533333333333333,
+      "minimum_fraction": 0.55
+    },
+    "category_semantics_consistent": {
+      "passed": true,
+      "failure_count": 0
+    },
+    "clean_target_locality": {
+      "passed": true,
+      "failure_count": 0
+    },
+    "public_metadata_leakage_audit": {
+      "passed": true,
+      "public_column_count": 28,
+      "forbidden_columns_present": [],
+      "suspicious_columns_present": [],
+      "allowed_observable_fields_include": [
+        "glitch parameters",
+        "plaintext",
+        "healthy and returned ciphertexts",
+        "ciphertext equality/difference",
+        "response status",
+        "trace-derived features"
+      ]
+    },
+    "two_target_balance": {
+      "passed": true,
+      "counts": {
+        "S0": 6000,
+        "S5": 6000
+      }
+    },
+    "eight_bit_contract_preserved": {
+      "passed": true,
+      "bit_indices": [
+        0,
+        1,
+        2,
+        3,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    "deterministic_generation": {
+      "passed": true,
+      "first_digest": "65a4cdb45b2d2059e44ed790521ed1fddcfbd020d361989d571567c1472c14a5",
+      "second_digest": "65a4cdb45b2d2059e44ed790521ed1fddcfbd020d361989d571567c1472c14a5"
+    },
+    "finite_response_traces": {
+      "passed": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "chosen_top_fraction": 0.4,
+  "public_policy_row": {
+    "all_tasks_meet_minimum_count": true,
+    "mean_loso_consensus": 0.4375,
+    "mean_selected_ciphertext_count": 268.5,
+    "median_relative_margin": 0.10915539826992345,
+    "robust_task_count": 1,
+    "top_fraction": 0.4,
+    "unique_task_count": 4
+  },
+  "selection_basis_arm": "random_uniform",
+  "selection_method": "session_balanced_probability_top_fraction",
+  "selection_uses_key_truth": false,
+  "selection_uses_private_fault_labels": false
+}

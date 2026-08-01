@@ -1,0 +1,40 @@
+{
+  "config": {
+    "branch_threshold_maximum": 0.95,
+    "branch_threshold_minimum": 0.05,
+    "branch_threshold_steps": 181,
+    "calibration_bins": 15,
+    "candidate_families": [
+      "logistic",
+      "extra_trees"
+    ],
+    "extra_trees_estimators": 180,
+    "extra_trees_max_depth": 26,
+    "extra_trees_max_features": "sqrt",
+    "extra_trees_min_samples_leaf": 5,
+    "extra_trees_n_jobs": 4,
+    "input_stage9_run_directory": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_09\\stage09_20260718_184149_756498_seed20260718",
+    "logistic_c": 1.0,
+    "logistic_max_iter": 700,
+    "maximum_temperature": 5.0,
+    "minimum_temperature": 0.2,
+    "model_reload_check_rows": 512,
+    "output_root": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_10",
+    "probability_clip": 1e-07,
+    "random_seed": 20260718,
+    "run_strict_source_disjoint_experiment": true,
+    "save_plots": true
+  },
+  "created_at": "2026-07-18T18:57:10",
+  "input_sha256": {
+    "ml_quality_labels_train_validation_test.csv": "4107073c6fd341834c1766da8c50f36ec55fa83209e79dfa6174cbc92cd8428a",
+    "ml_tabular_features_public.csv": "14fcfea34c5c982150705d1967d72df8951c9f1b0e6899d83d6deb685c67ae86",
+    "ml_trace_views_public.npz": "2707f3f53d1c7d6f90240e15587a37170ca182d0ccf1be381cebb2427e431ecd",
+    "stage_09_summary.json": "33e88b5a9ea0019511e14eecaf3383d80503b625e6b4ff11266e1c2e8b1ee036"
+  },
+  "locked_attack_labels_opened": false,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "run_id": "stage10_20260718_185539_664419_seed20260718",
+  "stage": 10
+}

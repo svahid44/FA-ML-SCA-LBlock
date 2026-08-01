@@ -1,0 +1,112 @@
+{
+  "substitution_tables": {
+    "passed": true,
+    "failures": []
+  },
+  "p_layer": {
+    "passed": true,
+    "mapping": [
+      1,
+      3,
+      0,
+      2,
+      5,
+      7,
+      4,
+      6
+    ],
+    "failure": null
+  },
+  "official_vectors": {
+    "passed": true,
+    "vectors": [
+      {
+        "name": "all_zero_vector",
+        "plaintext_hex": "0000000000000000",
+        "key_hex": "00000000000000000000",
+        "expected_ciphertext_hex": "c218185308e75bcd",
+        "observed_ciphertext_hex": "c218185308e75bcd",
+        "encryption_passed": true,
+        "decryption_passed": true,
+        "byte_encryption_passed": true,
+        "byte_decryption_passed": true
+      },
+      {
+        "name": "incremental_vector",
+        "plaintext_hex": "0123456789abcdef",
+        "key_hex": "0123456789abcdeffedc",
+        "expected_ciphertext_hex": "4b7179d8ebee0c26",
+        "observed_ciphertext_hex": "4b7179d8ebee0c26",
+        "encryption_passed": true,
+        "decryption_passed": true,
+        "byte_encryption_passed": true,
+        "byte_decryption_passed": true
+      }
+    ]
+  },
+  "key_schedule": {
+    "passed": true,
+    "failures": [],
+    "summaries": [
+      {
+        "master_key_hex": "00000000000000000000",
+        "round_key_count": 32,
+        "k1_hex": "00000000",
+        "k32_hex": "3c32b375",
+        "distinct_round_keys": 32
+      },
+      {
+        "master_key_hex": "ffffffffffffffffffff",
+        "round_key_count": 32,
+        "k1_hex": "ffffffff",
+        "k32_hex": "21117ad2",
+        "distinct_round_keys": 32
+      },
+      {
+        "master_key_hex": "0123456789abcdeffedc",
+        "round_key_count": 32,
+        "k1_hex": "01234567",
+        "k32_hex": "f5d55639",
+        "distinct_round_keys": 32
+      },
+      {
+        "master_key_hex": "fedcba98765432100123",
+        "round_key_count": 32,
+        "k1_hex": "fedcba98",
+        "k32_hex": "568face1",
+        "distinct_round_keys": 32
+      }
+    ]
+  },
+  "trace_consistency": {
+    "passed": true,
+    "failures": [],
+    "trace_summaries": [
+      {
+        "name": "all_zero_vector",
+        "x31_hex": "031c8c61",
+        "x32_hex": "c2181853",
+        "k32_hex": "3c32b375",
+        "x32_xor_k32_hex": "fe2aab26",
+        "x33_hex": "08e75bcd",
+        "ciphertext_hex": "c218185308e75bcd"
+      },
+      {
+        "name": "incremental_vector",
+        "x31_hex": "a7fcd8a5",
+        "x32_hex": "4b7179d8",
+        "k32_hex": "f5d55639",
+        "x32_xor_k32_hex": "bea42fe1",
+        "x33_hex": "ebee0c26",
+        "ciphertext_hex": "4b7179d8ebee0c26"
+      }
+    ]
+  },
+  "random_roundtrips": {
+    "passed": true,
+    "test_count": 2000,
+    "seed": 20260718,
+    "failures": []
+  },
+  "all_passed": true
+}

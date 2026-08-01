@@ -1,0 +1,2153 @@
+{
+  "plaintext_hex": "0000000000000000",
+  "master_key_hex": "00000000000000000000",
+  "x0_hex": "00000000",
+  "x1_hex": "00000000",
+  "ciphertext_hex": "c218185308e75bcd",
+  "rounds": [
+    {
+      "round_number": 1,
+      "x_prev2_index": 0,
+      "x_prev1_index": 1,
+      "x_new_index": 2,
+      "x_prev2_hex": "00000000",
+      "x_prev1_hex": "00000000",
+      "rotated_x_prev2_hex": "00000000",
+      "round_key_hex": "00000000",
+      "f_trace": {
+        "x_hex": "00000000",
+        "round_key_hex": "00000000",
+        "xor_input_hex": "00000000",
+        "sbox_inputs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sbox_inputs_hex": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "sbox_outputs": [
+          14,
+          4,
+          1,
+          7,
+          14,
+          2,
+          11,
+          13
+        ],
+        "sbox_outputs_hex": [
+          "e",
+          "4",
+          "1",
+          "7",
+          "e",
+          "2",
+          "b",
+          "d"
+        ],
+        "permuted_nibbles": [
+          4,
+          7,
+          14,
+          1,
+          2,
+          13,
+          14,
+          11
+        ],
+        "output_hex": "bed21e74"
+      },
+      "x_new_hex": "bed21e74"
+    },
+    {
+      "round_number": 2,
+      "x_prev2_index": 1,
+      "x_prev1_index": 2,
+      "x_new_index": 3,
+      "x_prev2_hex": "00000000",
+      "x_prev1_hex": "bed21e74",
+      "rotated_x_prev2_hex": "00000000",
+      "round_key_hex": "b8000000",
+      "f_trace": {
+        "x_hex": "bed21e74",
+        "round_key_hex": "b8000000",
+        "xor_input_hex": "06d21e74",
+        "sbox_inputs": [
+          4,
+          7,
+          14,
+          1,
+          2,
+          13,
+          6,
+          0
+        ],
+        "sbox_inputs_hex": [
+          "4",
+          "7",
+          "e",
+          "1",
+          "2",
+          "d",
+          "6",
+          "0"
+        ],
+        "sbox_outputs": [
+          13,
+          10,
+          8,
+          6,
+          15,
+          8,
+          10,
+          13
+        ],
+        "sbox_outputs_hex": [
+          "d",
+          "a",
+          "8",
+          "6",
+          "f",
+          "8",
+          "a",
+          "d"
+        ],
+        "permuted_nibbles": [
+          10,
+          6,
+          13,
+          8,
+          8,
+          13,
+          15,
+          10
+        ],
+        "output_hex": "afd88d6a"
+      },
+      "x_new_hex": "afd88d6a"
+    },
+    {
+      "round_number": 3,
+      "x_prev2_index": 2,
+      "x_prev1_index": 3,
+      "x_new_index": 4,
+      "x_prev2_hex": "bed21e74",
+      "x_prev1_hex": "afd88d6a",
+      "rotated_x_prev2_hex": "d21e74be",
+      "round_key_hex": "bb000000",
+      "f_trace": {
+        "x_hex": "afd88d6a",
+        "round_key_hex": "bb000000",
+        "xor_input_hex": "14d88d6a",
+        "sbox_inputs": [
+          10,
+          6,
+          13,
+          8,
+          8,
+          13,
+          4,
+          1
+        ],
+        "sbox_inputs_hex": [
+          "a",
+          "6",
+          "d",
+          "8",
+          "8",
+          "d",
+          "4",
+          "1"
+        ],
+        "sbox_outputs": [
+          8,
+          0,
+          4,
+          9,
+          1,
+          8,
+          0,
+          10
+        ],
+        "sbox_outputs_hex": [
+          "8",
+          "0",
+          "4",
+          "9",
+          "1",
+          "8",
+          "0",
+          "a"
+        ],
+        "permuted_nibbles": [
+          0,
+          9,
+          8,
+          4,
+          8,
+          10,
+          1,
+          0
+        ],
+        "output_hex": "01a84890"
+      },
+      "x_new_hex": "d3b63c2e"
+    },
+    {
+      "round_number": 4,
+      "x_prev2_index": 3,
+      "x_prev1_index": 4,
+      "x_new_index": 5,
+      "x_prev2_hex": "afd88d6a",
+      "x_prev1_hex": "d3b63c2e",
+      "rotated_x_prev2_hex": "d88d6aaf",
+      "round_key_hex": "580002e0",
+      "f_trace": {
+        "x_hex": "d3b63c2e",
+        "round_key_hex": "580002e0",
+        "xor_input_hex": "8bb63ece",
+        "sbox_inputs": [
+          14,
+          12,
+          14,
+          3,
+          6,
+          11,
+          11,
+          8
+        ],
+        "sbox_inputs_hex": [
+          "e",
+          "c",
+          "e",
+          "3",
+          "6",
+          "b",
+          "b",
+          "8"
+        ],
+        "sbox_outputs": [
+          12,
+          2,
+          8,
+          11,
+          12,
+          3,
+          7,
+          2
+        ],
+        "sbox_outputs_hex": [
+          "c",
+          "2",
+          "8",
+          "b",
+          "c",
+          "3",
+          "7",
+          "2"
+        ],
+        "permuted_nibbles": [
+          2,
+          11,
+          12,
+          8,
+          3,
+          2,
+          12,
+          7
+        ],
+        "output_hex": "7c238cb2"
+      },
+      "x_new_hex": "a4aee61d"
+    },
+    {
+      "round_number": 5,
+      "x_prev2_index": 4,
+      "x_prev1_index": 5,
+      "x_new_index": 6,
+      "x_prev2_hex": "d3b63c2e",
+      "x_prev1_hex": "a4aee61d",
+      "rotated_x_prev2_hex": "b63c2ed3",
+      "round_key_hex": "5b0002ed",
+      "f_trace": {
+        "x_hex": "a4aee61d",
+        "round_key_hex": "5b0002ed",
+        "xor_input_hex": "ffaee4f0",
+        "sbox_inputs": [
+          0,
+          15,
+          4,
+          14,
+          14,
+          10,
+          15,
+          15
+        ],
+        "sbox_inputs_hex": [
+          "0",
+          "f",
+          "4",
+          "e",
+          "e",
+          "a",
+          "f",
+          "f"
+        ],
+        "sbox_outputs": [
+          14,
+          3,
+          15,
+          4,
+          6,
+          6,
+          2,
+          6
+        ],
+        "sbox_outputs_hex": [
+          "e",
+          "3",
+          "f",
+          "4",
+          "6",
+          "6",
+          "2",
+          "6"
+        ],
+        "permuted_nibbles": [
+          3,
+          4,
+          14,
+          15,
+          6,
+          6,
+          6,
+          2
+        ],
+        "output_hex": "2666fe43"
+      },
+      "x_new_hex": "905ad090"
+    },
+    {
+      "round_number": 6,
+      "x_prev2_index": 5,
+      "x_prev1_index": 6,
+      "x_new_index": 7,
+      "x_prev2_hex": "a4aee61d",
+      "x_prev1_hex": "905ad090",
+      "rotated_x_prev2_hex": "aee61da4",
+      "round_key_hex": "18000161",
+      "f_trace": {
+        "x_hex": "905ad090",
+        "round_key_hex": "18000161",
+        "xor_input_hex": "885ad1f1",
+        "sbox_inputs": [
+          1,
+          15,
+          1,
+          13,
+          10,
+          5,
+          8,
+          8
+        ],
+        "sbox_inputs_hex": [
+          "1",
+          "f",
+          "1",
+          "d",
+          "a",
+          "5",
+          "8",
+          "8"
+        ],
+        "sbox_outputs": [
+          9,
+          3,
+          14,
+          2,
+          4,
+          14,
+          6,
+          2
+        ],
+        "sbox_outputs_hex": [
+          "9",
+          "3",
+          "e",
+          "2",
+          "4",
+          "e",
+          "6",
+          "2"
+        ],
+        "permuted_nibbles": [
+          3,
+          2,
+          9,
+          14,
+          14,
+          2,
+          4,
+          6
+        ],
+        "output_hex": "642ee923"
+      },
+      "x_new_hex": "cac8f487"
+    },
+    {
+      "round_number": 7,
+      "x_prev2_index": 6,
+      "x_prev1_index": 7,
+      "x_new_index": 8,
+      "x_prev2_hex": "905ad090",
+      "x_prev1_hex": "cac8f487",
+      "rotated_x_prev2_hex": "5ad09090",
+      "round_key_hex": "fb01716d",
+      "f_trace": {
+        "x_hex": "cac8f487",
+        "round_key_hex": "fb01716d",
+        "xor_input_hex": "31c985ea",
+        "sbox_inputs": [
+          10,
+          14,
+          5,
+          8,
+          9,
+          12,
+          1,
+          3
+        ],
+        "sbox_inputs_hex": [
+          "a",
+          "e",
+          "5",
+          "8",
+          "9",
+          "c",
+          "1",
+          "3"
+        ],
+        "sbox_outputs": [
+          8,
+          1,
+          13,
+          9,
+          8,
+          1,
+          9,
+          0
+        ],
+        "sbox_outputs_hex": [
+          "8",
+          "1",
+          "d",
+          "9",
+          "8",
+          "1",
+          "9",
+          "0"
+        ],
+        "permuted_nibbles": [
+          1,
+          9,
+          8,
+          13,
+          1,
+          0,
+          8,
+          9
+        ],
+        "output_hex": "9801d891"
+      },
+      "x_new_hex": "c2d14801"
+    },
+    {
+      "round_number": 8,
+      "x_prev2_index": 7,
+      "x_prev1_index": 8,
+      "x_new_index": 9,
+      "x_prev2_hex": "cac8f487",
+      "x_prev1_hex": "c2d14801",
+      "rotated_x_prev2_hex": "c8f487ca",
+      "round_key_hex": "c8017461",
+      "f_trace": {
+        "x_hex": "c2d14801",
+        "round_key_hex": "c8017461",
+        "xor_input_hex": "0ad03c60",
+        "sbox_inputs": [
+          0,
+          6,
+          12,
+          3,
+          0,
+          13,
+          10,
+          0
+        ],
+        "sbox_inputs_hex": [
+          "0",
+          "6",
+          "c",
+          "3",
+          "0",
+          "d",
+          "a",
+          "0"
+        ],
+        "sbox_outputs": [
+          14,
+          0,
+          2,
+          11,
+          14,
+          8,
+          5,
+          13
+        ],
+        "sbox_outputs_hex": [
+          "e",
+          "0",
+          "2",
+          "b",
+          "e",
+          "8",
+          "5",
+          "d"
+        ],
+        "permuted_nibbles": [
+          0,
+          11,
+          14,
+          2,
+          8,
+          13,
+          14,
+          5
+        ],
+        "output_hex": "5ed82eb0"
+      },
+      "x_new_hex": "962ca97a"
+    },
+    {
+      "round_number": 9,
+      "x_prev2_index": 8,
+      "x_prev1_index": 9,
+      "x_new_index": 10,
+      "x_prev2_hex": "c2d14801",
+      "x_prev1_hex": "962ca97a",
+      "rotated_x_prev2_hex": "d14801c2",
+      "round_key_hex": "0b00b3ee",
+      "f_trace": {
+        "x_hex": "962ca97a",
+        "round_key_hex": "0b00b3ee",
+        "xor_input_hex": "9d2c1a94",
+        "sbox_inputs": [
+          4,
+          9,
+          10,
+          1,
+          12,
+          2,
+          13,
+          9
+        ],
+        "sbox_inputs_hex": [
+          "4",
+          "9",
+          "a",
+          "1",
+          "c",
+          "2",
+          "d",
+          "9"
+        ],
+        "sbox_outputs": [
+          13,
+          12,
+          9,
+          6,
+          11,
+          11,
+          8,
+          1
+        ],
+        "sbox_outputs_hex": [
+          "d",
+          "c",
+          "9",
+          "6",
+          "b",
+          "b",
+          "8",
+          "1"
+        ],
+        "permuted_nibbles": [
+          12,
+          6,
+          13,
+          9,
+          11,
+          1,
+          11,
+          8
+        ],
+        "output_hex": "8b1b9d6c"
+      },
+      "x_new_hex": "5a539cae"
+    },
+    {
+      "round_number": 10,
+      "x_prev2_index": 9,
+      "x_prev1_index": 10,
+      "x_new_index": 11,
+      "x_prev2_hex": "962ca97a",
+      "x_prev1_hex": "5a539cae",
+      "rotated_x_prev2_hex": "2ca97a96",
+      "round_key_hex": "e8b8b722",
+      "f_trace": {
+        "x_hex": "5a539cae",
+        "round_key_hex": "e8b8b722",
+        "xor_input_hex": "b2eb2b8c",
+        "sbox_inputs": [
+          12,
+          8,
+          11,
+          2,
+          11,
+          14,
+          2,
+          11
+        ],
+        "sbox_inputs_hex": [
+          "c",
+          "8",
+          "b",
+          "2",
+          "b",
+          "e",
+          "2",
+          "b"
+        ],
+        "sbox_outputs": [
+          7,
+          7,
+          3,
+          8,
+          9,
+          4,
+          4,
+          3
+        ],
+        "sbox_outputs_hex": [
+          "7",
+          "7",
+          "3",
+          "8",
+          "9",
+          "4",
+          "4",
+          "3"
+        ],
+        "permuted_nibbles": [
+          7,
+          8,
+          7,
+          3,
+          4,
+          3,
+          9,
+          4
+        ],
+        "output_hex": "49343787"
+      },
+      "x_new_hex": "659d4d11"
+    },
+    {
+      "round_number": 11,
+      "x_prev2_index": 10,
+      "x_prev1_index": 11,
+      "x_new_index": 12,
+      "x_prev2_hex": "5a539cae",
+      "x_prev1_hex": "659d4d11",
+      "rotated_x_prev2_hex": "539cae5a",
+      "round_key_hex": "7bba302e",
+      "f_trace": {
+        "x_hex": "659d4d11",
+        "round_key_hex": "7bba302e",
+        "xor_input_hex": "1e277d3f",
+        "sbox_inputs": [
+          15,
+          3,
+          13,
+          7,
+          7,
+          2,
+          14,
+          1
+        ],
+        "sbox_inputs_hex": [
+          "f",
+          "3",
+          "d",
+          "7",
+          "7",
+          "2",
+          "e",
+          "1"
+        ],
+        "sbox_outputs": [
+          5,
+          9,
+          4,
+          14,
+          13,
+          11,
+          1,
+          10
+        ],
+        "sbox_outputs_hex": [
+          "5",
+          "9",
+          "4",
+          "e",
+          "d",
+          "b",
+          "1",
+          "a"
+        ],
+        "permuted_nibbles": [
+          9,
+          14,
+          5,
+          4,
+          11,
+          10,
+          13,
+          1
+        ],
+        "output_hex": "1dab45e9"
+      },
+      "x_new_hex": "4e37ebb3"
+    },
+    {
+      "round_number": 12,
+      "x_prev2_index": 11,
+      "x_prev1_index": 12,
+      "x_new_index": 13,
+      "x_prev2_hex": "659d4d11",
+      "x_prev1_hex": "4e37ebb3",
+      "rotated_x_prev2_hex": "9d4d1165",
+      "round_key_hex": "a859f7a0",
+      "f_trace": {
+        "x_hex": "4e37ebb3",
+        "round_key_hex": "a859f7a0",
+        "xor_input_hex": "e66e1c13",
+        "sbox_inputs": [
+          3,
+          1,
+          12,
+          1,
+          14,
+          6,
+          6,
+          14
+        ],
+        "sbox_inputs_hex": [
+          "3",
+          "1",
+          "c",
+          "1",
+          "e",
+          "6",
+          "6",
+          "e"
+        ],
+        "sbox_outputs": [
+          0,
+          11,
+          2,
+          6,
+          6,
+          0,
+          10,
+          12
+        ],
+        "sbox_outputs_hex": [
+          "0",
+          "b",
+          "2",
+          "6",
+          "6",
+          "0",
+          "a",
+          "c"
+        ],
+        "permuted_nibbles": [
+          11,
+          6,
+          0,
+          2,
+          0,
+          12,
+          6,
+          10
+        ],
+        "output_hex": "a6c0206b"
+      },
+      "x_new_hex": "3b8d310e"
+    },
+    {
+      "round_number": 13,
+      "x_prev2_index": 12,
+      "x_prev1_index": 13,
+      "x_new_index": 14,
+      "x_prev2_hex": "4e37ebb3",
+      "x_prev1_hex": "3b8d310e",
+      "rotated_x_prev2_hex": "37ebb34e",
+      "round_key_hex": "bf5b91ed",
+      "f_trace": {
+        "x_hex": "3b8d310e",
+        "round_key_hex": "bf5b91ed",
+        "xor_input_hex": "84d6a0e3",
+        "sbox_inputs": [
+          3,
+          14,
+          0,
+          10,
+          6,
+          13,
+          4,
+          8
+        ],
+        "sbox_inputs_hex": [
+          "3",
+          "e",
+          "0",
+          "a",
+          "6",
+          "d",
+          "4",
+          "8"
+        ],
+        "sbox_outputs": [
+          0,
+          1,
+          1,
+          12,
+          12,
+          8,
+          0,
+          2
+        ],
+        "sbox_outputs_hex": [
+          "0",
+          "1",
+          "1",
+          "c",
+          "c",
+          "8",
+          "0",
+          "2"
+        ],
+        "permuted_nibbles": [
+          1,
+          12,
+          0,
+          1,
+          8,
+          2,
+          12,
+          0
+        ],
+        "output_hex": "0c2810c1"
+      },
+      "x_new_hex": "3bc3a38f"
+    },
+    {
+      "round_number": 14,
+      "x_prev2_index": 13,
+      "x_prev1_index": 14,
+      "x_new_index": 15,
+      "x_prev2_hex": "3b8d310e",
+      "x_prev1_hex": "3bc3a38f",
+      "rotated_x_prev2_hex": "8d310e3b",
+      "round_key_hex": "c41816a2",
+      "f_trace": {
+        "x_hex": "3bc3a38f",
+        "round_key_hex": "c41816a2",
+        "xor_input_hex": "ffdbb52d",
+        "sbox_inputs": [
+          13,
+          2,
+          5,
+          11,
+          11,
+          13,
+          15,
+          15
+        ],
+        "sbox_inputs_hex": [
+          "d",
+          "2",
+          "5",
+          "b",
+          "b",
+          "d",
+          "f",
+          "f"
+        ],
+        "sbox_outputs": [
+          6,
+          14,
+          13,
+          13,
+          9,
+          8,
+          2,
+          6
+        ],
+        "sbox_outputs_hex": [
+          "6",
+          "e",
+          "d",
+          "d",
+          "9",
+          "8",
+          "2",
+          "6"
+        ],
+        "permuted_nibbles": [
+          14,
+          13,
+          6,
+          13,
+          8,
+          6,
+          9,
+          2
+        ],
+        "output_hex": "2968d6de"
+      },
+      "x_new_hex": "a459d8e5"
+    },
+    {
+      "round_number": 15,
+      "x_prev2_index": 14,
+      "x_prev1_index": 15,
+      "x_new_index": 16,
+      "x_prev2_hex": "3bc3a38f",
+      "x_prev1_hex": "a459d8e5",
+      "rotated_x_prev2_hex": "c3a38f3b",
+      "round_key_hex": "7ffbd2fe",
+      "f_trace": {
+        "x_hex": "a459d8e5",
+        "round_key_hex": "7ffbd2fe",
+        "xor_input_hex": "dba20a1b",
+        "sbox_inputs": [
+          11,
+          1,
+          10,
+          0,
+          2,
+          10,
+          11,
+          13
+        ],
+        "sbox_inputs_hex": [
+          "b",
+          "1",
+          "a",
+          "0",
+          "2",
+          "a",
+          "b",
+          "d"
+        ],
+        "sbox_outputs": [
+          3,
+          11,
+          9,
+          7,
+          15,
+          6,
+          7,
+          5
+        ],
+        "sbox_outputs_hex": [
+          "3",
+          "b",
+          "9",
+          "7",
+          "f",
+          "6",
+          "7",
+          "5"
+        ],
+        "permuted_nibbles": [
+          11,
+          7,
+          3,
+          9,
+          6,
+          5,
+          15,
+          7
+        ],
+        "output_hex": "7f56937b"
+      },
+      "x_new_hex": "bcf51c40"
+    },
+    {
+      "round_number": 16,
+      "x_prev2_index": 15,
+      "x_prev1_index": 16,
+      "x_new_index": 17,
+      "x_prev2_hex": "a459d8e5",
+      "x_prev1_hex": "bcf51c40",
+      "rotated_x_prev2_hex": "59d8e5a4",
+      "round_key_hex": "a4c8f713",
+      "f_trace": {
+        "x_hex": "bcf51c40",
+        "round_key_hex": "a4c8f713",
+        "xor_input_hex": "183deb53",
+        "sbox_inputs": [
+          3,
+          5,
+          11,
+          14,
+          13,
+          3,
+          8,
+          1
+        ],
+        "sbox_inputs_hex": [
+          "3",
+          "5",
+          "b",
+          "e",
+          "d",
+          "3",
+          "8",
+          "1"
+        ],
+        "sbox_outputs": [
+          0,
+          13,
+          3,
+          4,
+          10,
+          12,
+          6,
+          10
+        ],
+        "sbox_outputs_hex": [
+          "0",
+          "d",
+          "3",
+          "4",
+          "a",
+          "c",
+          "6",
+          "a"
+        ],
+        "permuted_nibbles": [
+          13,
+          4,
+          0,
+          3,
+          12,
+          10,
+          10,
+          6
+        ],
+        "output_hex": "6aac304d"
+      },
+      "x_new_hex": "3374d5e9"
+    },
+    {
+      "round_number": 17,
+      "x_prev2_index": 16,
+      "x_prev1_index": 17,
+      "x_new_index": 18,
+      "x_prev2_hex": "bcf51c40",
+      "x_prev1_hex": "3374d5e9",
+      "rotated_x_prev2_hex": "f51c40bc",
+      "round_key_hex": "df0b51fb",
+      "f_trace": {
+        "x_hex": "3374d5e9",
+        "round_key_hex": "df0b51fb",
+        "xor_input_hex": "ec7f8412",
+        "sbox_inputs": [
+          2,
+          1,
+          4,
+          8,
+          15,
+          7,
+          12,
+          14
+        ],
+        "sbox_inputs_hex": [
+          "2",
+          "1",
+          "4",
+          "8",
+          "f",
+          "7",
+          "c",
+          "e"
+        ],
+        "sbox_outputs": [
+          15,
+          11,
+          15,
+          9,
+          3,
+          9,
+          3,
+          12
+        ],
+        "sbox_outputs_hex": [
+          "f",
+          "b",
+          "f",
+          "9",
+          "3",
+          "9",
+          "3",
+          "c"
+        ],
+        "permuted_nibbles": [
+          11,
+          9,
+          15,
+          15,
+          9,
+          12,
+          3,
+          3
+        ],
+        "output_hex": "33c9ff9b"
+      },
+      "x_new_hex": "c6d5bf27"
+    },
+    {
+      "round_number": 18,
+      "x_prev2_index": 17,
+      "x_prev1_index": 18,
+      "x_new_index": 19,
+      "x_prev2_hex": "3374d5e9",
+      "x_prev1_hex": "c6d5bf27",
+      "rotated_x_prev2_hex": "74d5e933",
+      "round_key_hex": "d4e97e97",
+      "f_trace": {
+        "x_hex": "c6d5bf27",
+        "round_key_hex": "d4e97e97",
+        "xor_input_hex": "123cc1b0",
+        "sbox_inputs": [
+          0,
+          11,
+          1,
+          12,
+          12,
+          3,
+          2,
+          1
+        ],
+        "sbox_inputs_hex": [
+          "0",
+          "b",
+          "1",
+          "c",
+          "c",
+          "3",
+          "2",
+          "1"
+        ],
+        "sbox_outputs": [
+          14,
+          6,
+          14,
+          5,
+          11,
+          12,
+          4,
+          10
+        ],
+        "sbox_outputs_hex": [
+          "e",
+          "6",
+          "e",
+          "5",
+          "b",
+          "c",
+          "4",
+          "a"
+        ],
+        "permuted_nibbles": [
+          6,
+          5,
+          14,
+          14,
+          12,
+          10,
+          11,
+          4
+        ],
+        "output_hex": "4bacee56"
+      },
+      "x_new_hex": "3f790765"
+    },
+    {
+      "round_number": 19,
+      "x_prev2_index": 18,
+      "x_prev1_index": 19,
+      "x_new_index": 20,
+      "x_prev2_hex": "c6d5bf27",
+      "x_prev1_hex": "3f790765",
+      "rotated_x_prev2_hex": "d5bf27c6",
+      "round_key_hex": "327b8b78",
+      "f_trace": {
+        "x_hex": "3f790765",
+        "round_key_hex": "327b8b78",
+        "xor_input_hex": "0d028c1d",
+        "sbox_inputs": [
+          13,
+          1,
+          12,
+          8,
+          2,
+          0,
+          13,
+          0
+        ],
+        "sbox_inputs_hex": [
+          "d",
+          "1",
+          "c",
+          "8",
+          "2",
+          "0",
+          "d",
+          "0"
+        ],
+        "sbox_outputs": [
+          6,
+          11,
+          2,
+          9,
+          15,
+          2,
+          8,
+          13
+        ],
+        "sbox_outputs_hex": [
+          "6",
+          "b",
+          "2",
+          "9",
+          "f",
+          "2",
+          "8",
+          "d"
+        ],
+        "permuted_nibbles": [
+          11,
+          9,
+          6,
+          2,
+          2,
+          13,
+          15,
+          8
+        ],
+        "output_hex": "8fd2269b"
+      },
+      "x_new_hex": "5a6d015d"
+    },
+    {
+      "round_number": 20,
+      "x_prev2_index": 19,
+      "x_prev1_index": 20,
+      "x_new_index": 21,
+      "x_prev2_hex": "3f790765",
+      "x_prev1_hex": "5a6d015d",
+      "rotated_x_prev2_hex": "7907653f",
+      "round_key_hex": "5da8ff57",
+      "f_trace": {
+        "x_hex": "5a6d015d",
+        "round_key_hex": "5da8ff57",
+        "xor_input_hex": "07c5fe0a",
+        "sbox_inputs": [
+          10,
+          0,
+          14,
+          15,
+          5,
+          12,
+          7,
+          0
+        ],
+        "sbox_inputs_hex": [
+          "a",
+          "0",
+          "e",
+          "f",
+          "5",
+          "c",
+          "7",
+          "0"
+        ],
+        "sbox_outputs": [
+          8,
+          4,
+          8,
+          1,
+          2,
+          1,
+          13,
+          13
+        ],
+        "sbox_outputs_hex": [
+          "8",
+          "4",
+          "8",
+          "1",
+          "2",
+          "1",
+          "d",
+          "d"
+        ],
+        "permuted_nibbles": [
+          4,
+          1,
+          8,
+          8,
+          1,
+          13,
+          2,
+          13
+        ],
+        "output_hex": "d2d18814"
+      },
+      "x_new_hex": "abd6ed2b"
+    },
+    {
+      "round_number": 21,
+      "x_prev2_index": 20,
+      "x_prev1_index": 21,
+      "x_new_index": 22,
+      "x_prev2_hex": "5a6d015d",
+      "x_prev1_hex": "abd6ed2b",
+      "rotated_x_prev2_hex": "6d015d5a",
+      "round_key_hex": "32bf48cc",
+      "f_trace": {
+        "x_hex": "abd6ed2b",
+        "round_key_hex": "32bf48cc",
+        "xor_input_hex": "9969a5e7",
+        "sbox_inputs": [
+          7,
+          14,
+          5,
+          10,
+          9,
+          6,
+          9,
+          9
+        ],
+        "sbox_inputs_hex": [
+          "7",
+          "e",
+          "5",
+          "a",
+          "9",
+          "6",
+          "9",
+          "9"
+        ],
+        "sbox_outputs": [
+          11,
+          1,
+          13,
+          12,
+          8,
+          0,
+          12,
+          1
+        ],
+        "sbox_outputs_hex": [
+          "b",
+          "1",
+          "d",
+          "c",
+          "8",
+          "0",
+          "c",
+          "1"
+        ],
+        "permuted_nibbles": [
+          1,
+          12,
+          11,
+          13,
+          0,
+          1,
+          8,
+          12
+        ],
+        "output_hex": "c810dbc1"
+      },
+      "x_new_hex": "a511869b"
+    },
+    {
+      "round_number": 22,
+      "x_prev2_index": 21,
+      "x_prev1_index": 22,
+      "x_new_index": 23,
+      "x_prev2_hex": "abd6ed2b",
+      "x_prev1_hex": "a511869b",
+      "rotated_x_prev2_hex": "d6ed2bab",
+      "round_key_hex": "84c5bd73",
+      "f_trace": {
+        "x_hex": "a511869b",
+        "round_key_hex": "84c5bd73",
+        "xor_input_hex": "21d43be8",
+        "sbox_inputs": [
+          8,
+          14,
+          11,
+          3,
+          4,
+          13,
+          1,
+          2
+        ],
+        "sbox_inputs_hex": [
+          "8",
+          "e",
+          "b",
+          "3",
+          "4",
+          "d",
+          "1",
+          "2"
+        ],
+        "sbox_outputs": [
+          1,
+          1,
+          3,
+          11,
+          7,
+          8,
+          9,
+          15
+        ],
+        "sbox_outputs_hex": [
+          "1",
+          "1",
+          "3",
+          "b",
+          "7",
+          "8",
+          "9",
+          "f"
+        ],
+        "permuted_nibbles": [
+          1,
+          11,
+          1,
+          3,
+          8,
+          15,
+          7,
+          9
+        ],
+        "output_hex": "97f831b1"
+      },
+      "x_new_hex": "41151a1a"
+    },
+    {
+      "round_number": 23,
+      "x_prev2_index": 22,
+      "x_prev1_index": 23,
+      "x_new_index": 24,
+      "x_prev2_hex": "a511869b",
+      "x_prev1_hex": "41151a1a",
+      "rotated_x_prev2_hex": "11869ba5",
+      "round_key_hex": "d27fa8cf",
+      "f_trace": {
+        "x_hex": "41151a1a",
+        "round_key_hex": "d27fa8cf",
+        "xor_input_hex": "936ab2d5",
+        "sbox_inputs": [
+          5,
+          13,
+          2,
+          11,
+          10,
+          6,
+          3,
+          9
+        ],
+        "sbox_inputs_hex": [
+          "5",
+          "d",
+          "2",
+          "b",
+          "a",
+          "6",
+          "3",
+          "9"
+        ],
+        "sbox_outputs": [
+          4,
+          8,
+          7,
+          13,
+          4,
+          0,
+          14,
+          1
+        ],
+        "sbox_outputs_hex": [
+          "4",
+          "8",
+          "7",
+          "d",
+          "4",
+          "0",
+          "e",
+          "1"
+        ],
+        "permuted_nibbles": [
+          8,
+          13,
+          4,
+          7,
+          0,
+          1,
+          4,
+          14
+        ],
+        "output_hex": "e41074d8"
+      },
+      "x_new_hex": "f596ef7d"
+    },
+    {
+      "round_number": 24,
+      "x_prev2_index": 23,
+      "x_prev1_index": 24,
+      "x_new_index": 25,
+      "x_prev2_hex": "41151a1a",
+      "x_prev1_hex": "f596ef7d",
+      "rotated_x_prev2_hex": "151a1a41",
+      "round_key_hex": "33a46616",
+      "f_trace": {
+        "x_hex": "f596ef7d",
+        "round_key_hex": "33a46616",
+        "xor_input_hex": "c632896b",
+        "sbox_inputs": [
+          11,
+          6,
+          9,
+          8,
+          2,
+          3,
+          6,
+          12
+        ],
+        "sbox_inputs_hex": [
+          "b",
+          "6",
+          "9",
+          "8",
+          "2",
+          "3",
+          "6",
+          "c"
+        ],
+        "sbox_outputs": [
+          3,
+          0,
+          5,
+          9,
+          15,
+          12,
+          10,
+          7
+        ],
+        "sbox_outputs_hex": [
+          "3",
+          "0",
+          "5",
+          "9",
+          "f",
+          "c",
+          "a",
+          "7"
+        ],
+        "permuted_nibbles": [
+          0,
+          9,
+          3,
+          5,
+          12,
+          7,
+          15,
+          10
+        ],
+        "output_hex": "af7c5390"
+      },
+      "x_new_hex": "ba6649d1"
+    },
+    {
+      "round_number": 25,
+      "x_prev2_index": 24,
+      "x_prev1_index": 25,
+      "x_new_index": 26,
+      "x_prev2_hex": "f596ef7d",
+      "x_prev1_hex": "ba6649d1",
+      "rotated_x_prev2_hex": "96ef7df5",
+      "round_key_hex": "a9debb4f",
+      "f_trace": {
+        "x_hex": "ba6649d1",
+        "round_key_hex": "a9debb4f",
+        "xor_input_hex": "13b8f29e",
+        "sbox_inputs": [
+          14,
+          9,
+          2,
+          15,
+          8,
+          11,
+          3,
+          1
+        ],
+        "sbox_inputs_hex": [
+          "e",
+          "9",
+          "2",
+          "f",
+          "8",
+          "b",
+          "3",
+          "1"
+        ],
+        "sbox_outputs": [
+          12,
+          12,
+          7,
+          1,
+          1,
+          3,
+          14,
+          10
+        ],
+        "sbox_outputs_hex": [
+          "c",
+          "c",
+          "7",
+          "1",
+          "1",
+          "3",
+          "e",
+          "a"
+        ],
+        "permuted_nibbles": [
+          12,
+          1,
+          12,
+          7,
+          3,
+          10,
+          1,
+          14
+        ],
+        "output_hex": "e1a37c1c"
+      },
+      "x_new_hex": "774c01e9"
+    },
+    {
+      "round_number": 26,
+      "x_prev2_index": 25,
+      "x_prev1_index": 26,
+      "x_new_index": 27,
+      "x_prev2_hex": "ba6649d1",
+      "x_prev1_hex": "774c01e9",
+      "rotated_x_prev2_hex": "6649d1ba",
+      "round_key_hex": "63d464c8",
+      "f_trace": {
+        "x_hex": "774c01e9",
+        "round_key_hex": "63d464c8",
+        "xor_input_hex": "14986521",
+        "sbox_inputs": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          9,
+          4,
+          1
+        ],
+        "sbox_inputs_hex": [
+          "1",
+          "2",
+          "5",
+          "6",
+          "8",
+          "9",
+          "4",
+          "1"
+        ],
+        "sbox_outputs": [
+          9,
+          14,
+          13,
+          3,
+          1,
+          10,
+          0,
+          10
+        ],
+        "sbox_outputs_hex": [
+          "9",
+          "e",
+          "d",
+          "3",
+          "1",
+          "a",
+          "0",
+          "a"
+        ],
+        "permuted_nibbles": [
+          14,
+          3,
+          9,
+          13,
+          10,
+          10,
+          1,
+          0
+        ],
+        "output_hex": "01aad93e"
+      },
+      "x_new_hex": "67e30884"
+    },
+    {
+      "round_number": 27,
+      "x_prev2_index": 26,
+      "x_prev1_index": 27,
+      "x_new_index": 28,
+      "x_prev2_hex": "774c01e9",
+      "x_prev1_hex": "67e30884",
+      "rotated_x_prev2_hex": "4c01e977",
+      "round_key_hex": "59330aa1",
+      "f_trace": {
+        "x_hex": "67e30884",
+        "round_key_hex": "59330aa1",
+        "xor_input_hex": "3ed00225",
+        "sbox_inputs": [
+          5,
+          2,
+          2,
+          0,
+          0,
+          13,
+          14,
+          3
+        ],
+        "sbox_inputs_hex": [
+          "5",
+          "2",
+          "2",
+          "0",
+          "0",
+          "d",
+          "e",
+          "3"
+        ],
+        "sbox_outputs": [
+          4,
+          14,
+          7,
+          7,
+          14,
+          8,
+          1,
+          0
+        ],
+        "sbox_outputs_hex": [
+          "4",
+          "e",
+          "7",
+          "7",
+          "e",
+          "8",
+          "1",
+          "0"
+        ],
+        "permuted_nibbles": [
+          14,
+          7,
+          4,
+          7,
+          8,
+          0,
+          14,
+          1
+        ],
+        "output_hex": "1e08747e"
+      },
+      "x_new_hex": "52099d09"
+    },
+    {
+      "round_number": 28,
+      "x_prev2_index": 27,
+      "x_prev1_index": 28,
+      "x_new_index": 29,
+      "x_prev2_hex": "67e30884",
+      "x_prev1_hex": "52099d09",
+      "rotated_x_prev2_hex": "e3088467",
+      "round_key_hex": "035da589",
+      "f_trace": {
+        "x_hex": "52099d09",
+        "round_key_hex": "035da589",
+        "xor_input_hex": "51543880",
+        "sbox_inputs": [
+          0,
+          8,
+          8,
+          3,
+          4,
+          5,
+          1,
+          5
+        ],
+        "sbox_inputs_hex": [
+          "0",
+          "8",
+          "8",
+          "3",
+          "4",
+          "5",
+          "1",
+          "5"
+        ],
+        "sbox_outputs": [
+          14,
+          7,
+          11,
+          11,
+          7,
+          14,
+          9,
+          4
+        ],
+        "sbox_outputs_hex": [
+          "e",
+          "7",
+          "b",
+          "b",
+          "7",
+          "e",
+          "9",
+          "4"
+        ],
+        "permuted_nibbles": [
+          7,
+          11,
+          14,
+          11,
+          14,
+          4,
+          7,
+          9
+        ],
+        "output_hex": "974ebeb7"
+      },
+      "x_new_hex": "74463ad0"
+    },
+    {
+      "round_number": 29,
+      "x_prev2_index": 28,
+      "x_prev1_index": 29,
+      "x_new_index": 30,
+      "x_prev2_hex": "52099d09",
+      "x_prev1_hex": "74463ad0",
+      "rotated_x_prev2_hex": "099d0952",
+      "round_key_hex": "0e326563",
+      "f_trace": {
+        "x_hex": "74463ad0",
+        "round_key_hex": "0e326563",
+        "xor_input_hex": "7a745fb3",
+        "sbox_inputs": [
+          3,
+          11,
+          15,
+          5,
+          4,
+          7,
+          10,
+          7
+        ],
+        "sbox_inputs_hex": [
+          "3",
+          "b",
+          "f",
+          "5",
+          "4",
+          "7",
+          "a",
+          "7"
+        ],
+        "sbox_outputs": [
+          0,
+          6,
+          10,
+          15,
+          7,
+          9,
+          5,
+          11
+        ],
+        "sbox_outputs_hex": [
+          "0",
+          "6",
+          "a",
+          "f",
+          "7",
+          "9",
+          "5",
+          "b"
+        ],
+        "permuted_nibbles": [
+          6,
+          15,
+          0,
+          10,
+          9,
+          11,
+          7,
+          5
+        ],
+        "output_hex": "57b9a0f6"
+      },
+      "x_new_hex": "5e24a9a4"
+    },
+    {
+      "round_number": 30,
+      "x_prev2_index": 29,
+      "x_prev1_index": 30,
+      "x_new_index": 31,
+      "x_prev2_hex": "74463ad0",
+      "x_prev1_hex": "5e24a9a4",
+      "rotated_x_prev2_hex": "463ad074",
+      "round_key_hex": "dc85500a",
+      "f_trace": {
+        "x_hex": "5e24a9a4",
+        "round_key_hex": "dc85500a",
+        "xor_input_hex": "82a1f9ae",
+        "sbox_inputs": [
+          14,
+          10,
+          9,
+          15,
+          1,
+          10,
+          2,
+          8
+        ],
+        "sbox_inputs_hex": [
+          "e",
+          "a",
+          "9",
+          "f",
+          "1",
+          "a",
+          "2",
+          "8"
+        ],
+        "sbox_outputs": [
+          12,
+          5,
+          5,
+          1,
+          5,
+          6,
+          4,
+          2
+        ],
+        "sbox_outputs_hex": [
+          "c",
+          "5",
+          "5",
+          "1",
+          "5",
+          "6",
+          "4",
+          "2"
+        ],
+        "permuted_nibbles": [
+          5,
+          1,
+          12,
+          5,
+          6,
+          2,
+          5,
+          4
+        ],
+        "output_hex": "45265c15"
+      },
+      "x_new_hex": "031c8c61"
+    },
+    {
+      "round_number": 31,
+      "x_prev2_index": 30,
+      "x_prev1_index": 31,
+      "x_new_index": 32,
+      "x_prev2_hex": "5e24a9a4",
+      "x_prev1_hex": "031c8c61",
+      "rotated_x_prev2_hex": "24a9a45e",
+      "round_key_hex": "70d2c43f",
+      "f_trace": {
+        "x_hex": "031c8c61",
+        "round_key_hex": "70d2c43f",
+        "xor_input_hex": "73ce485e",
+        "sbox_inputs": [
+          14,
+          5,
+          8,
+          4,
+          14,
+          12,
+          3,
+          7
+        ],
+        "sbox_inputs_hex": [
+          "e",
+          "5",
+          "8",
+          "4",
+          "e",
+          "c",
+          "3",
+          "7"
+        ],
+        "sbox_outputs": [
+          12,
+          13,
+          11,
+          0,
+          6,
+          1,
+          14,
+          11
+        ],
+        "sbox_outputs_hex": [
+          "c",
+          "d",
+          "b",
+          "0",
+          "6",
+          "1",
+          "e",
+          "b"
+        ],
+        "permuted_nibbles": [
+          13,
+          0,
+          12,
+          11,
+          1,
+          11,
+          6,
+          14
+        ],
+        "output_hex": "e6b1bc0d"
+      },
+      "x_new_hex": "c2181853"
+    },
+    {
+      "round_number": 32,
+      "x_prev2_index": 31,
+      "x_prev1_index": 32,
+      "x_new_index": 33,
+      "x_prev2_hex": "031c8c61",
+      "x_prev1_hex": "c2181853",
+      "rotated_x_prev2_hex": "1c8c6103",
+      "round_key_hex": "3c32b375",
+      "f_trace": {
+        "x_hex": "c2181853",
+        "round_key_hex": "3c32b375",
+        "xor_input_hex": "fe2aab26",
+        "sbox_inputs": [
+          6,
+          2,
+          11,
+          10,
+          10,
+          2,
+          14,
+          15
+        ],
+        "sbox_inputs_hex": [
+          "6",
+          "2",
+          "b",
+          "a",
+          "a",
+          "2",
+          "e",
+          "f"
+        ],
+        "sbox_outputs": [
+          10,
+          14,
+          3,
+          12,
+          4,
+          11,
+          1,
+          6
+        ],
+        "sbox_outputs_hex": [
+          "a",
+          "e",
+          "3",
+          "c",
+          "4",
+          "b",
+          "1",
+          "6"
+        ],
+        "permuted_nibbles": [
+          14,
+          12,
+          10,
+          3,
+          11,
+          6,
+          4,
+          1
+        ],
+        "output_hex": "146b3ace"
+      },
+      "x_new_hex": "08e75bcd"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "stage": 8,
+  "source_prior": "C:\\Users\\SADRA\\Desktop\\LBlock\\runs\\stage_07\\stage07_20260718_180834_112047_seed20260718\\public_theory\\theoretical_attack_prior.json",
+  "source_prior_sha256": "cefeac18601c31cb2c9421705e224131e93803f50b638894b446dd308b81cafa",
+  "ground_truth_or_oracle_used_for_generation": false,
+  "oracle_parameter_cells_opened": false,
+  "primary_fault_model": "random_and_4",
+  "fault_model_fractions": {
+    "random_and_4": 0.8,
+    "random_and_2": 0.06,
+    "single_bit_flip": 0.05,
+    "stuck_at_bit": 0.05,
+    "random_nibble": 0.04
+  },
+  "design_regime_fractions": {
+    "attack_core": 0.45,
+    "attack_explore": 0.25,
+    "boundary_scan": 0.08,
+    "miss_control": 0.07,
+    "neighbor_control": 0.06,
+    "multi_control": 0.05,
+    "invalid_control": 0.04
+  },
+  "selected_targets": [
+    "S0",
+    "S5"
+  ],
+  "selected_key_nibbles": [
+    "K32[0]",
+    "K32[5]"
+  ],
+  "total_target_bits": 8,
+  "policy": "Use public safe/exploration windows for attack-oriented probes; retain broad exploration and explicit control regimes."
+}

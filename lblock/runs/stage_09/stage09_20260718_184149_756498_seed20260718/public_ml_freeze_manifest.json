@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-07-18T18:42:02",
+  "statement": "Stage 09 public ML features, trace views, split contract, and leakage audit were frozen before Stage 08 private labels were opened.",
+  "source_stage_08_public_freeze_sha256": "3d6126be7d56e817a323cc98758a7789763cf31f3b2fae174c17a5207fee1272",
+  "files": {
+    "dataset_card.json": "e9276daba5344fac04f714217013c74e81810c6d459d38db8cacefa4b4cb935b",
+    "final_attack_payload_public.csv": "a219afc1ad41f5cdade60c12399fbf04fdbd44efaa41780f1590b3f72c4e471e",
+    "ml_feature_contract.json": "0be9d4cda45b1bb9cacfa7229583749471abd13d7ffb9057e7833d042f4c0ade",
+    "ml_split_contract.json": "7c7dd8b82f7f155d36a50033021e02dbb114ca82859caab322023f305782d8a8",
+    "ml_tabular_features_public.csv": "14fcfea34c5c982150705d1967d72df8951c9f1b0e6899d83d6deb685c67ae86",
+    "ml_trace_views_public.npz": "2707f3f53d1c7d6f90240e15587a37170ca182d0ccf1be381cebb2427e431ecd",
+    "public_leakage_audit.json": "8498812be63017e666a2bce95f3d5497b2fe76d4e7b5899d5a586197e2135214",
+    "public_partition_and_strict_subset_sizes.png": "27fcf5e3b57446ade7433066e345944b24368339303bc158d567eae4efc31d2a",
+    "public_timing_offset_coverage.png": "d4d9865623450f7b615eaf1bf117c5b27d8a600fb0efe7dafef3d011af6da208",
+    "strict_source_disjoint_audit.json": "e5a5a1c5369a5038f2934bfe0c62763d8553136775f3a4f4598c48d058f08740",
+    "strict_source_disjoint_experiment_ids.npz": "d322fd3313300fdf7b47640be05080462501c77334396d2b9addd06152286f9e",
+    "strict_source_disjoint_membership.csv": "a9d7f221635c9d60dfd218cd1e2dda81109fb6a93d557159a9500a2b7b5f8503"
+  },
+  "freeze_sha256": "9002a13c1337be58c620074620bcfd012bec2076273e42628ad2d026d1d7db1f"
+}

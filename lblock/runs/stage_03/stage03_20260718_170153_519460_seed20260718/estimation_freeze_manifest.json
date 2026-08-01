@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-07-18T17:02:42",
+  "statement": "Public Stage 03 estimate frozen before private timing evaluation.",
+  "files": {
+    "final_round_roi.json": "ab832209ee26542f4ef632325d52a44fb7d9514eefe388e1b3977acee02c5707",
+    "alignment_diagnostics.json": "33acfdb03315c4dfec0fc6683718ef6ccda2ba923d1170e5882f9b583d7d22a5",
+    "alignment_reference_and_activity.npz": "6caf9bd3c3a307a4ce377fdef22ff63633ac7a6fc495621ac18995a91c104992",
+    "final_round_roi_traces.npz": "7b52555d37918b3dde915038c4d8efa4534d5331fcf9f0b989ba538aa1453952"
+  },
+  "freeze_sha256": "56138cfac19d5d8947dca392939b71c195599fe9301cdd4ef58f8504b76755ca"
+}

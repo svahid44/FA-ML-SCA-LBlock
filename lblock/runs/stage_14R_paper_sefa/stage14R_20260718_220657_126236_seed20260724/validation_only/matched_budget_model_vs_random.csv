@@ -1,0 +1,17 @@
+pipeline,attack_type,campaign_arm,key_id,target_sbox,target_sbox_index,model_topk_true_rank,model_topk_rank1,matched_random_median_true_rank,matched_random_mean_true_rank,matched_random_rank1_fraction,model_better_than_random_median,model_not_worse_than_random_median
+sefa_random_budget,SEFA,random_uniform,0,S0,0,1,True,7.0,7.443333333333333,0.06333333333333334,True,True
+sefa_random_budget,SEFA,random_uniform,0,S5,5,6,False,7.0,7.196666666666666,0.09,True,True
+sefa_random_budget,SEFA,random_uniform,1,S0,0,2,False,3.0,4.01,0.27,True,True
+sefa_random_budget,SEFA,random_uniform,1,S5,5,1,True,6.0,5.973333333333334,0.06,True,True
+sefa_guided_budget,SEFA,guided_model,0,S0,0,1,True,1.0,1.0,1.0,False,True
+sefa_guided_budget,SEFA,guided_model,0,S5,5,1,True,1.0,1.0,1.0,False,True
+sefa_guided_budget,SEFA,guided_model,1,S0,0,1,True,1.0,1.0,1.0,False,True
+sefa_guided_budget,SEFA,guided_model,1,S5,5,1,True,1.0,1.0,1.0,False,True
+sifa_random_budget,SIFA,random_uniform,0,S0,0,3,False,6.0,6.8133333333333335,0.07666666666666666,True,True
+sifa_random_budget,SIFA,random_uniform,0,S5,5,1,True,6.0,6.3966666666666665,0.10666666666666667,True,True
+sifa_random_budget,SIFA,random_uniform,1,S0,0,1,True,7.0,7.593333333333334,0.07666666666666666,True,True
+sifa_random_budget,SIFA,random_uniform,1,S5,5,1,True,5.0,5.94,0.11333333333333333,True,True
+sifa_guided_budget,SIFA,guided_model,0,S0,0,1,True,1.0,1.0,1.0,False,True
+sifa_guided_budget,SIFA,guided_model,0,S5,5,1,True,1.0,1.0,1.0,False,True
+sifa_guided_budget,SIFA,guided_model,1,S0,0,1,True,1.0,1.0,1.0,False,True
+sifa_guided_budget,SIFA,guided_model,1,S5,5,1,True,1.0,1.0,1.0,False,True

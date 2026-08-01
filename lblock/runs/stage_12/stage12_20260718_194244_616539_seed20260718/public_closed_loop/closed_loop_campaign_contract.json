@@ -1,0 +1,35 @@
+{
+  "stage": 12,
+  "design": "four-batch public-feedback closed loop with unseen-key confirmation",
+  "number_of_experiments": 24000,
+  "number_of_batches": 4,
+  "experiments_per_batch": 6000,
+  "adaptation_key_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "confirmation_key_ids": [
+    6,
+    7
+  ],
+  "campaign_arm_fractions": {
+    "guided_exploit": 0.5,
+    "guided_explore": 0.2,
+    "baseline_random": 0.2,
+    "safety_control": 0.1
+  },
+  "objective_fractions": {
+    "SIFA": 0.35,
+    "SEFA": 0.35,
+    "SHFA": 0.3
+  },
+  "feedback_source": "Frozen Stage-10 public probability outputs only",
+  "private_feedback_used": false,
+  "confirmation_policy_frozen_before_batch": true,
+  "primary_confirmation_comparison": "guided_exploit versus baseline_random",
+  "fault_model_for_attack_arms": "random_and_4"
+}

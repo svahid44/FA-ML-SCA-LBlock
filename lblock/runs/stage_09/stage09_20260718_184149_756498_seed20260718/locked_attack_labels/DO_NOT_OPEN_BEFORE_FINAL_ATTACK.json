@@ -1,0 +1,7 @@
+{
+  "stage": 9,
+  "warning": "Do not read these labels during Stage 10 model training, Stage 11 optimization, Stage 12 closed-loop tuning, or the construction of Stages 13-14 attack scores.",
+  "allowed_first_use": "Final post-freeze benchmark and attack-quality evaluation",
+  "row_count": 16000,
+  "sha256": "443670d57a12bc305e08fcb33e41569ded0fcf4a2a3921f0fa8d0ed4da5be94e"
+}

@@ -1,0 +1,178 @@
+{
+  "number_of_experiments": 64000,
+  "category_counts": {
+    "missed": 16602,
+    "clean_target_ineffective": 8122,
+    "clean_target_effective": 17801,
+    "off_target": 10496,
+    "multi_hit": 7586,
+    "invalid_reset": 3393
+  },
+  "category_rates": {
+    "missed": 0.25940625,
+    "clean_target_ineffective": 0.12690625,
+    "clean_target_effective": 0.278140625,
+    "off_target": 0.164,
+    "multi_hit": 0.11853125,
+    "invalid_reset": 0.053015625
+  },
+  "fault_model_counts": {
+    "random_and_4": 51200,
+    "random_and_2": 3840,
+    "single_bit_flip": 3280,
+    "stuck_at_bit": 3120,
+    "random_nibble": 2560
+  },
+  "fault_model_rates": {
+    "random_and_4": 0.8,
+    "random_and_2": 0.06,
+    "single_bit_flip": 0.05125,
+    "stuck_at_bit": 0.04875,
+    "random_nibble": 0.04
+  },
+  "target_category_counts": {
+    "S5": {
+      "missed": 7659,
+      "clean_target_ineffective": 4026,
+      "clean_target_effective": 8721,
+      "off_target": 5731,
+      "multi_hit": 4164,
+      "invalid_reset": 1699
+    },
+    "S0": {
+      "missed": 8943,
+      "clean_target_ineffective": 4096,
+      "clean_target_effective": 9080,
+      "off_target": 4765,
+      "multi_hit": 3422,
+      "invalid_reset": 1694
+    }
+  },
+  "model_category_counts": {
+    "random_and_4": {
+      "missed": 13294,
+      "clean_target_ineffective": 6546,
+      "clean_target_effective": 14164,
+      "off_target": 8474,
+      "multi_hit": 6045,
+      "invalid_reset": 2677
+    },
+    "random_and_2": {
+      "missed": 972,
+      "clean_target_ineffective": 877,
+      "clean_target_effective": 666,
+      "off_target": 614,
+      "multi_hit": 484,
+      "invalid_reset": 227
+    },
+    "single_bit_flip": {
+      "missed": 847,
+      "clean_target_ineffective": 0,
+      "clean_target_effective": 1387,
+      "off_target": 503,
+      "multi_hit": 374,
+      "invalid_reset": 169
+    },
+    "stuck_at_bit": {
+      "missed": 805,
+      "clean_target_ineffective": 639,
+      "clean_target_effective": 619,
+      "off_target": 489,
+      "multi_hit": 378,
+      "invalid_reset": 190
+    },
+    "random_nibble": {
+      "missed": 684,
+      "clean_target_ineffective": 60,
+      "clean_target_effective": 965,
+      "off_target": 416,
+      "multi_hit": 305,
+      "invalid_reset": 130
+    }
+  },
+  "mean_impacted_sbox_count": 0.82815625,
+  "maximum_impacted_sbox_count": 7,
+  "mean_invalid_probability": 0.05327331884320519,
+  "primary_random_and_clean_target_count": 20710,
+  "primary_random_and_clean_target_ineffective_count": 6546,
+  "primary_random_and_clean_target_ineffective_rate": 0.31607918879768226,
+  "partition_counts": {
+    "train": 32000,
+    "validation": 8000,
+    "test": 8000,
+    "attack": 16000
+  },
+  "partition_category_counts": {
+    "train": {
+      "missed": 8372,
+      "clean_target_ineffective": 4057,
+      "clean_target_effective": 8901,
+      "off_target": 5161,
+      "multi_hit": 3816,
+      "invalid_reset": 1693
+    },
+    "validation": {
+      "missed": 2043,
+      "clean_target_ineffective": 1028,
+      "clean_target_effective": 2229,
+      "off_target": 1347,
+      "multi_hit": 941,
+      "invalid_reset": 412
+    },
+    "test": {
+      "missed": 2003,
+      "clean_target_ineffective": 1060,
+      "clean_target_effective": 2191,
+      "off_target": 1384,
+      "multi_hit": 949,
+      "invalid_reset": 413
+    },
+    "attack": {
+      "missed": 4184,
+      "clean_target_ineffective": 1977,
+      "clean_target_effective": 4480,
+      "off_target": 2604,
+      "multi_hit": 1880,
+      "invalid_reset": 875
+    }
+  },
+  "partition_model_counts": {
+    "train": {
+      "random_and_4": 25600,
+      "random_and_2": 1920,
+      "single_bit_flip": 1664,
+      "stuck_at_bit": 1536,
+      "random_nibble": 1280
+    },
+    "validation": {
+      "random_and_4": 6400,
+      "random_and_2": 480,
+      "single_bit_flip": 416,
+      "stuck_at_bit": 384,
+      "random_nibble": 320
+    },
+    "test": {
+      "random_and_4": 6400,
+      "random_and_2": 480,
+      "single_bit_flip": 400,
+      "stuck_at_bit": 400,
+      "random_nibble": 320
+    },
+    "attack": {
+      "random_and_4": 12800,
+      "random_and_2": 960,
+      "single_bit_flip": 800,
+      "stuck_at_bit": 800,
+      "random_nibble": 640
+    }
+  },
+  "design_regime_counts": {
+    "attack_core": 28880,
+    "attack_explore": 16080,
+    "boundary_scan": 5120,
+    "miss_control": 4400,
+    "neighbor_control": 3840,
+    "multi_control": 3120,
+    "invalid_control": 2560
+  }
+}

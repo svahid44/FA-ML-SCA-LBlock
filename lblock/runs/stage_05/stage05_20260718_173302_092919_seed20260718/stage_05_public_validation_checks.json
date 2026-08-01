@@ -1,0 +1,37 @@
+{
+  "all_public_checks_passed": true,
+  "checks": {
+    "two_distinct_targets": {
+      "passed": true,
+      "selected": [
+        0,
+        5
+      ]
+    },
+    "eight_target_bits": {
+      "passed": true
+    },
+    "ranking_complete": {
+      "passed": true
+    },
+    "selected_centers_match_stage4": {
+      "passed": true
+    },
+    "smallest_subset_usable": {
+      "passed": true,
+      "subset_size": 128,
+      "rate": 1.0
+    },
+    "group_holdout_usable": {
+      "passed": true,
+      "rate": 1.0
+    },
+    "clean_reestimation_consistent": {
+      "passed": true,
+      "rate": 1.0
+    },
+    "public_only_contract": {
+      "passed": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "period": {
+    "expected_period_from_trace_length": 131.0,
+    "search_lower_sample": 85,
+    "search_upper_sample": 177,
+    "estimated_period_samples": 128,
+    "best_autocorrelation": 0.8741735640591113,
+    "second_best_autocorrelation": 0.8500997682470447
+  },
+  "round_phase": {
+    "estimated_round_1_start_sample": 91,
+    "best_phase_score": 0.8850100049753257,
+    "best_consistency": 0.9588478454334218,
+    "best_boundary_penalty": 0.9229730057262023,
+    "candidate_minimum": 78,
+    "candidate_maximum": 114
+  },
+  "final_round_refinement": {
+    "coarse_final_round_start_sample": 4059,
+    "refined_final_round_start_sample": 4059,
+    "refinement_offset_samples": 0,
+    "best_template_correlation": 0.9503120625360549
+  }
+}

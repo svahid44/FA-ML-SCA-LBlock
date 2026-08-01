@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "vectors": [
+    {
+      "name": "all_zero_vector",
+      "plaintext_hex": "0000000000000000",
+      "key_hex": "00000000000000000000",
+      "expected_ciphertext_hex": "c218185308e75bcd",
+      "observed_ciphertext_hex": "c218185308e75bcd",
+      "encryption_passed": true,
+      "decryption_passed": true,
+      "byte_encryption_passed": true,
+      "byte_decryption_passed": true
+    },
+    {
+      "name": "incremental_vector",
+      "plaintext_hex": "0123456789abcdef",
+      "key_hex": "0123456789abcdeffedc",
+      "expected_ciphertext_hex": "4b7179d8ebee0c26",
+      "observed_ciphertext_hex": "4b7179d8ebee0c26",
+      "encryption_passed": true,
+      "decryption_passed": true,
+      "byte_encryption_passed": true,
+      "byte_decryption_passed": true
+    }
+  ]
+}

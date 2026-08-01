@@ -1,0 +1,21 @@
+{
+  "stage_09_public_freeze_verified": true,
+  "stage_10_model_freeze_verified": true,
+  "stage_11_optimizer_freeze_verified": true,
+  "public_feedback_only": true,
+  "private_feedback_used_for_adaptation": false,
+  "private_labels_opened_only_after_public_freeze": true,
+  "row_count_exact": true,
+  "trace_alignment_exact": true,
+  "probability_row_count_exact": true,
+  "maximum_probability_sum_error": 4.440892098500626e-16,
+  "confirmation_keys_disjoint_from_adaptation": true,
+  "confirmation_policy_frozen": true,
+  "locked_confirmation_truth_created": true,
+  "deterministic_recheck_passed": true,
+  "deterministic_recheck_count": 32,
+  "deterministic_mismatch_count": 0,
+  "model_reload_check_passed": true,
+  "model_reload_max_probability_difference": 6.106226635438361e-16,
+  "closed_loop_empirical_success": true
+}

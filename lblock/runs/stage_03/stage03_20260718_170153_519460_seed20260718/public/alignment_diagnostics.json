@@ -1,0 +1,57 @@
+{
+  "global_alignment": {
+    "region_start": 84,
+    "region_end": 4224,
+    "iterations": [
+      {
+        "iteration": 1,
+        "median_residual_shift": 0.0,
+        "maximum_absolute_residual_shift": 12,
+        "median_alignment_correlation": 0.1370751220633431,
+        "minimum_alignment_correlation": 0.06007195840561659
+      },
+      {
+        "iteration": 2,
+        "median_residual_shift": 0.0,
+        "maximum_absolute_residual_shift": 10,
+        "median_alignment_correlation": 0.15679698425814328,
+        "minimum_alignment_correlation": 0.06438924334659739
+      }
+    ],
+    "initial_median_correlation": 0.12181615659096034,
+    "final_median_correlation": 0.15877580161171675,
+    "initial_minimum_correlation": -0.014923543987619116,
+    "final_minimum_correlation": 0.06434439201500251,
+    "global_shift_minimum": -12,
+    "global_shift_maximum": 9,
+    "global_shift_median": 0.0
+  },
+  "local_affine_alignment": {
+    "anchor_centers": [
+      248,
+      673,
+      1099,
+      1525,
+      1950,
+      2376,
+      2802,
+      3227,
+      3653,
+      4079
+    ],
+    "median_absolute_local_shift_before": 1.0,
+    "median_absolute_local_shift_after": 1.0,
+    "maximum_absolute_local_shift_before": 8.0,
+    "maximum_absolute_local_shift_after": 8.0,
+    "median_trace_correlation_before_affine": 0.15877580161171675,
+    "median_trace_correlation_after_affine": 0.21670408491185716,
+    "minimum_trace_correlation_after_affine": -0.027529490023316294,
+    "affine_intercept_minimum": -8.0,
+    "affine_intercept_maximum": 8.0,
+    "affine_slope_minimum": -0.0037313432835820895,
+    "affine_slope_maximum": 0.0037313432835820895,
+    "affine_slope_ppm_median": -240.32871334771076,
+    "accepted_anchor_count_minimum": 6,
+    "accepted_anchor_count_median": 9.0
+  }
+}

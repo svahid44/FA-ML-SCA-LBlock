@@ -1,0 +1,28 @@
+{
+  "calibration": {
+    "improvement": 0.0032488430734687324,
+    "optimization_success": true,
+    "temperature": 1.1245746281549387,
+    "validation_log_loss_after": 0.7012537779400628,
+    "validation_log_loss_before": 0.7045026210135316
+  },
+  "family": "logistic",
+  "feature_count": 272,
+  "partition_counts": {
+    "test": 982,
+    "train": 16000,
+    "validation": 1041
+  },
+  "temperature": 1.1245746281549387,
+  "test_metrics": {
+    "accuracy": 0.6639511201629328,
+    "balanced_accuracy": 0.6991866655213846,
+    "expected_calibration_error": 0.05858399228352423,
+    "log_loss": 0.7713026215772132,
+    "macro_f1": 0.6887356032570766,
+    "multiclass_brier_score": 0.4486612959583457,
+    "number_of_rows": 982,
+    "weighted_f1": 0.6643679016849287
+  },
+  "view_name": "observable_full"
+}

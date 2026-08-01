@@ -52,3 +52,11 @@ outputs/
 artifacts/
 _repo_inventory/
 _source_bundle/
+
+# Keep experiment runs in the repository
+!lblock/runs/
+!lblock/runs/**
+
+# Exclude model files exceeding GitHub's 100 MB limit
+lblock/runs/**/models/glitch_surrogate_extra_trees.joblib
+lblock/runs/**/models/pre_injection_glitch_optimizer.joblib

@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-07-18T22:11:41",
+  "files": {
+    "injection_prefix_candidate_scores_public.csv": "ca8532935b9e4a3f5fb48062292ed6acadecca59db53179d0d7e7719b33f0824",
+    "injection_prefix_predictions_public.csv": "255fecd6b966e12be4e4d4d7bdffd23e3490ff481225f99e2550f3ae6ddf28c3",
+    "joint_8bit_candidate_scores_public.csv": "9ce35ed278c4740db5c68d5efe458f3476f2e5f14b9b861c55e843d00b90c515",
+    "joint_8bit_predictions_public.csv": "a45d7833446312e99e9212bb1e039c6e04ced20767da3765f5586df5df428aa3",
+    "public_attack_contract.json": "751ffade8395527ca43ec285c714fac0b51813ce697f481bdf9d88bd3a68e9e6",
+    "sifa_sefa_candidate_scores_public.csv": "7ddc293571005173a5d85ecbfe18eb4198a18783bef1a6bc29b8d70e03e04b47",
+    "sifa_sefa_predictions_public.csv": "c5bcd011674ffbb598cfd3b912675081284f7a5fe4ff8b905afd245dc756bd34"
+  },
+  "freeze_sha256": "f0a0e2a3794059f4475a874a13d6ddfe974d42e54890f93b39eb2a409a9ef3df",
+  "statement": "All SEFA/SIFA confirmation scores, predictions, prefix curves, and joint rankings were frozen before private truth was opened."
+}
